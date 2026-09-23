@@ -1,0 +1,54 @@
+﻿'.~lock.danh-sach-3321-xa-phuong.xls#' .xls# 80
+'00-overview-phases.md' .md 2888
+'01-phase1-detail.md' .md 4757
+'02-technical-architecture.md' .md 15006
+'03-phase-progress.md' .md 6556
+'Consent form (bß║ún giß║Ñy).docx' .docx 21433
+'Danh s├ích CSGD tß║íi Thanh Ho├í cß║¡p nhß║¡t ─æß║┐n 082026.xlsx' .xlsx 216731
+'danh-sach-3321-xa-phuong.xls' .xls 521216
+'khan-parent-consent-zalo-plan.md' .md 32044
+
+=== SCHOOLS FILE === D:\wamp64\www\kavminiapp\docs\Danh s├ích CSGD tß║íi Thanh Ho├í cß║¡p nhß║¡t ─æß║┐n 082026.xlsx
+sheets ['To├án tß╗ënh', 'Tiß╗âu hß╗ìc (chß╗ï Ngß╗ìc Anh)', 'THCS (D╞░╞íng)', 'THPT+GDTX (Nhi)', 'nh├íp', 'thß╗æng k├¬ x├úph╞░ß╗¥ng Tiß╗âu hß╗ìc']
+header ('STT', 'ID', 'X├ú/ph╞░ß╗¥ng', 'T├¬n tr╞░ß╗¥ng', 'Lß╗¢p', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+sample rows:
+('To├án tß╗ënh', 1343, 166, 1343, 'GV tß╗▒ ─æiß╗ün', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+(1.0, '38381402', 'Ph╞░ß╗¥ng Bß╗ëm S╞ín', 'Tiß╗âu hß╗ìc H├á Lan', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+(2.0, '38381403', 'Ph╞░ß╗¥ng Bß╗ëm S╞ín', 'Tiß╗âu hß╗ìc Lam S╞ín 3', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+(3.0, '38381404', 'Ph╞░ß╗¥ng Bß╗ëm S╞ín', 'Tiß╗âu hß╗ìc Ba ─É├¼nh', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+(4.0, '38381405', 'Ph╞░ß╗¥ng Bß╗ëm S╞ín', 'Tiß╗âu hß╗ìc Lam S╞ín 1', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+total data rows 1449
+nonempty first-col 1344 unique 1344
+
+=== WARDS FILE === D:\wamp64\www\kavminiapp\docs\danh-sach-3321-xa-phuong.xls
+sheets ['3321 x├ú']
+dims 3322 6
+header ['M├ú', 'T├¬n', 'Cß║Ñp', 'Nghß╗ï quyß║┐t', 'M├ú TP', 'Tß╗ënh / Th├ánh Phß╗æ']
+['00004', 'Ph╞░ß╗¥ng Ba ─É├¼nh', 'Ph╞░ß╗¥ng', 'Sß╗æ: 1656/NQ-UBTVQH15; Ng├áy: 16/06/2025', '01', 'Th├ánh phß╗æ H├á Nß╗Öi']
+['00008', 'Ph╞░ß╗¥ng Ngß╗ìc H├á', 'Ph╞░ß╗¥ng', 'Sß╗æ: 1656/NQ-UBTVQH15; Ng├áy: 16/06/2025', '01', 'Th├ánh phß╗æ H├á Nß╗Öi']
+['00025', 'Ph╞░ß╗¥ng Giß║úng V├╡', 'Ph╞░ß╗¥ng', 'Sß╗æ: 1656/NQ-UBTVQH15; Ng├áy: 16/06/2025', '01', 'Th├ánh phß╗æ H├á Nß╗Öi']
+['00070', 'Ph╞░ß╗¥ng \nHo├án Kiß║┐m', 'Ph╞░ß╗¥ng', 'Sß╗æ: 1656/NQ-UBTVQH15; Ng├áy: 16/06/2025', '01', 'Th├ánh phß╗æ H├á Nß╗Öi']
+['00082', 'Ph╞░ß╗¥ng Cß╗¡a Nam', 'Ph╞░ß╗¥ng', 'Sß╗æ: 1656/NQ-UBTVQH15; Ng├áy: 16/06/2025', '01', 'Th├ánh phß╗æ H├á Nß╗Öi']
+prov_col 5
+Thanh Hoa-ish rows 166
+
+=== CONSENT DOCX === D:\wamp64\www\kavminiapp\docs\Consent form (bß║ún giß║Ñy).docx
+Phß╗Ñ Lß╗Ñc B Cß╗ºa Phß╗Ñ Lß╗Ñc
+Mß║½u V─ân Bß║ún ─Éß╗ông ├¥ Cß╗ºa Cha Mß║╣/Ng╞░ß╗¥i Gi├ím Hß╗Ö
+Cß╗ÿNG H├ÆA X├â Hß╗ÿI CHß╗ª NGH─¿A VIß╗åT NAM
+─Éß╗Öc lß║¡p - Tß╗▒ do - Hß║ính ph├║c
+PHIß║╛U ─Éß╗ÆNG ├¥ Cß╗ªA PHß╗ñ HUYNH / NG╞»ß╗£I GI├üM Hß╗ÿ
+Vß╗ü viß╗çc sß╗¡ dß╗Ñng c├íc c├┤ng cß╗Ñ chuyß╗ân ─æß╗òi sß╗æ trong gi├ío dß╗Ñc v├á thu thß║¡p dß╗» liß╗çu hß╗ìc tß║¡p
+Giai ─æoß║ín: 2026-2031
+K├¡nh gß╗¡i: Ban Gi├ím hiß╗çu v├á Qu├╜ Thß║ºy/C├┤ gi├ío
+T├┤i l├á phß╗Ñ huynh/ng╞░ß╗¥i gi├ím hß╗Ö cß╗ºa hß╗ìc sinh: ...............................................................
+Lß╗¢p: ..................................Tr╞░ß╗¥ng: ..................................................................................
+Sau khi nh├á tr╞░ß╗¥ng v├á gi├ío vi├¬n th├┤ng b├ío ─æß║ºy ─æß╗º vß╗ü viß╗çc ß╗⌐ng dß╗Ñng c├íc c├┤ng cß╗Ñ chuyß╗ân ─æß╗òi sß╗æ trong hoß║ít ─æß╗Öng dß║íy v├á hß╗ìc, t├┤i ─æß╗ông ├╜ cho nh├á tr╞░ß╗¥ng v├á gi├ío vi├¬n ─æ╞░ß╗úc thu thß║¡p v├á xß╗¡ l├╜ th├┤ng tin c├í nh├ón cß╗ºa con t├┤i, bao gß╗ôm th├┤ng tin t├ái khoß║ún hß╗ìc sinh v├á c├íc dß╗» liß╗çu li├¬n quan ─æß║┐n qu├í tr├¼nh hß╗ìc tß║¡p cß╗ºa hß╗ìc sinh, nhß║▒m phß╗Ñc vß╗Ñ c├íc mß╗Ñc ─æ├¡ch sau ─æ├óy:
+Hoß║ít ─æß╗Öng dß║íy hß╗ìc, ─æ├ính gi├í v├á quß║ún l├╜ lß╗¢p hß╗ìc;
+ß╗¿ng dß╗Ñng c├íc c├┤ng cß╗Ñ chuyß╗ân ─æß╗òi sß╗æ trong gi├ío dß╗Ñc;
+N├óng cao chß║Ñt l╞░ß╗úng gi├ío dß╗Ñc.
+T├┤i ─æ├ú giß║úi th├¡ch r├╡ cho con t├┤i v├á nhß║¡n ─æ╞░ß╗úc sß╗▒ ─æß╗ông ├╜ cß╗ºa con, hoß║╖c dß╗▒a tr├¬n c├íc c─ân cß╗⌐ ph├íp l├╜ kh├íc, ─æß╗â nh├á tr╞░ß╗¥ng, gi├ío vi├¬n v├á c├íc ─æ╞ín vß╗ï ─æ╞░ß╗úc ph├⌐p c├│ thß╗â thu thß║¡p v├á sß╗¡ dß╗Ñng th├┤ng tin c├í nh├ón cß╗ºa con t├┤i nh╞░ m├┤ tß║ú trong phiß║┐u ─æß╗ông ├╜ n├áy.
+T├┤i hiß╗âu rß║▒ng con t├┤i c├│ c├íc quyß╗ün v├á ngh─⌐a vß╗Ñ li├¬n quan ─æß║┐n viß╗çc sß╗¡ dß╗Ñng dß╗» liß╗çu c├í nh├ón cß╗ºa con theo ph├íp luß║¡t, v├á rß║▒ng dß╗» liß╗çu cß╗ºa con t├┤i c├│ thß╗â ─æ╞░ß╗úc l╞░u trß╗» tß║íi m├íy chß╗º ß╗ƒ n╞░ß╗¢c ngo├ái v├á ─æ╞░ß╗úc bß║úo vß╗ç theo c├íc ch├¡nh s├ích cß╗ºa Khan Academy. Nß║┐u c├│ y├¬u cß║ºu hoß║╖c thß║»c mß║»c li├¬n quan, t├┤i sß║╜ li├¬n hß╗ç vß╗¢i nh├á tr╞░ß╗¥ng v├á/hoß║╖c gi├ío vi├¬n phß╗Ñ tr├ích.
+ΓÇªΓÇªΓÇª, ng├áy ΓÇªΓÇª th├íng ΓÇªΓÇª n─âm 2026
+Phß╗Ñ huynh/Ng╞░ß╗¥i gi├ím hß╗Ö
+ (K├╜ v├á ghi r├╡ hß╗ì t├¬n)

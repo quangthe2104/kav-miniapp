@@ -1,0 +1,1170 @@
+{
+  "province": {
+    "code": "38",
+    "name": "Tỉnh Thanh Hóa"
+  },
+  "wards": [
+    {
+      "code": "14758",
+      "name": "Phường Hàm Rồng",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14797",
+      "name": "Phường Hạc Thành",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14812",
+      "name": "Phường Bỉm Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14818",
+      "name": "Phường Quang Trung",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14845",
+      "name": "Xã Mường Lát",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14848",
+      "name": "Xã Tam Chung",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14854",
+      "name": "Xã Mường Lý",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14857",
+      "name": "Xã Trung Lý",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14860",
+      "name": "Xã Quang Chiểu",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14863",
+      "name": "Xã Pù Nhi",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14864",
+      "name": "Xã Nhi Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14866",
+      "name": "Xã Mường Chanh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14869",
+      "name": "Xã Hồi Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14872",
+      "name": "Xã Trung Thành",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14875",
+      "name": "Xã Trung Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14878",
+      "name": "Xã Phú Lệ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14890",
+      "name": "Xã Phú Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14896",
+      "name": "Xã Hiền Kiệt",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14902",
+      "name": "Xã Nam Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14908",
+      "name": "Xã Thiên Phủ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14923",
+      "name": "Xã Bá Thước",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14932",
+      "name": "Xã Điền Quang",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14950",
+      "name": "Xã Điền Lư",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14953",
+      "name": "Xã Quý Lương",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14956",
+      "name": "Xã Pù Luông",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14959",
+      "name": "Xã Cổ Lũng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14974",
+      "name": "Xã Văn Nho",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "14980",
+      "name": "Xã Thiết Ống",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15001",
+      "name": "Xã Trung Hạ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15007",
+      "name": "Xã Tam Thanh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15010",
+      "name": "Xã Sơn Thủy",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15013",
+      "name": "Xã Na Mèo",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15016",
+      "name": "Xã Quan Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15019",
+      "name": "Xã Tam Lư",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15022",
+      "name": "Xã Sơn Điện",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15025",
+      "name": "Xã Mường Mìn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15031",
+      "name": "Xã Yên Khương",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15034",
+      "name": "Xã Yên Thắng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15043",
+      "name": "Xã Giao An",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15049",
+      "name": "Xã Văn Phú",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15055",
+      "name": "Xã Linh Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15058",
+      "name": "Xã Đồng Lương",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15061",
+      "name": "Xã Ngọc Lặc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15085",
+      "name": "Xã Thạch Lập",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15091",
+      "name": "Xã Ngọc Liên",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15106",
+      "name": "Xã Nguyệt Ấn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15112",
+      "name": "Xã Kiên Thọ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15124",
+      "name": "Xã Minh Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15127",
+      "name": "Xã Cẩm Thủy",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15142",
+      "name": "Xã Cẩm Thạch",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15148",
+      "name": "Xã Cẩm Tú",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15163",
+      "name": "Xã Cẩm Vân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15178",
+      "name": "Xã Cẩm Tân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15187",
+      "name": "Xã Kim Tân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15190",
+      "name": "Xã Vân Du",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15199",
+      "name": "Xã Thạch Quảng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15211",
+      "name": "Xã Thạch Bình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15229",
+      "name": "Xã Thành Vinh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15250",
+      "name": "Xã Ngọc Trạo",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15271",
+      "name": "Xã Hà Trung",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15274",
+      "name": "Xã Hà Long",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15286",
+      "name": "Xã Hoạt Giang",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15298",
+      "name": "Xã Lĩnh Toại",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15316",
+      "name": "Xã Tống Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15349",
+      "name": "Xã Vĩnh Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15361",
+      "name": "Xã Tây Đô",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15382",
+      "name": "Xã Biện Thượng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15409",
+      "name": "Xã Yên Phú",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15412",
+      "name": "Xã Quý Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15421",
+      "name": "Xã Yên Trường",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15442",
+      "name": "Xã Yên Ninh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15448",
+      "name": "Xã Định Hòa",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15457",
+      "name": "Xã Định Tân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15469",
+      "name": "Xã Yên Định",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15499",
+      "name": "Xã Thọ Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15505",
+      "name": "Xã Thọ Long",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15520",
+      "name": "Xã Xuân Hòa",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15544",
+      "name": "Xã Lam Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15553",
+      "name": "Xã Sao Vàng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15568",
+      "name": "Xã Thọ Lập",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15574",
+      "name": "Xã Xuân Tín",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15592",
+      "name": "Xã Xuân Lập",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15607",
+      "name": "Xã Bát Mọt",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15610",
+      "name": "Xã Yên Nhân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15622",
+      "name": "Xã Vạn Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15628",
+      "name": "Xã Lương Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15634",
+      "name": "Xã Luận Thành",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15643",
+      "name": "Xã Thắng Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15646",
+      "name": "Xã Thường Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15658",
+      "name": "Xã Xuân Chinh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15661",
+      "name": "Xã Tân Thành",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15664",
+      "name": "Xã Triệu Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15667",
+      "name": "Xã Thọ Bình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15682",
+      "name": "Xã Hợp Tiến",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15715",
+      "name": "Xã Tân Ninh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15724",
+      "name": "Xã Đồng Tiến",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15754",
+      "name": "Xã Thọ Ngọc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15763",
+      "name": "Xã Thọ Phú",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15766",
+      "name": "Xã An Nông",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15772",
+      "name": "Xã Thiệu Hóa",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15778",
+      "name": "Xã Thiệu Tiến",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15796",
+      "name": "Xã Thiệu Quang",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15820",
+      "name": "Xã Thiệu Toán",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15835",
+      "name": "Xã Thiệu Trung",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15853",
+      "name": "Phường Đông Tiến",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15865",
+      "name": "Xã Hoằng Hóa",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15880",
+      "name": "Xã Hoằng Giang",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15889",
+      "name": "Xã Hoằng Phú",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15910",
+      "name": "Xã Hoằng Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15925",
+      "name": "Phường Nguyệt Viên",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15961",
+      "name": "Xã Hoằng Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15976",
+      "name": "Xã Hoằng Châu",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "15991",
+      "name": "Xã Hoằng Tiến",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16000",
+      "name": "Xã Hoằng Thanh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16012",
+      "name": "Xã Hậu Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16021",
+      "name": "Xã Triệu Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16033",
+      "name": "Xã Đông Thành",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16072",
+      "name": "Xã Hoa Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16078",
+      "name": "Xã Vạn Lộc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16093",
+      "name": "Xã Nga Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16108",
+      "name": "Xã Tân Tiến",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16114",
+      "name": "Xã Nga Thắng",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16138",
+      "name": "Xã Hồ Vương",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16144",
+      "name": "Xã Nga An",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16171",
+      "name": "Xã Ba Đình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16174",
+      "name": "Xã Như Xuân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16177",
+      "name": "Xã Xuân Bình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16186",
+      "name": "Xã Hóa Quỳ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16213",
+      "name": "Xã Thanh Phong",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16222",
+      "name": "Xã Thanh Quân",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16225",
+      "name": "Xã Thượng Ninh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16228",
+      "name": "Xã Như Thanh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16234",
+      "name": "Xã Xuân Du",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16249",
+      "name": "Xã Mậu Lâm",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16258",
+      "name": "Xã Xuân Thái",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16264",
+      "name": "Xã Yên Thọ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16273",
+      "name": "Xã Thanh Kỳ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16279",
+      "name": "Xã Nông Cống",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16297",
+      "name": "Xã Trung Chính",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16309",
+      "name": "Xã Thắng Lợi",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16342",
+      "name": "Xã Thăng Bình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16348",
+      "name": "Xã Trường Văn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16363",
+      "name": "Xã Tượng Lĩnh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16369",
+      "name": "Xã Công Chính",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16378",
+      "name": "Phường Đông Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16417",
+      "name": "Phường Đông Quang",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16438",
+      "name": "Xã Lưu Vệ",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16480",
+      "name": "Xã Quảng Yên",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16489",
+      "name": "Xã Quảng Chính",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16498",
+      "name": "Xã Quảng Ngọc",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16516",
+      "name": "Phường Nam Sầm Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16522",
+      "name": "Phường Quảng Phú",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16531",
+      "name": "Phường Sầm Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16540",
+      "name": "Xã Quảng Ninh",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16543",
+      "name": "Xã Quảng Bình",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16549",
+      "name": "Xã Tiên Trang",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16561",
+      "name": "Phường Tĩnh Gia",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16576",
+      "name": "Phường Ngọc Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16591",
+      "name": "Xã Các Sơn",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16594",
+      "name": "Phường Tân Dân",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16597",
+      "name": "Phường Hải Lĩnh",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16609",
+      "name": "Phường Đào Duy Từ",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16624",
+      "name": "Phường Trúc Lâm",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16636",
+      "name": "Xã Trường Lâm",
+      "level": "Xã",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16645",
+      "name": "Phường Hải Bình",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    },
+    {
+      "code": "16654",
+      "name": "Phường Nghi Sơn",
+      "level": "Phường",
+      "province_code": "38",
+      "province_name": "Tỉnh Thanh Hóa"
+    }
+  ]
+}

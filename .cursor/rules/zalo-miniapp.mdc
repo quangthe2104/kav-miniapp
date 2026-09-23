@@ -1,0 +1,14 @@
+---
+description: Zalo Mini App React conventions
+globs: miniapp/**/*.{ts,tsx,js,jsx,json}
+alwaysApply: false
+---
+
+# Mini App conventions
+
+- Call only backend HTTPS APIs — no app secrets in client
+- Auth via Zalo SDK → exchange for backend Sanctum token
+- Teacher vs Parent routes/screens separated
+- Vote flow uses invite token from link/QR only
+- Handle states: already voted, quota full, form expired
+- Keep UI minimal and fast for parents on mobile data

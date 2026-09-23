@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks -MultiViews
+    RewriteEngine On
+
+    # Static files under Laravel public/
+    RewriteCond %{DOCUMENT_ROOT}/backend/public%{REQUEST_URI} -f [OR]
+    RewriteCond %{DOCUMENT_ROOT}/backend/public%{REQUEST_URI} -d
+    RewriteRule ^(.*)$ backend/public/$1 [L]
+
+    # Mini App SPA — refresh /miniapp/vote/... must serve index.html, not Laravel 404
+    RewriteCond %{REQUEST_URI} ^/miniapp/
+    RewriteCond %{DOCUMENT_ROOT}/backend/public%{REQUEST_URI} !-f
+    RewriteRule ^miniapp/.* backend/public/miniapp/index.html [L]
+
+    # Front controller
+    RewriteRule ^ backend/public/index.php [L]
+</IfModule>

@@ -1,0 +1,16 @@
+---
+description: Laravel 13 backend conventions for KavMiniApp
+globs: backend/**/*.php
+alwaysApply: false
+---
+
+# Laravel 13 conventions
+
+- Target **Laravel 13** / PHP ≥ 8.3 only
+- Use Form Requests, Policies, Eloquent; prefer Services for Coverage / Zalo / OCR
+- Teacher isolation: always authorize ClassProfile / ClassForm via Policy
+- Store invite tokens **hashed**; never log Zalo secrets or raw tokens
+- Paper images: private disk; validate MIME + size
+- Coverage changes must go through `CoverageService` (transactional)
+- Do not add `students` / `paper_slips` migrations unless roster backlog is in scope
+- Feature tests for vote uniqueness and quota lock when touching those paths

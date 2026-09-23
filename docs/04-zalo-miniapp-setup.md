@@ -1,0 +1,187 @@
+# Zalo Mini App — Setup & redeploy (KavMiniApp)
+
+> Runbook vận hành. Nghiệp vụ / pháp lý tổng: [khan-parent-consent-zalo-plan.md](./khan-parent-consent-zalo-plan.md) §19.  
+> Progress: [03-phase-progress.md](./03-phase-progress.md).
+
+| Mục | Giá trị đã chốt |
+|-----|-----------------|
+| Chủ sở hữu | **Khan Academy Vietnam** (doanh nghiệp VN có ĐKKD) |
+| Loại hình sở hữu trên form Mini App | **Doanh nghiệp** |
+| Không chọn | Cơ quan nhà nước / CQNN |
+| OA nghiệp vụ chat form | Không dùng |
+| OA nền tảng | Cần OA **doanh nghiệp** để verify + publish Live |
+| Gói OA MVP | **Cơ bản** (nếu chỉ Mini App; nâng Tăng trưởng khi cần OpenAPI) |
+
+---
+
+## 1. Phân biệt ID (không nhầm)
+
+| ID | Ý nghĩa | Điền vào |
+|----|---------|----------|
+| **Zalo App ID** | App cha trên Developers | `backend/.env` → `ZALO_APP_ID` |
+| **Zalo App Secret** | Bí mật App cha | `ZALO_APP_SECRET` (password manager; **không** commit Git) |
+| **Mini App ID** | ID Mini App vote/teacher | `ZALO_MINIAPP_ID` (backend tham chiếu) + config frontend / CLI deploy |
+| **OA ID** | Official Account DN | `ZALO_OA_ID` (để trống đến khi có OA) |
+
+Ghi lại khi tạo xong (nội bộ KAV):
+
+```text
+ZALO_APP_ID=
+ZALO_APP_SECRET=          # chỉ password manager
+ZALO_MINIAPP_ID=
+ZALO_OA_ID=               # sau khi có OA
+Owner account Zalo=
+Created date=
+```
+
+---
+
+## 2. Loại hình sở hữu — chọn gì?
+
+Khi form hỏi loại hình sở hữu (thường 3 lựa chọn):
+
+| Lựa chọn | Quyết định KavMiniApp |
+|----------|------------------------|
+| **Doanh nghiệp** | **Chọn** |
+| Cá nhân | Không dùng cho Live lâu dài |
+| Cơ quan nhà nước | **Cấm** |
+
+**Xác thực Doanh nghiệp** (có thể sau bước tạo):
+
+1. **Ưu tiên:** gắn OA doanh nghiệp KAV đã verify → Admin OA xác nhận liên kết  
+2. Hoặc upload ĐKKD + CCCD người đại diện (nếu cổng cho phép)
+
+Dev/Testing bằng QR với Admin / Developer / Người dùng thử nghiệm **không bắt buộc** đã Live;  
+**Publish Live** yêu cầu xác thực chủ sở hữu xong.
+
+---
+
+## 3. Tạo mới từng bước (lần đầu / tái tạo)
+
+### 3.1 Tài khoản
+
+1. Zalo Admin kỹ thuật đã **eKYC**  
+2. Có thể dùng Zalo cá nhân tạo App trước, sau gắn OA + thêm Admin KAV  
+3. Đăng nhập [https://developers.zalo.me/](https://developers.zalo.me/)
+
+### 3.2 Tạo Zalo App (App cha)
+
+1. **Thêm ứng dụng mới**  
+2. Điền:
+   - Tên: `KavMiniApp` hoặc `KAV Parent Consent`
+   - Danh mục: Giáo dục / tiện ích gần nhất
+   - Mô tả ngắn: xem §5  
+3. Lưu **App ID** + **App Secret**  
+4. Cập nhật thông tin liên hệ → **Kích hoạt** app nếu có tùy chọn
+
+### 3.3 Tạo Mini App
+
+1. Trong App → **Tạo Mini App** (hoặc [https://mini.zalo.me/](https://mini.zalo.me/))  
+2. **Loại hình sở hữu: Doanh nghiệp**  
+3. Tên gợi ý: `KAV Form lớp`  
+4. Icon / mô tả: §5  
+5. Đồng ý điều khoản → tạo → lưu **Mini App ID**
+
+### 3.4 Phân quyền test
+
+| Vai trò | Ai |
+|---------|-----|
+| Admin | Acc tạo App + ≥1 người KAV |
+| Developer | Dev team |
+| Người dùng thử nghiệm | Cô / PH pilot |
+
+### 3.5 Env backend
+
+```env
+ZALO_APP_ID=
+ZALO_APP_SECRET=
+ZALO_OA_ID=
+ZALO_MINIAPP_ID=
+ZALO_WEB_REDIRECT_URI="${APP_URL}/teacher/zalo/callback"
+ZALO_DEV_LOGIN=true
+```
+
+- **Bắt buộc ngay cho backend hiện tại:** `ZALO_APP_ID`, `ZALO_APP_SECRET` (khi gắn Login/SDK thật).  
+- **Nên điền luôn:** `ZALO_MINIAPP_ID` (đã có thì lưu) — dùng CLI deploy / frontend; backend chưa phụ thuộc runtime.  
+- **Teacher Zalo Login web:** Callback URL trên Developers phải khớp `ZALO_WEB_REDIRECT_URI` (prod HTTPS).  
+- Giữ `ZALO_DEV_LOGIN=true` cho teacher web + Mini App mock auth local đến khi OAuth/SDK ổn.
+
+### 3.6 Smoke-test sát thực tế
+
+1. Cài Node 20+, Zalo Mini App CLI / Studio (theo docs [mini.zalo.me](https://mini.zalo.me/))  
+2. Login CLI bằng App ID + Secret đúng app  
+3. Deploy **Development** / **Testing**  
+4. Quét QR bằng Zalo điện thoại (đúng acc trong list)  
+5. Chỉ khi QR mở được mới coi là “cổng sẵn sàng” → gắn code feature trong repo
+
+---
+
+## 4. Khi có OA doanh nghiệp KAV
+
+1. Không tạo App/Mini App mới (trừ khi Zalo bắt buộc và có quyết định chuyển ID)  
+2. Trên Mini App hiện tại: xác thực chủ sở hữu bằng **OA DN**  
+3. Admin OA **xác nhận** request  
+4. Điền `ZALO_OA_ID` vào `.env`  
+5. Thêm Admin KAV trên App nếu chưa có  
+6. Xin quyền API cần thiết (user id; SĐT nếu dùng)  
+7. Nộp duyệt **Live** (thường 3–5 ngày làm việc)
+
+---
+
+## 5. Copy mô tả điền form (VI)
+
+**Tên Mini App:** `KAV Form lớp`
+
+**Mô tả ngắn:**
+
+> Ứng dụng hỗ trợ giáo viên thu thập bình chọn của phụ huynh theo từng lớp và từng biểu mẫu. Phụ huynh mở link lớp để bình chọn trên Zalo; giáo viên theo dõi tiến độ và bổ sung phiếu giấy khi cần.
+
+**Mô tả đầy đủ:**
+
+> KavMiniApp là Mini App của Khan Academy Vietnam giúp nhà trường và giáo viên chủ nhiệm tổ chức thu thập ý kiến phụ huynh theo lớp.
+>
+> Giáo viên tạo hồ sơ lớp một lần, chọn biểu mẫu đang mở và gửi link vào nhóm Zalo lớp. Phụ huynh đăng nhập Zalo để bình chọn (hai lựa chọn hoặc danh sách tùy chỉnh); có thể đổi ý trước khi biểu mẫu đóng. Giáo viên theo dõi số phiếu theo sĩ số, xem kết quả (không chỉnh sửa phiếu phụ huynh), ghi chú, và tải lên phiếu giấy để bổ sung.
+>
+> Mục đích: hỗ trợ vận hành thu thập ý kiến phụ huynh minh bạch, nhanh và đúng lớp — không thay thế quy trình pháp lý của cơ quan nhà nước.
+
+**Mục đích xử lý dữ liệu (nếu hỏi):**
+
+> Định danh người dùng Zalo (và số điện thoại nếu được cấp quyền) để ghi nhận phiếu theo lớp/biểu mẫu, chống vote trùng, phục vụ thống kê nội bộ trường/tổ chức vận hành chương trình.
+
+Ghi rõ vận hành bởi **Khan Academy Vietnam (doanh nghiệp)** — không mô tả như app CQNN.
+
+---
+
+## 6. Checklist redeploy / kiểm tra lại
+
+Khi deploy lại hoặc onboard người mới:
+
+- [ ] Đúng **App ID** / **Mini App ID** (không lẫn)  
+- [ ] App Secret khớp App ID (không lấy token từ app khác trên Developers)  
+- [ ] Loại hình sở hữu = **Doanh nghiệp**; trạng thái verify OA/DN  
+- [ ] List Admin / Developer / Tester còn đủ  
+- [ ] `.env` production: `ZALO_*` đúng; `ZALO_DEV_LOGIN=false` trên prod  
+- [ ] Domain HTTPS backend khớp cấu hình Login / whitelist domain  
+- [ ] Deploy Mini App đúng môi trường (Testing vs Live)  
+- [ ] QR / deep link vote trỏ đúng Mini App version đang Live  
+- [ ] Audit: không commit Secret vào Git  
+
+---
+
+## 7. Lỗi thường gặp
+
+| Hiện tượng | Kiểm tra |
+|------------|----------|
+| QR Development không mở | Acc có trong Admin/Developer/Tester? |
+| Deploy / token lỗi | Nhầm Mini App ID ↔ App ID; sai Secret |
+| API SĐT fail trên user thường | Tester được bypass; production cần quyền đã duyệt |
+| Publish bị từ chối | Sai loại hình CQNN; thiếu OA/DN; mô tả mục đích mơ hồ |
+
+---
+
+## 8. Liên kết
+
+- Portal: [developers.zalo.me](https://developers.zalo.me/) · [mini.zalo.me](https://mini.zalo.me/)  
+- Plan §19: [khan-parent-consent-zalo-plan.md](./khan-parent-consent-zalo-plan.md)  
+- Env mẫu kiến trúc: [02-technical-architecture.md](./02-technical-architecture.md)  
+- Agents index: [../AGENTS.md](../AGENTS.md)

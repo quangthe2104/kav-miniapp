@@ -1,0 +1,5394 @@
+[
+  {
+    "external_id": "38381402",
+    "name": "Trường Tiểu học Hà Lan",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381403",
+    "name": "Trường Tiểu học Lam Sơn 3",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381404",
+    "name": "Trường Tiểu học Ba Đình",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381405",
+    "name": "Trường Tiểu học Lam Sơn 1",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381408",
+    "name": "Trường Tiểu học Đông Sơn",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392410",
+    "name": "Trường tiểu học Hà Vinh",
+    "ward_name": "Phường Bỉm Sơn",
+    "ward_code": "14812",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407412",
+    "name": "Trường Tiểu học Nguyên Bình",
+    "ward_name": "Phường Đào Duy Từ",
+    "ward_code": "16609",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407414",
+    "name": "Trường Tiểu học Xuân Lâm",
+    "ward_name": "Phường Đào Duy Từ",
+    "ward_code": "16609",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407535",
+    "name": "Trường TH&THCS Hải Yến",
+    "ward_name": "Phường Đào Duy Từ",
+    "ward_code": "16609",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380401",
+    "name": "Trường Tiểu học Quảng Thắng",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380522",
+    "name": "Trường TH, THCS&THPT Nobel",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405406",
+    "name": "Trường Tiểu học Đông Hưng",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405417",
+    "name": "Trường Tiểu học Đông Văn",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405419",
+    "name": "Trường Tiểu học Đông Quang",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405503",
+    "name": "Trường TH&THCS Đông Vinh",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405508",
+    "name": "Trường TH&THCS Đông Nam",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405518",
+    "name": "Trường TH&THCS Đông Yên",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405520",
+    "name": "Trường TH&THCS Đông Phú",
+    "ward_name": "Phường Đông Quang",
+    "ward_code": "16417",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800004003",
+    "name": "Trường TH, THCS và THPT Nobel School II",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405407",
+    "name": "Trường Tiểu học Đông Tân",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405418",
+    "name": "Trường tiểu học Đông Ninh",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405422",
+    "name": "Tiểu học Lê Thế Long",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405505",
+    "name": "Trường TH&THCS Đông Minh",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405506",
+    "name": "Trường TH&THCS Đông Hoàng",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405509",
+    "name": "Trường TH&THCS Đông Khê",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405513",
+    "name": "Trường TH&THCS Đông Thịnh",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405514",
+    "name": "Trường TH&THCS Đông Anh",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405517",
+    "name": "Trường TH&THCS Đông Hòa",
+    "ward_name": "Phường Đông Sơn",
+    "ward_code": "16378",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398426",
+    "name": "Trường TH&THCS Thiệu Châu",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398429",
+    "name": "Trường Tiểu học Thiệu Khánh",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398527",
+    "name": "Trường TH & THCS Thiệu Tân",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398528",
+    "name": "Trường THamp;THCS Thiệu Vân",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398729",
+    "name": "Trường TH&THCS Thiệu Giao",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405404",
+    "name": "Trường Tiểu học Đông Lĩnh",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405450",
+    "name": "Trường Tiểu học Đông Tiến",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38405501",
+    "name": "Trường TH&THCS Đông Thanh",
+    "ward_name": "Phường Đông Tiến",
+    "ward_code": "15853",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800004002",
+    "name": "Trường TH, THCS&THPT Hồng Đức",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3838002001",
+    "name": "Trường Tiểu học Vietkids",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3838003001",
+    "name": "Trường TH, THCS&THPT Vinschool Star City",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380402",
+    "name": "Trường Tiểu học Đông Vệ 1",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380403",
+    "name": "Trường Tiểu học Đông Vệ 2",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380404",
+    "name": "Trường Tiểu học Nguyễn Văn Trỗi",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380405",
+    "name": "Trường Tiểu học Ba Đình",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380406",
+    "name": "Trường Tiểu học Lê Văn Tám",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380407",
+    "name": "Trường Tiểu học Tân Sơn",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380408",
+    "name": "Trường Tiểu học Trần Phú",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380409",
+    "name": "Trường Tiểu học Hoàng Hoa Thám",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380410",
+    "name": "Trường Tiểu học Điện Biên 1",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380411",
+    "name": "Trường Tiểu học Điện Biên 2",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380415",
+    "name": "Trường Tiểu học Đông Thọ",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380417",
+    "name": "Trường Tiểu học Đông Hương",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380418",
+    "name": "Trường Tiểu học Đông Hải 1",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380419",
+    "name": "Trường Tiểu học Đông Hải 2",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380420",
+    "name": "Trường Tiểu học Lý Tự Trọng",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380424",
+    "name": "Trường Tiểu học Minh Khai 1",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380425",
+    "name": "Trường Tiểu học Minh Khai 2",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380426",
+    "name": "Trường TH, THCS&THPT Đông Bắc Ga",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380428",
+    "name": "Trường Tiểu học Tân Phú Khang",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380429",
+    "name": "Trường TH, THCS&THPT Fansipan",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380520",
+    "name": "Trường TH&THCS Newton TH",
+    "ward_name": "Phường Hạc Thành",
+    "ward_code": "14797",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407420",
+    "name": "Trường Tiểu học Tĩnh Hải",
+    "ward_name": "Phường Hải Bình",
+    "ward_code": "16645",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407421",
+    "name": "Trường Tiểu học Hải Bình",
+    "ward_name": "Phường Hải Bình",
+    "ward_code": "16645",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407429",
+    "name": "Trường Tiểu học Mai Lâm",
+    "ward_name": "Phường Hải Bình",
+    "ward_code": "16645",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407525",
+    "name": "Trường THamp;THCS Queensland",
+    "ward_name": "Phường Hải Bình",
+    "ward_code": "16645",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407416",
+    "name": "Trường Tiểu học Ninh Hải",
+    "ward_name": "Phường Hải Lĩnh",
+    "ward_code": "16597",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407431",
+    "name": "Trường Tiểu học Hải Lĩnh",
+    "ward_name": "Phường Hải Lĩnh",
+    "ward_code": "16597",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407512",
+    "name": "Trường TH amp; THCS Định Hải",
+    "ward_name": "Phường Hải Lĩnh",
+    "ward_code": "16597",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380413",
+    "name": "Trường Tiểu học Nam Ngạn",
+    "ward_name": "Phường Hàm Rồng",
+    "ward_code": "14758",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380414",
+    "name": "Trường Tiểu học Nguyễn Bá Ngọc",
+    "ward_name": "Phường Hàm Rồng",
+    "ward_code": "14758",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380416",
+    "name": "Trường Tiểu học Hàm Rồng",
+    "ward_name": "Phường Hàm Rồng",
+    "ward_code": "14758",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380421",
+    "name": "Trường Tiểu học Đông Cương",
+    "ward_name": "Phường Hàm Rồng",
+    "ward_code": "14758",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398431",
+    "name": "Trường Tiểu học Thiệu Dương",
+    "ward_name": "Phường Hàm Rồng",
+    "ward_code": "14758",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382411",
+    "name": "Trường Tiểu học Quảng Minh",
+    "ward_name": "Phường Nam Sầm Sơn",
+    "ward_code": "16516",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406403",
+    "name": "Trường Tiểu học Quảng Vinh",
+    "ward_name": "Phường Nam Sầm Sơn",
+    "ward_code": "16516",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406408",
+    "name": "Trường Tiểu học Quảng Hùng",
+    "ward_name": "Phường Nam Sầm Sơn",
+    "ward_code": "16516",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406412",
+    "name": "Trường Tiểu học Quảng Đại",
+    "ward_name": "Phường Nam Sầm Sơn",
+    "ward_code": "16516",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406509",
+    "name": "Trường TH&THCS Nguyễn Xuân Nguyên",
+    "ward_name": "Phường Nam Sầm Sơn",
+    "ward_code": "16516",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407418",
+    "name": "Trường Tiểu Học Hải Hà",
+    "ward_name": "Phường Nghi Sơn",
+    "ward_code": "16654",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407419",
+    "name": "Trường Tiểu học Nghi Sơn",
+    "ward_name": "Phường Nghi Sơn",
+    "ward_code": "16654",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407430",
+    "name": "Trường Tiểu học Hải Thượng",
+    "ward_name": "Phường Nghi Sơn",
+    "ward_code": "16654",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407403",
+    "name": "Trường Tiểu học Thanh Sơn",
+    "ward_name": "Phường Ngọc Sơn",
+    "ward_code": "16576",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407404",
+    "name": "Trường Tiểu học Hải Châu",
+    "ward_name": "Phường Ngọc Sơn",
+    "ward_code": "16576",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407406",
+    "name": "Trường Tiểu học Hải Ninh",
+    "ward_name": "Phường Ngọc Sơn",
+    "ward_code": "16576",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407435",
+    "name": "Trường Tiểu học Thanh Thuỷ",
+    "ward_name": "Phường Ngọc Sơn",
+    "ward_code": "16576",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407534",
+    "name": "Trường TH&THCS Triêu Dương",
+    "ward_name": "Phường Ngọc Sơn",
+    "ward_code": "16576",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399415",
+    "name": "Trường Tiểu học Tào Xuyên",
+    "ward_name": "Phường Nguyệt Viên",
+    "ward_code": "15925",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399418",
+    "name": "Trường Tiểu học Hoằng Quang",
+    "ward_name": "Phường Nguyệt Viên",
+    "ward_code": "15925",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399419",
+    "name": "Trường Tiểu học Hoằng Long",
+    "ward_name": "Phường Nguyệt Viên",
+    "ward_code": "15925",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399420",
+    "name": "Trường Tiểu học Hoằng Anh",
+    "ward_name": "Phường Nguyệt Viên",
+    "ward_code": "15925",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399433",
+    "name": "Trường Tiểu học Hoằng Đại",
+    "ward_name": "Phường Nguyệt Viên",
+    "ward_code": "15925",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800004005",
+    "name": "Trường TH, THCS&THPT FPT",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380422",
+    "name": "Trường Tiểu học Quảng Hưng",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380423",
+    "name": "TRƯỜNG TIỂU HỌC QUẢNG THÀNH",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380427",
+    "name": "Trường Tiểu học Hermann Gmeiner",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38380430",
+    "name": "Trường TH, THCS&THPT QTHSCHOOL",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406404",
+    "name": "Trường Tiểu học Quảng Phú",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406405",
+    "name": "Trường Tiểu học Quảng Tâm",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406406",
+    "name": "Trường Tiểu học Quảng Cát",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406428",
+    "name": "Trường Tiểu học Quảng Thịnh",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406429",
+    "name": "Trường Tiểu học Quảng Đông",
+    "ward_name": "Phường Quảng Phú",
+    "ward_code": "16522",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381401",
+    "name": "Trường TH&THCS Quang Trung",
+    "ward_name": "Phường Quang Trung",
+    "ward_code": "14818",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381406",
+    "name": "Trường Tiểu học Ngọc Trạo",
+    "ward_name": "Phường Quang Trung",
+    "ward_code": "14818",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381407",
+    "name": "Trường Tiểu học Bắc Sơn",
+    "ward_name": "Phường Quang Trung",
+    "ward_code": "14818",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38381501",
+    "name": "Trường TH và THCS Phú Sơn",
+    "ward_name": "Phường Quang Trung",
+    "ward_code": "14818",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3838202002",
+    "name": "Trường Tiểu học Darwin",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382401",
+    "name": "Trường Tiểu học Trường Sơn",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382402",
+    "name": "Trường Tiểu học Bắc Sơn Sầm Sơn",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382403",
+    "name": "Trường Tiểu học Trung Sơn 1",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382404",
+    "name": "Trường Tiểu học Quảng Tiến 1",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382405",
+    "name": "Trường Tiểu học Quảng Cư",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382406",
+    "name": "Trường Tiểu học Quảng Tiến 2",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382407",
+    "name": "Trường Tiểu học Trung Sơn 2",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382408",
+    "name": "Trường Tiểu học Quảng Châu",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38382409",
+    "name": "Trường Tiểu học Quảng Thọ",
+    "ward_name": "Phường Sầm Sơn",
+    "ward_code": "16531",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407402",
+    "name": "Trường Tiểu học Ngọc Lĩnh",
+    "ward_name": "Phường Tân Dân",
+    "ward_code": "16594",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407407",
+    "name": "Trường Tiểu học Tân Dân",
+    "ward_name": "Phường Tân Dân",
+    "ward_code": "16594",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407437",
+    "name": "Trường Tiểu học Hải An",
+    "ward_name": "Phường Tân Dân",
+    "ward_code": "16594",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407408",
+    "name": "Trường Tiểu học Hải Nhân",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407410",
+    "name": "Trường Tiểu học Thị Trấn",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407411",
+    "name": "Trường Tiểu học Hải Hòa",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407422",
+    "name": "Trường Tiểu học Hải Thanh A",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407423",
+    "name": "Trường Tiểu học Bình Minh",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407432",
+    "name": "Trường Tiểu học Hải Thanh",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407533",
+    "name": "Trường TH&THCS Lương Chí",
+    "ward_name": "Phường Tĩnh Gia",
+    "ward_code": "16561",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407424",
+    "name": "Trường Tiểu học Trúc Lâm",
+    "ward_name": "Phường Trúc Lâm",
+    "ward_code": "16624",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407425",
+    "name": "Trường Tiểu học Phú Sơn",
+    "ward_name": "Phường Trúc Lâm",
+    "ward_code": "16624",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407426",
+    "name": "Trường Tiểu học Tùng Lâm",
+    "ward_name": "Phường Trúc Lâm",
+    "ward_code": "16624",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407427",
+    "name": "Trường Tiểu học Phú Lâm",
+    "ward_name": "Phường Trúc Lâm",
+    "ward_code": "16624",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397402",
+    "name": "Trường Tiểu học Khuyến Nông",
+    "ward_name": "Xã An Nông",
+    "ward_code": "15766",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397408",
+    "name": "Trường Tiểu học Tiến Nông",
+    "ward_name": "Xã An Nông",
+    "ward_code": "15766",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397422",
+    "name": "Trường Tiểu học An Nông",
+    "ward_name": "Xã An Nông",
+    "ward_code": "15766",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397430",
+    "name": "Trường Tiểu học Nông Trường",
+    "ward_name": "Xã An Nông",
+    "ward_code": "15766",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401420",
+    "name": "Trường Tiểu học Ba Đình",
+    "ward_name": "Xã Ba Đình",
+    "ward_code": "16171",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401424",
+    "name": "Trường tiểu học Nga Trường",
+    "ward_name": "Xã Ba Đình",
+    "ward_code": "16171",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401425",
+    "name": "Trường Tiểu Học Nga Thiện",
+    "ward_name": "Xã Ba Đình",
+    "ward_code": "16171",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401504",
+    "name": "Trường TH&THCS Nga Vịnh",
+    "ward_name": "Xã Ba Đình",
+    "ward_code": "16171",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386411",
+    "name": "Trường Tiểu học Lâm Xa",
+    "ward_name": "Xã Bá Thước",
+    "ward_code": "14923",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386415",
+    "name": "Trường Tiểu học Tân Lập",
+    "ward_name": "Xã Bá Thước",
+    "ward_code": "14923",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386418",
+    "name": "Trường Tiểu học Hạ Trung",
+    "ward_name": "Xã Bá Thước",
+    "ward_code": "14923",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386420",
+    "name": "Trường Tiểu học Cành Nàng",
+    "ward_name": "Xã Bá Thước",
+    "ward_code": "14923",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386423",
+    "name": "Trường Tiểu học Ban Công",
+    "ward_name": "Xã Bá Thước",
+    "ward_code": "14923",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396405",
+    "name": "Trường Tiểu học Bát Mọt 2",
+    "ward_name": "Xã Bát Mọt",
+    "ward_code": "15607",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396407",
+    "name": "Trường Tiểu học Bát Mọt 1",
+    "ward_name": "Xã Bát Mọt",
+    "ward_code": "15607",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393401",
+    "name": "Trường tiểu học Vĩnh An",
+    "ward_name": "Xã Biện Thượng",
+    "ward_code": "15382",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393402",
+    "name": "Trường tiểu học Vĩnh Thịnh",
+    "ward_name": "Xã Biện Thượng",
+    "ward_code": "15382",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393403",
+    "name": "Trường Tiểu học Vĩnh Minh",
+    "ward_name": "Xã Biện Thượng",
+    "ward_code": "15382",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393405",
+    "name": "Trường tiểu học Vĩnh Hùng",
+    "ward_name": "Xã Biện Thượng",
+    "ward_code": "15382",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393516",
+    "name": "Trường TH&THCS Vĩnh Tân",
+    "ward_name": "Xã Biện Thượng",
+    "ward_code": "15382",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407401",
+    "name": "Trường Tiểu học Các Sơn A",
+    "ward_name": "Xã Các Sơn",
+    "ward_code": "16591",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407433",
+    "name": "Trường Tiểu học Anh Sơn",
+    "ward_name": "Xã Các Sơn",
+    "ward_code": "16591",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407434",
+    "name": "Trường Tiểu học Hùng Sơn",
+    "ward_name": "Xã Các Sơn",
+    "ward_code": "16591",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407439",
+    "name": "Trường Tiểu học Các Sơn B",
+    "ward_name": "Xã Các Sơn",
+    "ward_code": "16591",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390407",
+    "name": "Trường tiểu học Cẩm Tân",
+    "ward_name": "Xã Cẩm Tân",
+    "ward_code": "15178",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390419",
+    "name": "Trường Tiểu học Cẩm Long",
+    "ward_name": "Xã Cẩm Tân",
+    "ward_code": "15178",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390423",
+    "name": "Trường Tiểu học Cẩm Phú",
+    "ward_name": "Xã Cẩm Tân",
+    "ward_code": "15178",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390409",
+    "name": "Trường TH&THCS Cẩm Liên",
+    "ward_name": "Xã Cẩm Thạch",
+    "ward_code": "15142",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390410",
+    "name": "Trường tiểu học Cẩm Thành",
+    "ward_name": "Xã Cẩm Thạch",
+    "ward_code": "15142",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390414",
+    "name": "Trường tiểu học Cẩm Thạch",
+    "ward_name": "Xã Cẩm Thạch",
+    "ward_code": "15142",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390417",
+    "name": "Trường tiểu học Cẩm Bình 1",
+    "ward_name": "Xã Cẩm Thạch",
+    "ward_code": "15142",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390420",
+    "name": "Trường tiểu học Cẩm Bình 3",
+    "ward_name": "Xã Cẩm Thạch",
+    "ward_code": "15142",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390403",
+    "name": "Trường tiểu học Cẩm Phong",
+    "ward_name": "Xã Cẩm Thủy",
+    "ward_code": "15127",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390413",
+    "name": "Trường tiểu học Cẩm Ngọc",
+    "ward_name": "Xã Cẩm Thủy",
+    "ward_code": "15127",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390416",
+    "name": "Trường tiểu học Cẩm Sơn",
+    "ward_name": "Xã Cẩm Thủy",
+    "ward_code": "15127",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390425",
+    "name": "Trường tiểu học Cẩm Thủy",
+    "ward_name": "Xã Cẩm Thủy",
+    "ward_code": "15127",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390402",
+    "name": "Trường Tiểu học Cẩm Giang",
+    "ward_name": "Xã Cẩm Tú",
+    "ward_code": "15148",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390408",
+    "name": "Trường Tiểu học Cẩm Quý",
+    "ward_name": "Xã Cẩm Tú",
+    "ward_code": "15148",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390424",
+    "name": "Trường Tiểu học Cẩm Tú",
+    "ward_name": "Xã Cẩm Tú",
+    "ward_code": "15148",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390504",
+    "name": "Trường TH&THCS Cẩm Lương",
+    "ward_name": "Xã Cẩm Tú",
+    "ward_code": "15148",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390401",
+    "name": "Trường Tiểu học Cẩm Châu",
+    "ward_name": "Xã Cẩm Vân",
+    "ward_code": "15163",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390406",
+    "name": "Trường Tiểu học Cẩm Vân",
+    "ward_name": "Xã Cẩm Vân",
+    "ward_code": "15163",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390502",
+    "name": "Trường TH&THCS Cẩm Yên",
+    "ward_name": "Xã Cẩm Vân",
+    "ward_code": "15163",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38390503",
+    "name": "Trường TH&THCS Cẩm Tâm",
+    "ward_name": "Xã Cẩm Vân",
+    "ward_code": "15163",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386407",
+    "name": "Trường Tiểu học Cổ Lũng",
+    "ward_name": "Xã Cổ Lũng",
+    "ward_code": "14959",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386428",
+    "name": "Trường Tiểu học Lũng Cao",
+    "ward_name": "Xã Cổ Lũng",
+    "ward_code": "14959",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386601",
+    "name": "Trường TH&THCS Cao Sơn",
+    "ward_name": "Xã Cổ Lũng",
+    "ward_code": "14959",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404405",
+    "name": "Trường Tiểu học Công Chính",
+    "ward_name": "Xã Công Chính",
+    "ward_code": "16369",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404428",
+    "name": "Trường Tiểu học Công Liêm 1",
+    "ward_name": "Xã Công Chính",
+    "ward_code": "16369",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404433",
+    "name": "Trường Tiểu học Yên Mỹ",
+    "ward_name": "Xã Công Chính",
+    "ward_code": "16369",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404437",
+    "name": "Trường Tiểu học Công Liêm 2",
+    "ward_name": "Xã Công Chính",
+    "ward_code": "16369",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386413",
+    "name": "Trường Tiểu học Ái Thượng",
+    "ward_name": "Xã Điền Lư",
+    "ward_code": "14950",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386427",
+    "name": "Trường Tiểu học Điền Trung",
+    "ward_name": "Xã Điền Lư",
+    "ward_code": "14950",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386431",
+    "name": "Trường Tiểu học Điền Lư",
+    "ward_name": "Xã Điền Lư",
+    "ward_code": "14950",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386404",
+    "name": "Trường Tiểu học Điền Thượng",
+    "ward_name": "Xã Điền Quang",
+    "ward_code": "14932",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386414",
+    "name": "Trường Tiểu học Điền Hạ",
+    "ward_name": "Xã Điền Quang",
+    "ward_code": "14932",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386429",
+    "name": "Trường Tiểu học Điền Quang",
+    "ward_name": "Xã Điền Quang",
+    "ward_code": "14932",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394425",
+    "name": "Trường Tiểu Học Định Hòa",
+    "ward_name": "Xã Định Hòa",
+    "ward_code": "15448",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394426",
+    "name": "Trường Tiểu Học Định Bình",
+    "ward_name": "Xã Định Hòa",
+    "ward_code": "15448",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394427",
+    "name": "Trường Tiểu học Định Thành",
+    "ward_name": "Xã Định Hòa",
+    "ward_code": "15448",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394428",
+    "name": "Trường Tiểu Học Định Công",
+    "ward_name": "Xã Định Hòa",
+    "ward_code": "15448",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394421",
+    "name": "Trường Tiểu Học Định Tân",
+    "ward_name": "Xã Định Tân",
+    "ward_code": "15457",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394422",
+    "name": "Trường Tiểu học Định Tiến",
+    "ward_name": "Xã Định Tân",
+    "ward_code": "15457",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394423",
+    "name": "Trường Tiểu Học Định Hưng",
+    "ward_name": "Xã Định Tân",
+    "ward_code": "15457",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394424",
+    "name": "Trường Tiểu Học Định Hải",
+    "ward_name": "Xã Định Tân",
+    "ward_code": "15457",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388404",
+    "name": "Trường Tiểu Học Đồng Lương",
+    "ward_name": "Xã Đồng Lương",
+    "ward_code": "15058",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388410",
+    "name": "Trường Tiểu học Tân Phúc",
+    "ward_name": "Xã Đồng Lương",
+    "ward_code": "15058",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400415",
+    "name": "Trường Tiểu học Cầu Lộc",
+    "ward_name": "Xã Đông Thành",
+    "ward_code": "16033",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400417",
+    "name": "Trường Tiểu học Tuy Lộc",
+    "ward_name": "Xã Đông Thành",
+    "ward_code": "16033",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400429",
+    "name": "Trường Tiểu học Đồng Lộc",
+    "ward_name": "Xã Đông Thành",
+    "ward_code": "16033",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400430",
+    "name": "Trường Tiểu học Thành Lộc",
+    "ward_name": "Xã Đông Thành",
+    "ward_code": "16033",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400521",
+    "name": "Trường TH&THCS Phong Lộc",
+    "ward_name": "Xã Đông Thành",
+    "ward_code": "16033",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397411",
+    "name": "Trường Tiểu học Đồng Tiến",
+    "ward_name": "Xã Đồng Tiến",
+    "ward_code": "15724",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397425",
+    "name": "Trường Tiểu học Đồng Lợi",
+    "ward_name": "Xã Đồng Tiến",
+    "ward_code": "15724",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397427",
+    "name": "Trường Tiểu học Đồng Thắng",
+    "ward_name": "Xã Đồng Tiến",
+    "ward_code": "15724",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388403",
+    "name": "Trường Tiểu học Giao Thiện",
+    "ward_name": "Xã Giao An",
+    "ward_code": "15043",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388509",
+    "name": "Trường TH&THCS Giao An",
+    "ward_name": "Xã Giao An",
+    "ward_code": "15043",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392401",
+    "name": "Trường tiểu học Hà Bắc",
+    "ward_name": "Xã Hà Long",
+    "ward_code": "15274",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392402",
+    "name": "Trường tiểu học Hà Long 1",
+    "ward_name": "Xã Hà Long",
+    "ward_code": "15274",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392403",
+    "name": "Trường tiểu học Hà Giang",
+    "ward_name": "Xã Hà Long",
+    "ward_code": "15274",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392427",
+    "name": "Trường tiểu học Hà Long 2",
+    "ward_name": "Xã Hà Long",
+    "ward_code": "15274",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392417",
+    "name": "Trường tiểu học Hà Ngọc",
+    "ward_name": "Xã Hà Trung",
+    "ward_code": "15271",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392419",
+    "name": "Trường tiểu học Hà Ninh",
+    "ward_name": "Xã Hà Trung",
+    "ward_code": "15271",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392420",
+    "name": "Trường Tiểu học Hà Trung",
+    "ward_name": "Xã Hà Trung",
+    "ward_code": "15271",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392423",
+    "name": "Trường tiểu học Hà Lâm",
+    "ward_name": "Xã Hà Trung",
+    "ward_code": "15271",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392424",
+    "name": "Trường tiểu học Hà Đông",
+    "ward_name": "Xã Hà Trung",
+    "ward_code": "15271",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400407",
+    "name": "Trường Tiểu học Hậu Lộc",
+    "ward_name": "Xã Hậu Lộc",
+    "ward_code": "16012",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400418",
+    "name": "Trường Tiểu học Thuần Lộc",
+    "ward_name": "Xã Hậu Lộc",
+    "ward_code": "16012",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400424",
+    "name": "Trường Tiểu học Lộc Tân",
+    "ward_name": "Xã Hậu Lộc",
+    "ward_code": "16012",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400501",
+    "name": "Trường TH&THCS Mỹ Lộc",
+    "ward_name": "Xã Hậu Lộc",
+    "ward_code": "16012",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400524",
+    "name": "Trường THamp;THCS Lộc Sơn",
+    "ward_name": "Xã Hậu Lộc",
+    "ward_code": "16012",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385407",
+    "name": "Trường Tiểu học Hiền Kiệt",
+    "ward_name": "Xã Hiền Kiệt",
+    "ward_code": "14896",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385414",
+    "name": "Trường Tiểu học Hiền Chung",
+    "ward_name": "Xã Hiền Kiệt",
+    "ward_code": "14896",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401405",
+    "name": "Trường tiểu học Nga Hải",
+    "ward_name": "Xã Hồ Vương",
+    "ward_code": "16138",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401406",
+    "name": "Trường tiểu học Nga Liên 1",
+    "ward_name": "Xã Hồ Vương",
+    "ward_code": "16138",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401409",
+    "name": "Trường Tiểu học Nga Giáp",
+    "ward_name": "Xã Hồ Vương",
+    "ward_code": "16138",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401410",
+    "name": "Trường tiểu học Nga Thành",
+    "ward_name": "Xã Hồ Vương",
+    "ward_code": "16138",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401429",
+    "name": "Trường tiểu học Nga Liên 2",
+    "ward_name": "Xã Hồ Vương",
+    "ward_code": "16138",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400403",
+    "name": "Trường Tiểu học Xuân Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400409",
+    "name": "Trường Tiểu học Phú Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400419",
+    "name": "Trường Tiểu học Quang Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400420",
+    "name": "Trường Tiểu học Liên Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400422",
+    "name": "Trường Tiểu học Hòa Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400425",
+    "name": "Trường Tiểu học Hoa Lộc",
+    "ward_name": "Xã Hoa Lộc",
+    "ward_code": "16072",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402415",
+    "name": "Trường TH amp; THCS Bình Lương",
+    "ward_name": "Xã Hóa Quỳ",
+    "ward_code": "16186",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402417",
+    "name": "Trường Tiểu Học Hóa Quỳ",
+    "ward_name": "Xã Hóa Quỳ",
+    "ward_code": "16186",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402518",
+    "name": "Trường TH&THCS Xuân Quỳ",
+    "ward_name": "Xã Hóa Quỳ",
+    "ward_code": "16186",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399434",
+    "name": "Trường Tiểu học Hoằng Phong",
+    "ward_name": "Xã Hoằng Châu",
+    "ward_code": "15976",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399435",
+    "name": "Trường Tiểu học Hoằng Lưu",
+    "ward_name": "Xã Hoằng Châu",
+    "ward_code": "15976",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399436",
+    "name": "Trường Tiểu học Hoằng Châu",
+    "ward_name": "Xã Hoằng Châu",
+    "ward_code": "15976",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399439",
+    "name": "Trường Tiểu học Hoằng Thắng",
+    "ward_name": "Xã Hoằng Châu",
+    "ward_code": "15976",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399401",
+    "name": "Trường Tiểu học Hoằng Giang",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399402",
+    "name": "Trường Tiểu học Hoằng Xuân 1",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399403",
+    "name": "Trường Tiểu học Hoằng Xuân 2",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399404",
+    "name": "Trường tiểu học Hoằng Phượng",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399416",
+    "name": "Trường Tiểu học Hoằng Quỳ",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399417",
+    "name": "Trường Tiểu học Hoằng Hợp",
+    "ward_name": "Xã Hoằng Giang",
+    "ward_code": "15880",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800000010",
+    "name": "Trường TH, THCS&THPT Delta",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399425",
+    "name": "Trường Tiểu học Hoằng Đạt",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399427",
+    "name": "Tiểu học Bút Sơn",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399438",
+    "name": "Trường Tiểu học Hoằng Đạo",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399448",
+    "name": "Trường Tiểu học Lê Tất Đắc",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399473",
+    "name": "Trường Tiểu học Camellia",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399521",
+    "name": "Trường TH&THCS Hoằng Đức 2",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399523",
+    "name": "Trường TH&THCS Hoằng Đức 1",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399524",
+    "name": "Trường TH&THCS Hoằng Hà",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399526",
+    "name": "Trường THamp;THCS Hoằng Đồng",
+    "ward_name": "Xã Hoằng Hóa",
+    "ward_code": "15865",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399428",
+    "name": "Trường Tiểu học Hoằng Thịnh",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399429",
+    "name": "Trường Tiểu học Hoằng Thái",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399430",
+    "name": "Trường Tiểu học Lê Mạnh Trinh",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399431",
+    "name": "Trường Tiểu học Hoằng Thành",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399432",
+    "name": "Trường Tiểu học Hoằng Trạch",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399437",
+    "name": "Trường Tiểu học Hoằng Tân",
+    "ward_name": "Xã Hoằng Lộc",
+    "ward_code": "15961",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399406",
+    "name": "Trường Tiểu học Hoằng Quý",
+    "ward_name": "Xã Hoằng Phú",
+    "ward_code": "15889",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399407",
+    "name": "Trường Tiểu học Hoằng Kim",
+    "ward_name": "Xã Hoằng Phú",
+    "ward_code": "15889",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399408",
+    "name": "Trường Tiểu học Hoằng Trung",
+    "ward_name": "Xã Hoằng Phú",
+    "ward_code": "15889",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399505",
+    "name": "Trường Tiểu học và THCS Hoằng Phú",
+    "ward_name": "Xã Hoằng Phú",
+    "ward_code": "15889",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399410",
+    "name": "Trường Tiểu học Hoằng Trinh",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399412",
+    "name": "Tiểu học Hoằng Xuyên 1",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399413",
+    "name": "Trường Tiểu học Hoằng Cát",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399414",
+    "name": "Trường Tiểu học Hoằng Xuyên 2",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399509",
+    "name": "Trường TH&THCS Hoằng Sơn 1",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399511",
+    "name": "Trường TH&THCS Hoằng Sơn 2",
+    "ward_name": "Xã Hoằng Sơn",
+    "ward_code": "15910",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399444",
+    "name": "Trường Tiểu học Hoằng Đông",
+    "ward_name": "Xã Hoằng Thanh",
+    "ward_code": "16000",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399445",
+    "name": "Trường Tiểu học Hoằng Thanh",
+    "ward_name": "Xã Hoằng Thanh",
+    "ward_code": "16000",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399446",
+    "name": "Trường Tiểu học Hoằng Phụ",
+    "ward_name": "Xã Hoằng Thanh",
+    "ward_code": "16000",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399447",
+    "name": "Trường Tiểu học Hoằng Ngọc",
+    "ward_name": "Xã Hoằng Thanh",
+    "ward_code": "16000",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399441",
+    "name": "Trường Tiểu học Lê Xuân Lan",
+    "ward_name": "Xã Hoằng Tiến",
+    "ward_code": "15991",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399442",
+    "name": "Trường Tiểu học Hoằng Hải",
+    "ward_name": "Xã Hoằng Tiến",
+    "ward_code": "15991",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399443",
+    "name": "Trường Tiểu học Hoằng Trường",
+    "ward_name": "Xã Hoằng Tiến",
+    "ward_code": "15991",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38399540",
+    "name": "Trường TH&THCS Hoằng Yến",
+    "ward_name": "Xã Hoằng Tiến",
+    "ward_code": "15991",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392406",
+    "name": "Trường tiểu hoc Hà Yên",
+    "ward_name": "Xã Hoạt Giang",
+    "ward_code": "15286",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392407",
+    "name": "Trường tiểu học Hà Dương",
+    "ward_name": "Xã Hoạt Giang",
+    "ward_code": "15286",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392408",
+    "name": "Trường Tiểu Học Hoạt Giang",
+    "ward_name": "Xã Hoạt Giang",
+    "ward_code": "15286",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392418",
+    "name": "Trường tiểu học Hà Bình",
+    "ward_name": "Xã Hoạt Giang",
+    "ward_code": "15286",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385409",
+    "name": "Trường Tiểu học Quan Hóa",
+    "ward_name": "Xã Hồi Xuân",
+    "ward_code": "14869",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385416",
+    "name": "Trường Tiểu học Hồi Xuân",
+    "ward_name": "Xã Hồi Xuân",
+    "ward_code": "14869",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385418",
+    "name": "Trường Tiểu học Phú nghiêm",
+    "ward_name": "Xã Hồi Xuân",
+    "ward_code": "14869",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397414",
+    "name": "Trường Tiểu học Triệu Thành",
+    "ward_name": "Xã Hợp Tiến",
+    "ward_code": "15682",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397419",
+    "name": "Trường Tiểu học Hợp Thắng",
+    "ward_name": "Xã Hợp Tiến",
+    "ward_code": "15682",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397431",
+    "name": "Trường Tiểu học Hợp Thành",
+    "ward_name": "Xã Hợp Tiến",
+    "ward_code": "15682",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397432",
+    "name": "Trường Tiểu học Hợp Lý",
+    "ward_name": "Xã Hợp Tiến",
+    "ward_code": "15682",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397517",
+    "name": "Trường TH và THCS Hợp Tiến",
+    "ward_name": "Xã Hợp Tiến",
+    "ward_code": "15682",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389402",
+    "name": "Trường Tiểu học Kiên Thọ 2",
+    "ward_name": "Xã Kiên Thọ",
+    "ward_code": "15112",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389409",
+    "name": "Trường Tiểu học Kiên Thọ 1",
+    "ward_name": "Xã Kiên Thọ",
+    "ward_code": "15112",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389416",
+    "name": "Trường Tiểu học Phúc Thịnh",
+    "ward_name": "Xã Kiên Thọ",
+    "ward_code": "15112",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389520",
+    "name": "Trường TH&THCS Phùng Minh",
+    "ward_name": "Xã Kiên Thọ",
+    "ward_code": "15112",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391421",
+    "name": "Trường Tiểu Học Thành Trực",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391423",
+    "name": "Trường Tiểu học Thành Kim",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391425",
+    "name": "Trường Tiểu học Kim Tân",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391426",
+    "name": "Trường Tiểu Học Thành Hưng",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391427",
+    "name": "Tiểu học Thành Tiến",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391429",
+    "name": "Tiểu học Thành Thọ",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391508",
+    "name": "Trường TH&THCS Thạch Định",
+    "ward_name": "Xã Kim Tân",
+    "ward_code": "15187",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395402",
+    "name": "Trường Tiểu học Xuân Bái",
+    "ward_name": "Xã Lam Sơn",
+    "ward_code": "15544",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395403",
+    "name": "Trường Tiểu học Lam Sơn",
+    "ward_name": "Xã Lam Sơn",
+    "ward_code": "15544",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395416",
+    "name": "Trường Tiểu học Thọ Xương",
+    "ward_name": "Xã Lam Sơn",
+    "ward_code": "15544",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388411",
+    "name": "Trường Tiểu Học Linh Sơn - Xã Linh Sơn",
+    "ward_name": "Xã Linh Sơn",
+    "ward_code": "15055",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388412",
+    "name": "Trường Tiểu học Linh Sơn 2",
+    "ward_name": "Xã Linh Sơn",
+    "ward_code": "15055",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388501",
+    "name": "Trường THamp;THCS Chí Linh",
+    "ward_name": "Xã Linh Sơn",
+    "ward_code": "15055",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392411",
+    "name": "Trường tiểu học Hà Châu",
+    "ward_name": "Xã Lĩnh Toại",
+    "ward_code": "15298",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392412",
+    "name": "Trường tiểu học Hà Lai",
+    "ward_name": "Xã Lĩnh Toại",
+    "ward_code": "15298",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392413",
+    "name": "Trường Tiểu học Hà Thái",
+    "ward_name": "Xã Lĩnh Toại",
+    "ward_code": "15298",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392414",
+    "name": "Trường Tiểu Học Lĩnh Toại",
+    "ward_name": "Xã Lĩnh Toại",
+    "ward_code": "15298",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392415",
+    "name": "Trường Tiểu Học Hà Hải",
+    "ward_name": "Xã Lĩnh Toại",
+    "ward_code": "15298",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396408",
+    "name": "Trường Tiểu học Luận Thành",
+    "ward_name": "Xã Luận Thành",
+    "ward_code": "15634",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396413",
+    "name": "Trường Tiểu Học Xuân Cao",
+    "ward_name": "Xã Luận Thành",
+    "ward_code": "15634",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396419",
+    "name": "Trường Tiểu Học Lương Sơn 2",
+    "ward_name": "Xã Lương Sơn",
+    "ward_code": "15628",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396424",
+    "name": "Trường Tiểu Học Lương Sơn 1",
+    "ward_name": "Xã Lương Sơn",
+    "ward_code": "15628",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800004004",
+    "name": "Trường TH, THCS&THPT Nobel School III",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406425",
+    "name": "Trường Tiểu học Tân Phong 2",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406426",
+    "name": "Trường Tiểu học Tân Phong 3",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406427",
+    "name": "Trường Tiểu học Tân Phong 1",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406430",
+    "name": "Trường Tiểu học Quảng Định",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406431",
+    "name": "Trường Tiểu học Quảng Đức",
+    "ward_name": "Xã Lưu Vệ",
+    "ward_code": "16438",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403402",
+    "name": "Trường Tiểu học Phú Nhuận",
+    "ward_name": "Xã Mậu Lâm",
+    "ward_code": "16249",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403406",
+    "name": "Trường Tiểu học Mậu Lâm 1",
+    "ward_name": "Xã Mậu Lâm",
+    "ward_code": "16249",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403407",
+    "name": "Trường Tiểu học Mậu Lâm 2",
+    "ward_name": "Xã Mậu Lâm",
+    "ward_code": "16249",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389401",
+    "name": "Trường Tiểu học Lam Sơn",
+    "ward_name": "Xã Minh Sơn",
+    "ward_code": "15124",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389412",
+    "name": "Trường Tiểu học Minh Sơn 1",
+    "ward_name": "Xã Minh Sơn",
+    "ward_code": "15124",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389415",
+    "name": "Trường Tiểu Học Minh Tiến",
+    "ward_name": "Xã Minh Sơn",
+    "ward_code": "15124",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389418",
+    "name": "Trường Tiểu học Cao Ngọc",
+    "ward_name": "Xã Minh Sơn",
+    "ward_code": "15124",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389430",
+    "name": "Trường Tiểu học Minh Sơn 2",
+    "ward_name": "Xã Minh Sơn",
+    "ward_code": "15124",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384406",
+    "name": "Trường Tiểu học Mường Chanh",
+    "ward_name": "Xã Mường Chanh",
+    "ward_code": "14866",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384404",
+    "name": "Trường Tiểu học Tén Tằn",
+    "ward_name": "Xã Mường Lát",
+    "ward_code": "14845",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384411",
+    "name": "Trường TH và THCS Mường Lát",
+    "ward_name": "Xã Mường Lát",
+    "ward_code": "14845",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384408",
+    "name": "Trường Tiểu học Mường Lý",
+    "ward_name": "Xã Mường Lý",
+    "ward_code": "14854",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384412",
+    "name": "Trường Tiểu học Tây Tiến",
+    "ward_name": "Xã Mường Lý",
+    "ward_code": "14854",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387411",
+    "name": "Trường Tiểu học Mường Mìn",
+    "ward_name": "Xã Mường Mìn",
+    "ward_code": "15025",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387412",
+    "name": "Trường Tiểu học Na Mèo",
+    "ward_name": "Xã Na Mèo",
+    "ward_code": "15013",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385405",
+    "name": "Trường Tiểu học Nam Tiến",
+    "ward_name": "Xã Nam Xuân",
+    "ward_code": "14902",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385411",
+    "name": "Trường Tiểu học Nam Xuân",
+    "ward_name": "Xã Nam Xuân",
+    "ward_code": "14902",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401414",
+    "name": "Trường tiểu học Nga Điền",
+    "ward_name": "Xã Nga An",
+    "ward_code": "16144",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401416",
+    "name": "Trường tiểu học Nga Phú",
+    "ward_name": "Xã Nga An",
+    "ward_code": "16144",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401419",
+    "name": "Trường tiểu học Nga An",
+    "ward_name": "Xã Nga An",
+    "ward_code": "16144",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401430",
+    "name": "Trường tiểu học Nga Điền 2",
+    "ward_name": "Xã Nga An",
+    "ward_code": "16144",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401403",
+    "name": "Trường Tiểu Học Nga Thủy",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401407",
+    "name": "Trường Tiểu Học Thị Trấn Nga Sơn",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401417",
+    "name": "Trường Tiểu học Nga Bạch",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401422",
+    "name": "Trường tiểu học Nga Thanh",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401423",
+    "name": "Trường Tiểu học Nga Yên",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401426",
+    "name": "Trường tiểu học Nga Trung",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401520",
+    "name": "Trường Tiểu Học Mỹ Hưng",
+    "ward_name": "Xã Nga Sơn",
+    "ward_code": "16093",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401401",
+    "name": "Trường Tiểu học Nga Phượng 1",
+    "ward_name": "Xã Nga Thắng",
+    "ward_code": "16114",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401402",
+    "name": "Trường tiểu học Nga Thắng",
+    "ward_name": "Xã Nga Thắng",
+    "ward_code": "16114",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401411",
+    "name": "Trường Tiểu học Nga Thạch",
+    "ward_name": "Xã Nga Thắng",
+    "ward_code": "16114",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401412",
+    "name": "Trường Tiểu học Nga Phượng 2",
+    "ward_name": "Xã Nga Thắng",
+    "ward_code": "16114",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401421",
+    "name": "Trường TH&THCS Nga Văn",
+    "ward_name": "Xã Nga Thắng",
+    "ward_code": "16114",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389403",
+    "name": "Trường Tiểu học Thúy Sơn 1",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389404",
+    "name": "Trường Tiểu học Ngọc Khê 1",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389407",
+    "name": "Trường Tiểu học Mỹ Tân",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389410",
+    "name": "Trường Tiểu học Ngọc Lặc",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389411",
+    "name": "Trường Tiểu học Ngọc Khê 2",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389429",
+    "name": "Trường Tiểu học Thúy Sơn 2",
+    "ward_name": "Xã Ngọc Lặc",
+    "ward_code": "15061",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389413",
+    "name": "Trường Tiểu học Ngọc Trung",
+    "ward_name": "Xã Ngọc Liên",
+    "ward_code": "15091",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389417",
+    "name": "Trường TH&THCS Lộc Thịnh",
+    "ward_name": "Xã Ngọc Liên",
+    "ward_code": "15091",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389420",
+    "name": "Trường Tiểu học Cao Thịnh",
+    "ward_name": "Xã Ngọc Liên",
+    "ward_code": "15091",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389421",
+    "name": "Trường Tiểu học Ngọc Liên",
+    "ward_name": "Xã Ngọc Liên",
+    "ward_code": "15091",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389423",
+    "name": "Trường Tiểu học Ngọc Sơn",
+    "ward_name": "Xã Ngọc Liên",
+    "ward_code": "15091",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391428",
+    "name": "Trường Tiểu Học Thành Long",
+    "ward_name": "Xã Ngọc Trạo",
+    "ward_code": "15250",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391430",
+    "name": "Trường Tiểu học Thành An",
+    "ward_name": "Xã Ngọc Trạo",
+    "ward_code": "15250",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391431",
+    "name": "Trường Tiểu học Ngọc Trạo",
+    "ward_name": "Xã Ngọc Trạo",
+    "ward_code": "15250",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391439",
+    "name": "Tiểu học Thành Tâm",
+    "ward_name": "Xã Ngọc Trạo",
+    "ward_code": "15250",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389406",
+    "name": "Trường Tiểu học Vân Am 2",
+    "ward_name": "Xã Nguyệt Ấn",
+    "ward_code": "15106",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389414",
+    "name": "Trường Tiểu học Nguyệt Ấn 1",
+    "ward_name": "Xã Nguyệt Ấn",
+    "ward_code": "15106",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389419",
+    "name": "Trường Tiểu học Phùng Giáo",
+    "ward_name": "Xã Nguyệt Ấn",
+    "ward_code": "15106",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389422",
+    "name": "Trường Tiểu học Vân Am",
+    "ward_name": "Xã Nguyệt Ấn",
+    "ward_code": "15106",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389436",
+    "name": "Trường Tiểu học Nguyệt Ấn 2",
+    "ward_name": "Xã Nguyệt Ấn",
+    "ward_code": "15106",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384407",
+    "name": "Trưởng Tiểu học Nhi Sơn",
+    "ward_name": "Xã Nhi Sơn",
+    "ward_code": "14864",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403403",
+    "name": "Trường Tiểu học Xuân Khang 2",
+    "ward_name": "Xã Như Thanh",
+    "ward_code": "16228",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403405",
+    "name": "Trường Tiểu học Hải Long",
+    "ward_name": "Xã Như Thanh",
+    "ward_code": "16228",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403419",
+    "name": "Trường Tiểu học Xuân Khang 1",
+    "ward_name": "Xã Như Thanh",
+    "ward_code": "16228",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403420",
+    "name": "Trường Tiểu học Bến Sung",
+    "ward_name": "Xã Như Thanh",
+    "ward_code": "16228",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402410",
+    "name": "Trường Tiểu Học Yên Cát",
+    "ward_name": "Xã Như Xuân",
+    "ward_code": "16174",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402503",
+    "name": "Trường THamp;THCS Tân Bình",
+    "ward_name": "Xã Như Xuân",
+    "ward_code": "16174",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402511",
+    "name": "Trường TH Và THCS Yên Lễ",
+    "ward_name": "Xã Như Xuân",
+    "ward_code": "16174",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404414",
+    "name": "Trường Tiểu học Minh Thọ",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404415",
+    "name": "Trường Tiểu học Minh Khôi",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404416",
+    "name": "Trường Tiểu học Minh Nghĩa",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404417",
+    "name": "Trường Tiểu học Vạn Hòa",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404418",
+    "name": "Trường Tiểu học Vạn Thắng",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404419",
+    "name": "Trường Tiểu học Vạn Thiện",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404435",
+    "name": "Trường Tiểu học Kim Đồng",
+    "ward_name": "Xã Nông Cống",
+    "ward_code": "16279",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385401",
+    "name": "Trường Tiểu học Phú Sơn",
+    "ward_name": "Xã Phú Lệ",
+    "ward_code": "14878",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385404",
+    "name": "Trường Tiểu học Phú Thanh",
+    "ward_name": "Xã Phú Lệ",
+    "ward_code": "14878",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385413",
+    "name": "Trường Tiểu học Phú Lệ",
+    "ward_name": "Xã Phú Lệ",
+    "ward_code": "14878",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385410",
+    "name": "Trường Tiểu học Phú Xuân",
+    "ward_name": "Xã Phú Xuân",
+    "ward_code": "14890",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385417",
+    "name": "Trường Tiểu học Thanh Xuân",
+    "ward_name": "Xã Phú Xuân",
+    "ward_code": "14890",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386405",
+    "name": "Trường Tiểu học Thành Lâm",
+    "ward_name": "Xã Pù Luông",
+    "ward_code": "14956",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386417",
+    "name": "Trường Tiểu học Lũng Niêm",
+    "ward_name": "Xã Pù Luông",
+    "ward_code": "14956",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386524",
+    "name": "Trường TH&THCS Thành Sơn",
+    "ward_name": "Xã Pù Luông",
+    "ward_code": "14956",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384402",
+    "name": "Trường Tiểu học Pù Nhi",
+    "ward_name": "Xã Pù Nhi",
+    "ward_code": "14863",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387404",
+    "name": "Trường Tiểu học Sơn Lư",
+    "ward_name": "Xã Quan Sơn",
+    "ward_code": "15016",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387410",
+    "name": "Trường Tiểu học Trung Thượng",
+    "ward_name": "Xã Quan Sơn",
+    "ward_code": "15016",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387415",
+    "name": "Trường THamp;THCS Sơn Lư",
+    "ward_name": "Xã Quan Sơn",
+    "ward_code": "15016",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406410",
+    "name": "Trường Tiểu học Quảng Lưu",
+    "ward_name": "Xã Quảng Bình",
+    "ward_code": "16543",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406411",
+    "name": "Tiểu học Quảng Lộc",
+    "ward_name": "Xã Quảng Bình",
+    "ward_code": "16543",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406416",
+    "name": "Trường Tiểu học Quảng Thái.",
+    "ward_name": "Xã Quảng Bình",
+    "ward_code": "16543",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406423",
+    "name": "Trường Tiểu học Quảng Bình",
+    "ward_name": "Xã Quảng Bình",
+    "ward_code": "16543",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384405",
+    "name": "Trường Tiểu học Quang Chiểu I",
+    "ward_name": "Xã Quang Chiểu",
+    "ward_code": "14860",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384410",
+    "name": "Trường Tiểu học Quang Chiểu 2",
+    "ward_name": "Xã Quang Chiểu",
+    "ward_code": "14860",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406419",
+    "name": "Trường Tiểu học Nguyễn Bá Ngọc",
+    "ward_name": "Xã Quảng Chính",
+    "ward_code": "16489",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406420",
+    "name": "Trường Tiểu học Quảng Chính",
+    "ward_name": "Xã Quảng Chính",
+    "ward_code": "16489",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406421",
+    "name": "Trường Tiểu học Quảng Khê",
+    "ward_name": "Xã Quảng Chính",
+    "ward_code": "16489",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406441",
+    "name": "Trường Tiểu học Quảng Trường",
+    "ward_name": "Xã Quảng Chính",
+    "ward_code": "16489",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406434",
+    "name": "Trường Tiểu học Quảng Văn",
+    "ward_name": "Xã Quảng Ngọc",
+    "ward_code": "16498",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406437",
+    "name": "Trường Tiểu học Quảng Hợp",
+    "ward_name": "Xã Quảng Ngọc",
+    "ward_code": "16498",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406439",
+    "name": "Trường Tiểu học Quảng Phúc",
+    "ward_name": "Xã Quảng Ngọc",
+    "ward_code": "16498",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406440",
+    "name": "Trường Tiểu học Quảng Ngọc",
+    "ward_name": "Xã Quảng Ngọc",
+    "ward_code": "16498",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406413",
+    "name": "Tiểu học Quảng Hải",
+    "ward_name": "Xã Quảng Ninh",
+    "ward_code": "16540",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406414",
+    "name": "Trường Tiểu học Quảng Nhân",
+    "ward_name": "Xã Quảng Ninh",
+    "ward_code": "16540",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406424",
+    "name": "Trường Tiểu học Quảng Ninh",
+    "ward_name": "Xã Quảng Ninh",
+    "ward_code": "16540",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406432",
+    "name": "Trường Tiểu học Quảng Yên",
+    "ward_name": "Xã Quảng Yên",
+    "ward_code": "16480",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406433",
+    "name": "Trường Tiểu học Quảng Trạch",
+    "ward_name": "Xã Quảng Yên",
+    "ward_code": "16480",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406435",
+    "name": "Trường Tiểu học Quảng Long",
+    "ward_name": "Xã Quảng Yên",
+    "ward_code": "16480",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406436",
+    "name": "Trường Tiểu học Quảng Hòa",
+    "ward_name": "Xã Quảng Yên",
+    "ward_code": "16480",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394401",
+    "name": "Trường Tiểu Học Quý Lộc",
+    "ward_name": "Xã Quý Lộc",
+    "ward_code": "15412",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394403",
+    "name": "Trường Tiểu Học Yên Thọ",
+    "ward_name": "Xã Quý Lộc",
+    "ward_code": "15412",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394405",
+    "name": "Trường Tiểu Học Yên Lâm",
+    "ward_name": "Xã Quý Lộc",
+    "ward_code": "15412",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386412",
+    "name": "Trường Tiểu học Lương Nội",
+    "ward_name": "Xã Quý Lương",
+    "ward_code": "14953",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386416",
+    "name": "Trường Tiểu học Lương Ngoại",
+    "ward_name": "Xã Quý Lương",
+    "ward_code": "14953",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386419",
+    "name": "Trường Tiểu học Lương Trung",
+    "ward_name": "Xã Quý Lương",
+    "ward_code": "14953",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395409",
+    "name": "Trường Tiểu học Thọ Lâm",
+    "ward_name": "Xã Sao Vàng",
+    "ward_code": "15553",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395410",
+    "name": "Trường Tiểu học Sao Vàng",
+    "ward_name": "Xã Sao Vàng",
+    "ward_code": "15553",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395423",
+    "name": "Trường Tiểu học Xuân Sinh",
+    "ward_name": "Xã Sao Vàng",
+    "ward_code": "15553",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395427",
+    "name": "Trường Tiểu học Xuân Phú",
+    "ward_name": "Xã Sao Vàng",
+    "ward_code": "15553",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387408",
+    "name": "Trường Tiểu học Sơn Điện 1",
+    "ward_name": "Xã Sơn Điện",
+    "ward_code": "15022",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387413",
+    "name": "Trường Tiểu học Sơn Điện 2",
+    "ward_name": "Xã Sơn Điện",
+    "ward_code": "15022",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387409",
+    "name": "Trường Tiểu học Sơn Thủy",
+    "ward_name": "Xã Sơn Thủy",
+    "ward_code": "15010",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384403",
+    "name": "Trường Tiểu học Tam Chung",
+    "ward_name": "Xã Tam Chung",
+    "ward_code": "14848",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387405",
+    "name": "Trường Tiểu học Sơn Hà",
+    "ward_name": "Xã Tam Lư",
+    "ward_code": "15019",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387406",
+    "name": "Trường Tiểu học Tam Lư",
+    "ward_name": "Xã Tam Lư",
+    "ward_code": "15019",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387407",
+    "name": "Trường Tiểu học Tam Thanh",
+    "ward_name": "Xã Tam Thanh",
+    "ward_code": "15007",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397423",
+    "name": "Trường Tiểu học Vân Sơn",
+    "ward_name": "Xã Tân Ninh",
+    "ward_code": "15715",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397428",
+    "name": "Trường Tiểu học Tân Ninh",
+    "ward_name": "Xã Tân Ninh",
+    "ward_code": "15715",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397438",
+    "name": "Trường Tiểu học Thái Hòa",
+    "ward_name": "Xã Tân Ninh",
+    "ward_code": "15715",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396414",
+    "name": "Trường Tiểu Học Luận Khê 1",
+    "ward_name": "Xã Tân Thành",
+    "ward_code": "15661",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396426",
+    "name": "Trường Tiểu học Tân Thành 1",
+    "ward_name": "Xã Tân Thành",
+    "ward_code": "15661",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396427",
+    "name": "Trường Tiểu học Tân Thành 2",
+    "ward_name": "Xã Tân Thành",
+    "ward_code": "15661",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396429",
+    "name": "Trường Tiểu Học Luận Khê 2",
+    "ward_name": "Xã Tân Thành",
+    "ward_code": "15661",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401413",
+    "name": "Trường tiểu học Nga Tiến",
+    "ward_name": "Xã Tân Tiến",
+    "ward_code": "16108",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401415",
+    "name": "Trường tiểu học Nga Thái",
+    "ward_name": "Xã Tân Tiến",
+    "ward_code": "16108",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38401428",
+    "name": "Trường tiểu học Nga Tân",
+    "ward_name": "Xã Tân Tiến",
+    "ward_code": "16108",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393412",
+    "name": "Trường Tiểu học Vĩnh Yên",
+    "ward_name": "Xã Tây Đô",
+    "ward_code": "15361",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393414",
+    "name": "Trường tiểu học Vĩnh Long",
+    "ward_name": "Xã Tây Đô",
+    "ward_code": "15361",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393415",
+    "name": "Trường tiểu học Vĩnh Quang",
+    "ward_name": "Xã Tây Đô",
+    "ward_code": "15361",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393513",
+    "name": "Trường THamp;THCS Vĩnh Tiến",
+    "ward_name": "Xã Tây Đô",
+    "ward_code": "15361",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391407",
+    "name": "Trường Tiểu học Thạch Cẩm 1",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391408",
+    "name": "Trường Tiểu học Thạch Cẩm 2",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391409",
+    "name": "Tiểu học Thạch Sơn",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391410",
+    "name": "Tiểu học Thạch Bình",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391414",
+    "name": "Trường Tiểu học Thạch Đồng",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391416",
+    "name": "Tiểu học Thạch Long",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391530",
+    "name": "TH&THCS Thạch Tân",
+    "ward_name": "Xã Thạch Bình",
+    "ward_code": "15211",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389408",
+    "name": "Trường Tiểu Học Quang Trung",
+    "ward_name": "Xã Thạch Lập",
+    "ward_code": "15085",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389426",
+    "name": "Trường Tiểu học Thạch Lập 1",
+    "ward_name": "Xã Thạch Lập",
+    "ward_code": "15085",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389433",
+    "name": "Trường Tiểu học Thạch Lập 2",
+    "ward_name": "Xã Thạch Lập",
+    "ward_code": "15085",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38389522",
+    "name": "Trường TH&THCS Đồng Thịnh",
+    "ward_name": "Xã Thạch Lập",
+    "ward_code": "15085",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391401",
+    "name": "Trường Tiểu Học Thạch Lâm 1",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391402",
+    "name": "Trường Tiểu Học Thạch Lâm 2",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391403",
+    "name": "Trường Tiểu Học Thạch Tượng 1",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391404",
+    "name": "Tiểu học Thạch Tượng 2",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391405",
+    "name": "Trường Tiểu Học Thạch Quảng",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391406",
+    "name": "Tiểu học Thạch Quảng 2",
+    "ward_name": "Xã Thạch Quảng",
+    "ward_code": "15199",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404429",
+    "name": "Trường Tiểu học Thăng Bình",
+    "ward_name": "Xã Thăng Bình",
+    "ward_code": "16342",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404430",
+    "name": "Trường Tiểu học Thăng Thọ",
+    "ward_name": "Xã Thăng Bình",
+    "ward_code": "16342",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404431",
+    "name": "Trường Tiểu học Thăng Long 2",
+    "ward_name": "Xã Thăng Bình",
+    "ward_code": "16342",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404436",
+    "name": "Trường Tiểu học Thăng Long 1",
+    "ward_name": "Xã Thăng Bình",
+    "ward_code": "16342",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396401",
+    "name": "Trường Tiểu học Xuân Thắng",
+    "ward_name": "Xã Thắng Lộc",
+    "ward_code": "15643",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396421",
+    "name": "Trường Tiểu Học Xuân Lộc",
+    "ward_name": "Xã Thắng Lộc",
+    "ward_code": "15643",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404404",
+    "name": "Trường Tiểu học Trung Thành",
+    "ward_name": "Xã Thắng Lợi",
+    "ward_code": "16309",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404410",
+    "name": "Trường Tiểu học Tế Thắng",
+    "ward_name": "Xã Thắng Lợi",
+    "ward_code": "16309",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404411",
+    "name": "Trường Tiểu học Tế Lợi",
+    "ward_name": "Xã Thắng Lợi",
+    "ward_code": "16309",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404413",
+    "name": "Trường Tiểu học Tế Nông",
+    "ward_name": "Xã Thắng Lợi",
+    "ward_code": "16309",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403412",
+    "name": "Trường Tiểu học Thanh Kỳ",
+    "ward_name": "Xã Thanh Kỳ",
+    "ward_code": "16273",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403413",
+    "name": "Trường Tiểu học Thanh Tân 2",
+    "ward_name": "Xã Thanh Kỳ",
+    "ward_code": "16273",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403421",
+    "name": "Trường Tiểu học Thanh Tân 1",
+    "ward_name": "Xã Thanh Kỳ",
+    "ward_code": "16273",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402404",
+    "name": "Trường Tiểu Học Thanh Lâm",
+    "ward_name": "Xã Thanh Phong",
+    "ward_code": "16213",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402412",
+    "name": "Trường Tiểu Học Thanh Phong",
+    "ward_name": "Xã Thanh Phong",
+    "ward_code": "16213",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402517",
+    "name": "Trường THamp;THCS Thanh Hòa",
+    "ward_name": "Xã Thanh Phong",
+    "ward_code": "16213",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402405",
+    "name": "Trường Tiểu Học Thanh Sơn",
+    "ward_name": "Xã Thanh Quân",
+    "ward_code": "16222",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402411",
+    "name": "Trường Tiểu học Thanh Quân",
+    "ward_name": "Xã Thanh Quân",
+    "ward_code": "16222",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402413",
+    "name": "Trường Tiểu học Thanh xuân",
+    "ward_name": "Xã Thanh Quân",
+    "ward_code": "16222",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391418",
+    "name": "Trường Tiểu học Thành Yên",
+    "ward_name": "Xã Thành Vinh",
+    "ward_code": "15229",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391419",
+    "name": "Tiểu học Thành Mỹ",
+    "ward_name": "Xã Thành Vinh",
+    "ward_code": "15229",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391420",
+    "name": "Trường Tiểu học Thành Vinh",
+    "ward_name": "Xã Thành Vinh",
+    "ward_code": "15229",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391432",
+    "name": "Tiểu học Thành Minh 1",
+    "ward_name": "Xã Thành Vinh",
+    "ward_code": "15229",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391433",
+    "name": "Tiểu học Thành Minh 2",
+    "ward_name": "Xã Thành Vinh",
+    "ward_code": "15229",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385406",
+    "name": "Trường Tiểu học Thiên Phủ",
+    "ward_name": "Xã Thiên Phủ",
+    "ward_code": "14908",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385415",
+    "name": "Trường Tiểu học Nam Động",
+    "ward_name": "Xã Thiên Phủ",
+    "ward_code": "14908",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386409",
+    "name": "Trường Tiểu học Thiết Kế",
+    "ward_name": "Xã Thiết Ống",
+    "ward_code": "14980",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386424",
+    "name": "Trường Tiểu học Thiết Ống",
+    "ward_name": "Xã Thiết Ống",
+    "ward_code": "14980",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3800000002",
+    "name": "Trường Tiểu học, THCS&THPT Nobel School V",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398405",
+    "name": "Trường Tiểu học Thiệu Công",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398406",
+    "name": "Trường Tiểu học Thiệu Phú",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398407",
+    "name": "Trường Tiểu học Thiệu Phúc",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398408",
+    "name": "Trường Tiểu học Vạn Hà",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398409",
+    "name": "Trường Tiểu học Thiệu Nguyên",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398414",
+    "name": "Trường Tiểu học Thiệu Long",
+    "ward_name": "Xã Thiệu Hóa",
+    "ward_code": "15772",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398410",
+    "name": "Trường Tiểu học Thiệu Duy",
+    "ward_name": "Xã Thiệu Quang",
+    "ward_code": "15796",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398412",
+    "name": "Trường Tiểu học Thiệu Hợp",
+    "ward_name": "Xã Thiệu Quang",
+    "ward_code": "15796",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398413",
+    "name": "Trường Tiểu học Thiệu Quang",
+    "ward_name": "Xã Thiệu Quang",
+    "ward_code": "15796",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398415",
+    "name": "Trường Tiểu học Thiệu Giang",
+    "ward_name": "Xã Thiệu Quang",
+    "ward_code": "15796",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398728",
+    "name": "Trường TH&THCS Thiệu Thịnh",
+    "ward_name": "Xã Thiệu Quang",
+    "ward_code": "15796",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398401",
+    "name": "Trường Tiểu học Thiệu Ngọc",
+    "ward_name": "Xã Thiệu Tiến",
+    "ward_code": "15778",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398402",
+    "name": "Trường Tiểu học Thiệu Vũ",
+    "ward_name": "Xã Thiệu Tiến",
+    "ward_code": "15778",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398403",
+    "name": "Trường Tiểu học Thiệu Tiến",
+    "ward_name": "Xã Thiệu Tiến",
+    "ward_code": "15778",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398404",
+    "name": "Trường Tiểu học Thiệu Thành",
+    "ward_name": "Xã Thiệu Tiến",
+    "ward_code": "15778",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398416",
+    "name": "Trường Tiểu học Thiệu Toán",
+    "ward_name": "Xã Thiệu Toán",
+    "ward_code": "15820",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398417",
+    "name": "Trường Tiểu học Thiệu Chính",
+    "ward_name": "Xã Thiệu Toán",
+    "ward_code": "15820",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398418",
+    "name": "Trường Tiểu học Thiệu Hòa",
+    "ward_name": "Xã Thiệu Toán",
+    "ward_code": "15820",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398420",
+    "name": "Trường Tiểu học Thiệu Tâm",
+    "ward_name": "Xã Thiệu Toán",
+    "ward_code": "15820",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398519",
+    "name": "Trường THamp;THCS Thiệu Minh",
+    "ward_name": "Xã Thiệu Toán",
+    "ward_code": "15820",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398421",
+    "name": "Trường Tiểu học Thiệu Lý",
+    "ward_name": "Xã Thiệu Trung",
+    "ward_code": "15835",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398422",
+    "name": "Trường Tiểu học Thiệu Viên",
+    "ward_name": "Xã Thiệu Trung",
+    "ward_code": "15835",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398424",
+    "name": "Trường Tiểu học Thiệu Trung",
+    "ward_name": "Xã Thiệu Trung",
+    "ward_code": "15835",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398425",
+    "name": "Trường Tiểu học Thiệu Đô",
+    "ward_name": "Xã Thiệu Trung",
+    "ward_code": "15835",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38398523",
+    "name": "Trường TH&THCS Thiệu Vận",
+    "ward_name": "Xã Thiệu Trung",
+    "ward_code": "15835",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397434",
+    "name": "Trường Tiểu học Thọ Sơn",
+    "ward_name": "Xã Thọ Bình",
+    "ward_code": "15667",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397439",
+    "name": "Trường Tiểu học Thọ Bình",
+    "ward_name": "Xã Thọ Bình",
+    "ward_code": "15667",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397537",
+    "name": "Trường TH&THCS Bình Sơn",
+    "ward_name": "Xã Thọ Bình",
+    "ward_code": "15667",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395419",
+    "name": "Trường Tiểu học Xuân Thiên",
+    "ward_name": "Xã Thọ Lập",
+    "ward_code": "15568",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395426",
+    "name": "Trường Tiểu Học Thuận Minh",
+    "ward_name": "Xã Thọ Lập",
+    "ward_code": "15568",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395430",
+    "name": "Trường Tiểu học Thọ Lập",
+    "ward_name": "Xã Thọ Lập",
+    "ward_code": "15568",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395405",
+    "name": "Trường Tiểu học Xuân Phong",
+    "ward_name": "Xã Thọ Long",
+    "ward_code": "15505",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395406",
+    "name": "Trường Tiểu học Bắc Lương",
+    "ward_name": "Xã Thọ Long",
+    "ward_code": "15505",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395417",
+    "name": "Trường Tiểu học Nam Giang",
+    "ward_name": "Xã Thọ Long",
+    "ward_code": "15505",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395420",
+    "name": "Trường Tiểu học Tây Hồ",
+    "ward_name": "Xã Thọ Long",
+    "ward_code": "15505",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395432",
+    "name": "Trường Tiểu học Thọ Lộc",
+    "ward_name": "Xã Thọ Long",
+    "ward_code": "15505",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397405",
+    "name": "Trường Tiểu học Thọ Cường",
+    "ward_name": "Xã Thọ Ngọc",
+    "ward_code": "15754",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397410",
+    "name": "Trường Tiểu học Thọ Tiến",
+    "ward_name": "Xã Thọ Ngọc",
+    "ward_code": "15754",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397413",
+    "name": "Trường Tiểu học Xuân Thọ",
+    "ward_name": "Xã Thọ Ngọc",
+    "ward_code": "15754",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397429",
+    "name": "Trường Tiểu học Thọ Ngọc",
+    "ward_name": "Xã Thọ Ngọc",
+    "ward_code": "15754",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397406",
+    "name": "Trường Tiểu học Thọ Tân",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397415",
+    "name": "Trường Tiểu học Thọ Vực",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397418",
+    "name": "Trường Tiểu học Thọ Dân",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397424",
+    "name": "Trường Tiểu học Thọ Thế",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397514",
+    "name": "Trường TH&THCS Thọ Phú",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397518",
+    "name": "Trường TH&THCS Xuân Lộc",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397534",
+    "name": "Trường TH và THCS Xuân Thịnh",
+    "ward_name": "Xã Thọ Phú",
+    "ward_code": "15763",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395401",
+    "name": "Trường Tiểu học Xuân Trường",
+    "ward_name": "Xã Thọ Xuân",
+    "ward_code": "15499",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395408",
+    "name": "Trường Tiểu học Thọ Xuân",
+    "ward_name": "Xã Thọ Xuân",
+    "ward_code": "15499",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395414",
+    "name": "Trường Tiểu học Xuân Hồng",
+    "ward_name": "Xã Thọ Xuân",
+    "ward_code": "15499",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395438",
+    "name": "Trường Tiểu học Xuân Giang",
+    "ward_name": "Xã Thọ Xuân",
+    "ward_code": "15499",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402409",
+    "name": "Tiểu học Thượng Ninh",
+    "ward_name": "Xã Thượng Ninh",
+    "ward_code": "16225",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402414",
+    "name": "Trường Tiểu học Cát Tân",
+    "ward_name": "Xã Thượng Ninh",
+    "ward_code": "16225",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402504",
+    "name": "Trường THamp;THCS Cát Vân",
+    "ward_name": "Xã Thượng Ninh",
+    "ward_code": "16225",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396403",
+    "name": "Trường Tiểu Học Xuân Cẩm",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396409",
+    "name": "Trường Tiểu Học Xuân Dương",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396410",
+    "name": "Trường Tiểu học Thường Xuân",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396411",
+    "name": "Trường Tiểu học Thọ Thanh",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396420",
+    "name": "Trường Tiểu Học Ngọc Phụng 2",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396425",
+    "name": "Trường Tiểu Học Ngọc Phụng 1",
+    "ward_name": "Xã Thường Xuân",
+    "ward_code": "15646",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406415",
+    "name": "Trường Tiểu học Tiên Trang",
+    "ward_name": "Xã Tiên Trang",
+    "ward_code": "16549",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406417",
+    "name": "Trường Tiểu học Quảng Nham 1",
+    "ward_name": "Xã Tiên Trang",
+    "ward_code": "16549",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406418",
+    "name": "Trường Tiểu học Quảng Thạch",
+    "ward_name": "Xã Tiên Trang",
+    "ward_code": "16549",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38406443",
+    "name": "Trường Tiểu học Quảng Nham 2",
+    "ward_name": "Xã Tiên Trang",
+    "ward_code": "16549",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392404",
+    "name": "Trường tiểu hoc Hà Tân",
+    "ward_name": "Xã Tống Sơn",
+    "ward_code": "15316",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392425",
+    "name": "Trường tiểu học Hà Sơn",
+    "ward_name": "Xã Tống Sơn",
+    "ward_code": "15316",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392426",
+    "name": "Trường tiểu học Hà Lĩnh",
+    "ward_name": "Xã Tống Sơn",
+    "ward_code": "15316",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38392428",
+    "name": "Trường Tiểu học Hà Tiến",
+    "ward_name": "Xã Tống Sơn",
+    "ward_code": "15316",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400401",
+    "name": "Trường Tiểu học Đại Lộc",
+    "ward_name": "Xã Triệu Lộc",
+    "ward_code": "16021",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400405",
+    "name": "Trường Tiểu học Triệu Lộc",
+    "ward_name": "Xã Triệu Lộc",
+    "ward_code": "16021",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400406",
+    "name": "Trường Tiểu học Tiến Lộc",
+    "ward_name": "Xã Triệu Lộc",
+    "ward_code": "16021",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400428",
+    "name": "Trường Tiểu học Châu Lộc",
+    "ward_name": "Xã Triệu Lộc",
+    "ward_code": "16021",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38000854",
+    "name": "Trường Phổ thông Triệu Sơn",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397404",
+    "name": "Trường Tiểu học Nguyễn Bá Ngọc",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397407",
+    "name": "Trường Tiểu học Lê Văn Tám",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397409",
+    "name": "Trường Tiểu học Dân Lực",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397412",
+    "name": "Trường Tiểu học Dân Quyền",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397416",
+    "name": "Trường Tiểu học Kim Đồng",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397426",
+    "name": "Trường Tiểu học Dân Lý",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38397503",
+    "name": "Trường TH và THCS Minh Sơn",
+    "ward_name": "Xã Triệu Sơn",
+    "ward_code": "15664",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404401",
+    "name": "Trường Tiểu học Tân Thọ",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404402",
+    "name": "Trường Tiểu học Tân Khang",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404403",
+    "name": "Trường Tiểu học Tân Phúc",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404406",
+    "name": "Trường Tiểu học Trung Chính",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404408",
+    "name": "Trường Tiểu học Hoàng Giang",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404409",
+    "name": "Trường Tiểu học Hoàng Sơn",
+    "ward_name": "Xã Trung Chính",
+    "ward_code": "16297",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387402",
+    "name": "Trường Tiểu học Trung Hạ",
+    "ward_name": "Xã Trung Hạ",
+    "ward_code": "15001",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387403",
+    "name": "Trường Tiểu học Trung Tiến",
+    "ward_name": "Xã Trung Hạ",
+    "ward_code": "15001",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38387501",
+    "name": "Trường TH amp; THCS Trung Xuân",
+    "ward_name": "Xã Trung Hạ",
+    "ward_code": "15001",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384401",
+    "name": "Trường Tiểu học Trung Lý 1",
+    "ward_name": "Xã Trung Lý",
+    "ward_code": "14857",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38384409",
+    "name": "Trường Tiểu học Trung Lý 2",
+    "ward_name": "Xã Trung Lý",
+    "ward_code": "14857",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385412",
+    "name": "Trường Tiểu học Trung Sơn",
+    "ward_name": "Xã Trung Sơn",
+    "ward_code": "14875",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385402",
+    "name": "Trường Tiểu học Thành Sơn",
+    "ward_name": "Xã Trung Thành",
+    "ward_code": "14872",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38385408",
+    "name": "Trường Tiểu học Trung Thành",
+    "ward_name": "Xã Trung Thành",
+    "ward_code": "14872",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407415",
+    "name": "Trường Tiểu học Trường Lâm",
+    "ward_name": "Xã Trường Lâm",
+    "ward_code": "16636",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38407428",
+    "name": "Trường Tiểu học Tân Trường",
+    "ward_name": "Xã Trường Lâm",
+    "ward_code": "16636",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404420",
+    "name": "Trường Tiểu học Trường Minh",
+    "ward_name": "Xã Trường Văn",
+    "ward_code": "16348",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404421",
+    "name": "Trường Tiểu học Trường Trung",
+    "ward_name": "Xã Trường Văn",
+    "ward_code": "16348",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404422",
+    "name": "Trường Tiểu học Trường Giang 1",
+    "ward_name": "Xã Trường Văn",
+    "ward_code": "16348",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404423",
+    "name": "Trường Tiểu học Trường Giang 2",
+    "ward_name": "Xã Trường Văn",
+    "ward_code": "16348",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404424",
+    "name": "Trường Tiểu học Trường Sơn",
+    "ward_name": "Xã Trường Văn",
+    "ward_code": "16348",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404425",
+    "name": "Trường Tiểu học Tượng Văn",
+    "ward_name": "Xã Tượng Lĩnh",
+    "ward_code": "16363",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404426",
+    "name": "Trường Tiểu học Tượng Lĩnh",
+    "ward_name": "Xã Tượng Lĩnh",
+    "ward_code": "16363",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38404427",
+    "name": "Trường Tiểu học Tượng Sơn",
+    "ward_name": "Xã Tượng Lĩnh",
+    "ward_code": "16363",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391434",
+    "name": "Tiểu học Thành Công",
+    "ward_name": "Xã Vân Du",
+    "ward_code": "15190",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391435",
+    "name": "Trường Tiểu Học Thành Tân",
+    "ward_name": "Xã Vân Du",
+    "ward_code": "15190",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391437",
+    "name": "Tiểu học Thành Vân",
+    "ward_name": "Xã Vân Du",
+    "ward_code": "15190",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38391438",
+    "name": "Tiểu học Vân Du",
+    "ward_name": "Xã Vân Du",
+    "ward_code": "15190",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400402",
+    "name": "Trường Tiểu học Đa Lộc",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400411",
+    "name": "Trường Tiểu học Ngư Lộc 2",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400413",
+    "name": "Trường Tiểu học Hải Lộc",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400414",
+    "name": "Trường Tiểu học Hưng Lộc 1",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400416",
+    "name": "Trường Tiểu học Ngư Lộc 1",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400427",
+    "name": "Trường Tiểu học Minh Lộc 1",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400432",
+    "name": "Trường Tiểu học Minh Lộc 2",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38400433",
+    "name": "Trường Tiểu học Hưng Lộc 2",
+    "ward_name": "Xã Vạn Lộc",
+    "ward_code": "16078",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386403",
+    "name": "Trường Tiểu học Văn Nho",
+    "ward_name": "Xã Văn Nho",
+    "ward_code": "14974",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38386408",
+    "name": "Trường Tiểu học Kỳ Tân",
+    "ward_name": "Xã Văn Nho",
+    "ward_code": "14974",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388402",
+    "name": "Trường Tiểu Học Lâm Phú",
+    "ward_name": "Xã Văn Phú",
+    "ward_code": "15049",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388504",
+    "name": "Trường TH&THCS Tam Văn",
+    "ward_name": "Xã Văn Phú",
+    "ward_code": "15049",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396417",
+    "name": "Trường Tiểu Học Vạn Xuân",
+    "ward_name": "Xã Vạn Xuân",
+    "ward_code": "15622",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393406",
+    "name": "Trường tiểu học Vĩnh Hòa",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393408",
+    "name": "Trường Tiểu học Vĩnh Ninh",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393409",
+    "name": "Trường tiểu học Vĩnh Thành",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393410",
+    "name": "Trường tiểu học Vĩnh Phúc",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393411",
+    "name": "Trường tiểu học Vĩnh Hưng",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393417",
+    "name": "Trường Tiểu học Vĩnh Lộc",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38393507",
+    "name": "Trường TH&THCS Vĩnh Khang",
+    "ward_name": "Xã Vĩnh Lộc",
+    "ward_code": "15349",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402401",
+    "name": "Trường Tiểu Học Xuân Bình",
+    "ward_name": "Xã Xuân Bình",
+    "ward_code": "16177",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402402",
+    "name": "Trường Tiểu Học Bãi Trành",
+    "ward_name": "Xã Xuân Bình",
+    "ward_code": "16177",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38402419",
+    "name": "Trường Tiểu Học Xuân Hòa",
+    "ward_name": "Xã Xuân Bình",
+    "ward_code": "16177",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396415",
+    "name": "Trường Tiểu Học Xuân Chinh",
+    "ward_name": "Xã Xuân Chinh",
+    "ward_code": "15658",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396422",
+    "name": "Trường Tiểu học Xuân Lẹ",
+    "ward_name": "Xã Xuân Chinh",
+    "ward_code": "15658",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403408",
+    "name": "Trường Tiểu học Xuân Du",
+    "ward_name": "Xã Xuân Du",
+    "ward_code": "16234",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403409",
+    "name": "Trường Tiểu học Cán Khê",
+    "ward_name": "Xã Xuân Du",
+    "ward_code": "16234",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403417",
+    "name": "Trường Tiểu học Phượng Nghi",
+    "ward_name": "Xã Xuân Du",
+    "ward_code": "16234",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395404",
+    "name": "Trường Tiểu học Xuân Hòa",
+    "ward_name": "Xã Xuân Hòa",
+    "ward_code": "15520",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395413",
+    "name": "Trường Tiểu học Thọ Hải",
+    "ward_name": "Xã Xuân Hòa",
+    "ward_code": "15520",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395421",
+    "name": "Trường Tiểu học Xuân Hưng",
+    "ward_name": "Xã Xuân Hòa",
+    "ward_code": "15520",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395431",
+    "name": "Trường Tiểu học Thọ Diên",
+    "ward_name": "Xã Xuân Hòa",
+    "ward_code": "15520",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395415",
+    "name": "Trường Tiểu học Xuân Lai",
+    "ward_name": "Xã Xuân Lập",
+    "ward_code": "15592",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395424",
+    "name": "Trường Tiểu học Xuân Lập",
+    "ward_name": "Xã Xuân Lập",
+    "ward_code": "15592",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395435",
+    "name": "Trường TH Trường Xuân",
+    "ward_name": "Xã Xuân Lập",
+    "ward_code": "15592",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395436",
+    "name": "Trường Tiểu học Xuân Minh",
+    "ward_name": "Xã Xuân Lập",
+    "ward_code": "15592",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403414",
+    "name": "Trường Tiểu học Xuân Thái",
+    "ward_name": "Xã Xuân Thái",
+    "ward_code": "16258",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395425",
+    "name": "Trường Tiểu học Xuân Tín",
+    "ward_name": "Xã Xuân Tín",
+    "ward_code": "15574",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395428",
+    "name": "Trường Tiểu học Quảng Phú",
+    "ward_name": "Xã Xuân Tín",
+    "ward_code": "15574",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38395439",
+    "name": "Trường Tiểu học Phú Xuân",
+    "ward_name": "Xã Xuân Tín",
+    "ward_code": "15574",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "3839403001",
+    "name": "Trường TH,THCS&THPT Nobel School VIII",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394417",
+    "name": "Trường Tiểu Học Định Tăng",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394418",
+    "name": "Trường Tiểu Học Định Tường",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394419",
+    "name": "Trường Tiểu Học Định Long",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394420",
+    "name": "Trường Tiểu Học Định Liên",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394429",
+    "name": "Trường Tiểu Học Quán Lào",
+    "ward_name": "Xã Yên Định",
+    "ward_code": "15469",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388406",
+    "name": "Trường Tiểu Học Yên Khương",
+    "ward_name": "Xã Yên Khương",
+    "ward_code": "15031",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396404",
+    "name": "Trường Tiểu Học Yên Nhân 1",
+    "ward_name": "Xã Yên Nhân",
+    "ward_code": "15610",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38396416",
+    "name": "Trường Tiểu học Yên Nhân 2",
+    "ward_name": "Xã Yên Nhân",
+    "ward_code": "15610",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394413",
+    "name": "Trường Tiểu Học Yên Hùng",
+    "ward_name": "Xã Yên Ninh",
+    "ward_code": "15442",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394414",
+    "name": "Trường Tiểu Học Yên Thịnh",
+    "ward_name": "Xã Yên Ninh",
+    "ward_code": "15442",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394416",
+    "name": "Trường Tiểu Học Yên Lạc",
+    "ward_name": "Xã Yên Ninh",
+    "ward_code": "15442",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394515",
+    "name": "Trường TH&THCS Yên Ninh",
+    "ward_name": "Xã Yên Ninh",
+    "ward_code": "15442",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394406",
+    "name": "Trường Tiểu Học Yên Tâm",
+    "ward_name": "Xã Yên Phú",
+    "ward_code": "15409",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394412",
+    "name": "Trường Tiểu học Thị trấn Thống Nhất",
+    "ward_name": "Xã Yên Phú",
+    "ward_code": "15409",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394504",
+    "name": "Trường Tiểu Học Yên Phú",
+    "ward_name": "Xã Yên Phú",
+    "ward_code": "15409",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38388405",
+    "name": "Trường Tiểu Học Yên Thắng",
+    "ward_name": "Xã Yên Thắng",
+    "ward_code": "15034",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403401",
+    "name": "Trường Tiểu Học Yên Thọ 1",
+    "ward_name": "Xã Yên Thọ",
+    "ward_code": "16264",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403404",
+    "name": "Trường Tiểu học Yên Thọ 2",
+    "ward_name": "Xã Yên Thọ",
+    "ward_code": "16264",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403415",
+    "name": "Trường Tiểu học Xuân Phúc",
+    "ward_name": "Xã Yên Thọ",
+    "ward_code": "16264",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38403418",
+    "name": "Trường Tiểu học Yên Lạc",
+    "ward_name": "Xã Yên Thọ",
+    "ward_code": "16264",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394402",
+    "name": "Trường Tiểu học Yên Trung",
+    "ward_name": "Xã Yên Trường",
+    "ward_code": "15421",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394408",
+    "name": "Trường Tiểu học Yên Phong",
+    "ward_name": "Xã Yên Trường",
+    "ward_code": "15421",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394409",
+    "name": "Trường Tiểu Học Yên Thái",
+    "ward_name": "Xã Yên Trường",
+    "ward_code": "15421",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  },
+  {
+    "external_id": "38394411",
+    "name": "Trường Tiểu học Yên Trường",
+    "ward_name": "Xã Yên Trường",
+    "ward_code": "15421",
+    "level": "tieu_hoc",
+    "sheet": "Tiểu học (chị Ngọc Anh)"
+  }
+]

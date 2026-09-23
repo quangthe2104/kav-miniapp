@@ -1,0 +1,14 @@
+---
+description: Documentation and progress tracking conventions
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Docs conventions
+
+- Product decisions → `khan-parent-consent-zalo-plan.md` (+ lịch sử thay đổi)
+- Architecture / ADR → `02-technical-architecture.md`
+- Phase 1 tasks → `01-phase1-detail.md`
+- Living board → `03-phase-progress.md` (Status: todo|doing|blocked|done)
+- Do not delete phase history; append nhật ký
+- When scope changes, update overview + progress blockers
