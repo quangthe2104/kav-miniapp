@@ -153,7 +153,7 @@ Sau pilot Live ──► Phase 2 (hardening 2027)
 | Done | ID | Task | Status | Owner hint |
 |------|----|------|--------|------------|
 | [x] | P1-W6-01 | Deploy production HTTPS | done | cPanel Git deploy (`.cpanel.yml`); UAT `ZALO_DEV_LOGIN=true` |
-| [~] | P1-W6-02 | Mini App submit duyệt / testing | doing | `npm run build:zalo` + `zmp deploy` (Testing); chờ QR test → nộp duyệt |
+| [~] | P1-W6-02 | Mini App submit duyệt / testing | doing | Testing **v1** đã deploy từ hosting (`scripts/zalo-deploy.sh`); UAT link vote = Mini App `env=TESTING&version=1`; chờ test thật → nộp duyệt |
 | [ ] | P1-W6-03 | Chạy pilot (1 Form active) | todo | KAV |
 | [ ] | P1-W6-04 | Hotfix từ feedback | todo | developer |
 | [~] | P1-W6-05 | Báo cáo go/no-go Phase 4 vs 2 | superseded | → go/no-go **Phase 2** hardening |
@@ -301,3 +301,4 @@ Chi tiết roster (nếu kick-off): [khan-parent-consent-zalo-plan.md](./khan-pa
 | 2026-08-14 | **Lùi chuẩn bị trước mốc 1 năm:** mốc năm = lúc ĐẠT TỚI; Phase 2 xong hết 2026, Phase 3 xong hết 2027, Phase 4 xong hết 2028. |
 | 2026-09-30 | Deploy UAT `https://miniapp.kav.edu.vn` (cPanel, AutoSSL); redirect `/backend/public/*` → URL chuẩn. |
 | 2026-09-30 | **Mini App thật:** `zmp-sdk` (getAccessToken, nativeStorage, share, downloadFile) qua `@platform` web/zalo; `npm run build:zalo` → `dist-zalo` + `app-config.json`; backend `appsecret_proof`; `ZALO_VOTE_LINK=miniapp` → `zalo.me/s/{id}/vote/{token}`; CORS `h5.zdn.vn`. |
+| 2026-09-30 | Build + `zmp deploy` chạy trên hosting cPanel (`scripts/zalo-deploy.sh`) → Mini App **Testing v1**; server `ZALO_VOTE_LINK=miniapp`, `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=1`. |
