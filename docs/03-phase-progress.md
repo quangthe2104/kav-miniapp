@@ -31,14 +31,14 @@
 
 | Phase | Tên | Chuẩn bị xong | Đạt tới | Status | % | Tick |
 |-------|-----|---------------|---------|--------|---|------|
-| 0 | OA / Live / HTTPS | 2026 | — | doing | 30% | [ ] |
+| 0 | OA / Live / HTTPS | 2026 | — | doing | 45% | [ ] |
 | 1 | MVP Pilot | 2026 | — | doing | 90% | [~] code xong; UAT/Live còn |
 | 2 | Hardening + rollout | **hết 2026** | ~25K lớp / ~1,25M PH (2027) | todo | 0% | [ ] |
 | 3 | Scale mid | **hết 2027** | ~200K lớp / ~10M PH (2028) | todo | 0% | [ ] |
 | 4 | Full capacity | **hết 2028** | ~20M PH (2029) | todo | 0% | [ ] |
 
 ```text
-Bạn đang ở đây ──► Phase 0 (~30%) + Phase 1 (~90% code)
+Bạn đang ở đây ──► Phase 0 (~45%) + Phase 1 (~90% code, UAT production + Mini App Testing)
 Sau pilot Live ──► Phase 2 (hardening 2027)
 ```
 
@@ -65,14 +65,14 @@ Sau pilot Live ──► Phase 2 (hardening 2027)
 | Done | ID | Task | Status | Owner hint |
 |------|----|------|--------|------------|
 | [ ] | P0-01 | Tạo Zalo OA doanh nghiệp KAV + xác thực ĐKKD | todo | KAV |
-| [ ] | P0-02 | Tạo Mini App trên Developers, gắn OA | todo | KAV + Dev |
+| [~] | P0-02 | Tạo Mini App trên Developers, gắn OA | doing | Mini App ID `2203119465038830853` đã có; chờ OA |
 | [ ] | P0-03 | Cấu hình quyền Mini App (user / SĐT nếu có) | todo | Dev |
-| [ ] | P0-04 | Domain HTTPS cho API/web | todo | Dev / IT |
+| [x] | P0-04 | Domain HTTPS cho API/web | done | `https://miniapp.kav.edu.vn` (cPanel + Let's Encrypt, Cloudflare) |
 | [x] | P0-05 | Chọn tỉnh pilot + file CSV trường | done | Thanh Hóa + Excel CSGD đã seed |
 | [x] | P0-06 | Mẫu PDF phiếu giấy Form (checkbox cố định) | done | Admin upload PDF trên Form; GV tải PDF |
 | [ ] | P0-07 | Quyết định gói OA (Cơ bản MVP) | todo | KAV |
 
-**% Phase 0:** 30% (2/7)
+**% Phase 0:** 45% (3/7 + P0-02 dở)
 
 ---
 
@@ -152,13 +152,13 @@ Sau pilot Live ──► Phase 2 (hardening 2027)
 
 | Done | ID | Task | Status | Owner hint |
 |------|----|------|--------|------------|
-| [ ] | P1-W6-01 | Deploy production HTTPS | todo | developer / IT |
-| [ ] | P1-W6-02 | Mini App submit duyệt / testing | todo | KAV + Dev |
+| [x] | P1-W6-01 | Deploy production HTTPS | done | cPanel Git deploy (`.cpanel.yml`); UAT `ZALO_DEV_LOGIN=true` |
+| [~] | P1-W6-02 | Mini App submit duyệt / testing | doing | `npm run build:zalo` + `zmp deploy` (Testing); chờ QR test → nộp duyệt |
 | [ ] | P1-W6-03 | Chạy pilot (1 Form active) | todo | KAV |
 | [ ] | P1-W6-04 | Hotfix từ feedback | todo | developer |
 | [~] | P1-W6-05 | Báo cáo go/no-go Phase 4 vs 2 | superseded | → go/no-go **Phase 2** hardening |
 
-**% W6:** 0%
+**% W6:** 30%
 
 **% Phase 1 tổng:** ~90% (code); còn UAT + Live + pilot
 
@@ -299,3 +299,5 @@ Chi tiết roster (nếu kick-off): [khan-parent-consent-zalo-plan.md](./khan-pa
 | 2026-08-14 | Fix Mini App API base `miniapp.kav`; cascade reopen Form; docs as-built; xóa sprint tạm 07/08. Phase 1 ~90%. |
 | 2026-08-14 | **Roadmap mới:** Phase 2 = hardening → 25K lớp (hết 2027); Phase 3 = 200K lớp / ~10M PH (hết 2028); Phase 4 = ~20M PH (2029). Bỏ Sở–Phòng. Roster → backlog. 1 Form active / thời điểm. Progress board thêm cột checkbox. |
 | 2026-08-14 | **Lùi chuẩn bị trước mốc 1 năm:** mốc năm = lúc ĐẠT TỚI; Phase 2 xong hết 2026, Phase 3 xong hết 2027, Phase 4 xong hết 2028. |
+| 2026-09-30 | Deploy UAT `https://miniapp.kav.edu.vn` (cPanel, AutoSSL); redirect `/backend/public/*` → URL chuẩn. |
+| 2026-09-30 | **Mini App thật:** `zmp-sdk` (getAccessToken, nativeStorage, share, downloadFile) qua `@platform` web/zalo; `npm run build:zalo` → `dist-zalo` + `app-config.json`; backend `appsecret_proof`; `ZALO_VOTE_LINK=miniapp` → `zalo.me/s/{id}/vote/{token}`; CORS `h5.zdn.vn`. |

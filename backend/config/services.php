@@ -42,6 +42,10 @@ return [
         'miniapp_id' => env('ZALO_MINIAPP_ID'),
         'dev_login' => (bool) env('ZALO_DEV_LOGIN', false),
         'oauth_redirect_uri' => env('ZALO_WEB_REDIRECT_URI', env('APP_URL').'/teacher/zalo/callback'),
+        // web = {APP_URL}/miniapp/vote/{token}; miniapp = https://zalo.me/s/{ZALO_MINIAPP_ID}/vote/{token}
+        'vote_link' => env('ZALO_VOTE_LINK', 'web'),
+        // Only while testing unpublished versions, e.g. "env=TESTING&version=3"; empty = Live.
+        'miniapp_link_query' => env('ZALO_MINIAPP_LINK_QUERY', ''),
     ],
 
 ];

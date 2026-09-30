@@ -87,8 +87,16 @@ class ZaloAuthService
             ];
         }
 
-        $response = Http::get('https://graph.zalo.me/v2.0/me', [
+        $secret = (string) config('services.zalo.app_secret');
+        if ($secret === '') {
+            throw new RuntimeException('Chưa cấu hình ZALO_APP_SECRET.');
+        }
+
+        // Zalo requires appsecret_proof (HMAC-SHA256 of the token) since 2024-01-01.
+        $response = Http::withHeaders([
             'access_token' => $accessToken,
+            'appsecret_proof' => hash_hmac('sha256', $accessToken, $secret),
+        ])->get('https://graph.zalo.me/v2.0/me', [
             'fields' => 'id,name,picture',
         ]);
 
@@ -97,6 +105,9 @@ class ZaloAuthService
         }
 
         $data = $response->json();
+        if (! empty($data['error'])) {
+            throw new RuntimeException('Zalo từ chối access token ('.$data['error'].': '.($data['message'] ?? 'unknown').').');
+        }
         $id = (string) ($data['id'] ?? '');
         if ($id === '') {
             throw new RuntimeException('Zalo profile thiếu id.');

@@ -2,32 +2,16 @@
  * Share vote link into Zalo (group / chat).
  * Inside Mini App: native share sheet. On web: zalo.me/share.
  */
+import { platform } from '@platform'
+
 export async function shareVoteToZalo(url: string): Promise<void> {
   const link = url.trim()
   if (!link) throw new Error('Chưa có link phiếu.')
 
-  const w = window as Window & {
-    zmp?: {
-      openShareSheet?: (opts: {
-        type: string
-        data: Record<string, unknown>
-        success?: () => void
-        fail?: (err: unknown) => void
-      }) => void
-    }
-  }
-
-  if (typeof w.zmp?.openShareSheet === 'function') {
-    await new Promise<void>((resolve, reject) => {
-      w.zmp!.openShareSheet!({
-        type: 'link',
-        data: { link, chatOnly: false },
-        success: () => resolve(),
-        fail: (err) =>
-          reject(err instanceof Error ? err : new Error('Không chia sẻ được trên Zalo.')),
-      })
-    })
-    return
+  try {
+    if (await platform.shareLink(link)) return
+  } catch (err) {
+    throw err instanceof Error ? err : new Error('Không chia sẻ được trên Zalo.')
   }
 
   const share = `https://zalo.me/share?u=${encodeURIComponent(link)}`

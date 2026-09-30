@@ -9,9 +9,11 @@ import {
 import { Shell } from '../components/Shell'
 import {
   ApiError,
+  ZALO_SESSION_ERROR,
   extractInviteToken,
   getToken,
   getVote,
+  isZaloApp,
   mockParentLogin,
   optionLabel,
   postVote,
@@ -194,6 +196,9 @@ export function ParentVotePage() {
       await registerAsParent(accessToken)
       setAuthed(true)
       return
+    }
+    if (isZaloApp && !forceDevLogin) {
+      throw new ApiError(401, ZALO_SESSION_ERROR)
     }
     if (forceDevLogin || showTestLogin) {
       await mockParentLogin(zaloId)

@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-zalo
+www
 *.local
 .env
 .env.*.local

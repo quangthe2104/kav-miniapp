@@ -1,6 +1,10 @@
+import { platform } from '@platform'
+
 const TOKEN_KEY = 'kav_sanctum_token'
 
-/** Same-origin when Mini App is served under Laravel `/miniapp/`; override via VITE_API_BASE_URL. */
+export const isZaloApp = platform.isZalo
+
+/** Same-origin when Mini App is served under Laravel `/miniapp/`; Zalo build must set VITE_API_BASE_URL. */
 export const API_BASE = (() => {
   const fromEnv = String(import.meta.env.VITE_API_BASE_URL || '')
     .trim()
@@ -25,12 +29,12 @@ export class ApiError extends Error {
 }
 
 export function getToken(): string | null {
-  return localStorage.getItem(TOKEN_KEY)
+  return platform.storage.get(TOKEN_KEY)
 }
 
 export function setToken(token: string | null): void {
-  if (token) localStorage.setItem(TOKEN_KEY, token)
-  else localStorage.removeItem(TOKEN_KEY)
+  if (token) platform.storage.set(TOKEN_KEY, token)
+  else platform.storage.remove(TOKEN_KEY)
 }
 
 function validationMessage(body: unknown): string | null {
@@ -177,28 +181,13 @@ async function exchangeDevAuth(
   }
 }
 
-/**
- * Try Zalo Mini App SDK getAccessToken when running inside Zalo.
- * Returns null when SDK is unavailable (browser / WAMP).
- * Uses runtime globals only — zmp-sdk is not a build dependency.
- */
-export async function tryZaloAccessToken(): Promise<string | null> {
-  const w = window as Window & {
-    zmp?: { getAccessToken?: () => Promise<string> }
-    ZaloSocialSDK?: { getAccessToken?: () => Promise<string> }
-  }
-  const getters = [w.zmp?.getAccessToken, w.ZaloSocialSDK?.getAccessToken]
-  for (const getAccessToken of getters) {
-    if (typeof getAccessToken !== 'function') continue
-    try {
-      const token = await getAccessToken()
-      if (token?.trim()) return token.trim()
-    } catch {
-      /* try next */
-    }
-  }
-  return null
+/** Zalo access token inside the Mini App build; null on the web build. */
+export function tryZaloAccessToken(): Promise<string | null> {
+  return platform.getAccessToken()
 }
+
+export const ZALO_SESSION_ERROR =
+  'Không lấy được phiên đăng nhập Zalo. Đóng Mini App rồi mở lại để thử lại.'
 
 export type ClassProfile = {
   id: number
@@ -613,11 +602,13 @@ async function authBlobResponse(path: string): Promise<Response> {
 async function downloadAuthBlob(path: string, filename: string) {
   const res = await authBlobResponse(path)
   const blob = await res.blob()
-  const fromHeader = filenameFromContentDisposition(res.headers.get('Content-Disposition'))
+  const name =
+    filenameFromContentDisposition(res.headers.get('Content-Disposition')) || filename
+  if (await platform.saveFile(blob, name)) return
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = fromHeader || filename
+  a.download = name
   a.click()
   URL.revokeObjectURL(url)
 }

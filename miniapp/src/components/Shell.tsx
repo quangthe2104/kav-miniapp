@@ -1,6 +1,7 @@
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import type { ReactNode } from 'react'
 import { getToken, setToken } from '../api/client'
+import logoUrl from '../assets/logo-kav.svg'
 import { Icon } from './Icon'
 
 export function Shell({
@@ -14,6 +15,7 @@ export function Shell({
 }) {
   const loggedIn = Boolean(getToken())
   const location = useLocation()
+  const navigate = useNavigate()
   const teacherArea = location.pathname.startsWith('/teacher')
   const onCreateClass = location.pathname === '/teacher/profiles/create'
 
@@ -22,7 +24,7 @@ export function Shell({
       <header className="top">
         <NavLink to="/" className="brand" aria-label="KavMiniApp trang chủ">
           <img
-            src={`${import.meta.env.BASE_URL}logo-kav.svg`}
+            src={logoUrl}
             alt="Khan Academy Vietnam"
             className="brand-logo"
           />
@@ -41,7 +43,7 @@ export function Shell({
               className="linkish btn-with-icon"
               onClick={() => {
                 setToken(null)
-                window.location.href = '/'
+                navigate('/', { replace: true })
               }}
             >
               <Icon name="logout" />

@@ -26,9 +26,9 @@
 Ghi lại khi tạo xong (nội bộ KAV):
 
 ```text
-ZALO_APP_ID=
-ZALO_APP_SECRET=          # chỉ password manager
-ZALO_MINIAPP_ID=
+ZALO_APP_ID=717651661172288981
+ZALO_APP_SECRET=          # chỉ password manager / backend/.env trên server
+ZALO_MINIAPP_ID=2203119465038830853
 ZALO_OA_ID=               # sau khi có OA
 Owner account Zalo=
 Created date=
@@ -99,20 +99,54 @@ ZALO_OA_ID=
 ZALO_MINIAPP_ID=
 ZALO_WEB_REDIRECT_URI="${APP_URL}/teacher/zalo/callback"
 ZALO_DEV_LOGIN=true
+# web = {APP_URL}/miniapp/vote/{token} · miniapp = https://zalo.me/s/{ZALO_MINIAPP_ID}/vote/{token}
+ZALO_VOTE_LINK=web
+# Chỉ khi test bản chưa Live: env=TESTING&version=<số phiên bản>
+ZALO_MINIAPP_LINK_QUERY=
+# Mini App chạy trên domain Zalo → bắt buộc có 2 origin này
+CORS_ALLOWED_ORIGINS=https://miniapp.kav.edu.vn,https://h5.zdn.vn,zbrowser://h5.zdn.vn
 ```
 
-- **Bắt buộc ngay cho backend hiện tại:** `ZALO_APP_ID`, `ZALO_APP_SECRET` (khi gắn Login/SDK thật).  
-- **Nên điền luôn:** `ZALO_MINIAPP_ID` (đã có thì lưu) — dùng CLI deploy / frontend; backend chưa phụ thuộc runtime.  
+- `ZALO_APP_ID` + `ZALO_APP_SECRET`: backend đổi access token → hồ sơ Zalo (`graph.zalo.me/v2.0/me`, header `access_token` + `appsecret_proof`).  
+- `ZALO_MINIAPP_ID`: dùng cho link vote dạng Mini App và `zmp deploy` (`miniapp/.env` → `APP_ID`).  
 - **Teacher Zalo Login web:** Callback URL trên Developers phải khớp `ZALO_WEB_REDIRECT_URI` (prod HTTPS).  
-- Giữ `ZALO_DEV_LOGIN=true` cho teacher web + Mini App mock auth local đến khi OAuth/SDK ổn.
+- `ZALO_DEV_LOGIN=true` chỉ cho UAT; **tắt trước khi Live**.  
+- Sau khi sửa `.env` trên server: `php artisan config:cache`.
 
-### 3.6 Smoke-test sát thực tế
+### 3.6 Build & deploy Mini App (Testing — trước khi nộp duyệt)
 
-1. Cài Node 20+, Zalo Mini App CLI / Studio (theo docs [mini.zalo.me](https://mini.zalo.me/))  
-2. Login CLI bằng App ID + Secret đúng app  
-3. Deploy **Development** / **Testing**  
-4. Quét QR bằng Zalo điện thoại (đúng acc trong list)  
-5. Chỉ khi QR mở được mới coi là “cổng sẵn sàng” → gắn code feature trong repo
+Source `miniapp/` build 2 kiểu từ cùng code; `@platform` chọn `src/platform/web.ts` hoặc `src/platform/zalo.ts`:
+
+| Build | Lệnh | Chạy ở | Khác biệt |
+|-------|------|--------|-----------|
+| Web | `npm run build:cpanel` | `https://miniapp.kav.edu.vn/miniapp/` | `localStorage`, router `/miniapp`, API same-origin |
+| Zalo | `npm run build:zalo` | Zalo (`/zapps/{APP_ID}`) | `zmp-sdk` getAccessToken / `nativeStorage` / share sheet / `downloadFile`; router `window.BASE_PATH`; API tuyệt đối `https://miniapp.kav.edu.vn` |
+
+Lần đầu trên máy dev (Node 20+):
+
+```bash
+npm install -g zmp-cli
+cd miniapp
+npm install
+# miniapp/.env phải có: APP_ID=2203119465038830853
+zmp login            # quét QR bằng Zalo tài khoản Admin/Developer của Mini App
+```
+
+Mỗi lần cần test bản mới:
+
+```bash
+cd miniapp
+npm run build:zalo   # → dist-zalo/ + app-config.json (listCSS/listSyncJS tự sinh)
+zmp deploy           # chọn "Deploy your existing project", build folder: dist-zalo, status: Testing
+```
+
+1. Trên [mini.zalo.me](https://mini.zalo.me/) → Mini App → thêm tài khoản test vào **Admin / Developer / Người dùng thử nghiệm**  
+2. Quét QR (hoặc mở link `https://zalo.me/s/2203119465038830853/?env=TESTING&version=<N>`) bằng tài khoản đã thêm  
+3. Muốn link vote GV tạo ra mở thẳng bản Testing: trên server đặt `ZALO_VOTE_LINK=miniapp`, `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=<N>` → `config:cache`  
+4. Debug trên máy thật: thêm `zDebug=true` vào query link test  
+5. Khi Live: xóa `ZALO_MINIAPP_LINK_QUERY`, giữ `ZALO_VOTE_LINK=miniapp`, `ZALO_DEV_LOGIN=false`
+
+> Link vote cũ dạng web vẫn mở được; nhưng khi `ZALO_DEV_LOGIN=false`, phụ huynh chỉ gửi phiếu được **trong Mini App** (cần Zalo access token).
 
 ---
 
@@ -173,6 +207,11 @@ Khi deploy lại hoặc onboard người mới:
 | Hiện tượng | Kiểm tra |
 |------------|----------|
 | QR Development không mở | Acc có trong Admin/Developer/Tester? |
+| Mở Mini App trắng trang | `app-config.json` khớp file trong `dist-zalo/assets`? build lại `npm run build:zalo` rồi deploy |
+| «Network error» khi gọi API | CORS thiếu `https://h5.zdn.vn` / `zbrowser://h5.zdn.vn`; API phải HTTPS |
+| «Không lấy được phiên đăng nhập Zalo» | `getAccessToken` lỗi — đóng/mở lại Mini App; kiểm tra acc test |
+| Auth 422 «Zalo từ chối access token» | Sai `ZALO_APP_SECRET` (appsecret_proof) hoặc Mini App không thuộc `ZALO_APP_ID` |
+| Tải QR / mẫu phiếu lỗi với PH/GV thường | `downloadFile` cần xin quyền API trên trang quản lý Mini App (Admin/Dev không bị) |
 | Deploy / token lỗi | Nhầm Mini App ID ↔ App ID; sai Secret |
 | API SĐT fail trên user thường | Tester được bypass; production cần quyền đã duyệt |
 | Publish bị từ chối | Sai loại hình CQNN; thiếu OA/DN; mô tả mục đích mơ hồ |

@@ -1,8 +1,10 @@
-import { useState, type FormEvent } from 'react'
+import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Shell } from '../components/Shell'
 import {
   ApiError,
+  ZALO_SESSION_ERROR,
+  isZaloApp,
   mockTeacherLogin,
   registerAsTeacher,
   tryZaloAccessToken,
@@ -25,7 +27,10 @@ export function TeacherLoginPage() {
     try {
       const accessToken = await tryZaloAccessToken()
       if (!accessToken) {
-        if (forceDevLogin || showTestLogin) {
+        if (isZaloApp) {
+          setError(ZALO_SESSION_ERROR)
+          if (forceDevLogin) setShowTestLogin(true)
+        } else if (forceDevLogin || showTestLogin) {
           setShowTestLogin(true)
           setError(
             'Chưa lấy được phiên Zalo. Dùng đăng nhập thử nghiệm bên dưới (trình duyệt / local).',
@@ -50,6 +55,14 @@ export function TeacherLoginPage() {
       setLoading(false)
     }
   }
+
+  const autoLoginTried = useRef(false)
+  useEffect(() => {
+    if (isZaloApp && !autoLoginTried.current) {
+      autoLoginTried.current = true
+      void loginWithZalo()
+    }
+  }, [])
 
   async function onMockSubmit(e: FormEvent) {
     e.preventDefault()

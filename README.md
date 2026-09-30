@@ -221,6 +221,22 @@ npm run build:cpanel
 
 **Cập nhật:** push lên GitHub → cPanel **Update from Remote** → **Deploy HEAD Commit**.
 
+### Đưa lên Zalo Mini App (Testing → nộp duyệt)
+
+Bản Mini App trong Zalo build riêng từ `miniapp/` và deploy lên CDN Zalo bằng `zmp-cli` (backend vẫn là domain HTTPS ở trên):
+
+```bash
+npm install -g zmp-cli
+cd miniapp
+npm install
+# miniapp/.env: APP_ID=2203119465038830853 (Mini App ID)
+zmp login
+npm run build:zalo   # dist-zalo/ + app-config.json
+zmp deploy           # existing project → dist-zalo → Testing → quét QR
+```
+
+Server cần `CORS_ALLOWED_ORIGINS` có `https://h5.zdn.vn,zbrowser://h5.zdn.vn`. Chi tiết (tài khoản test, link vote dạng Mini App, nộp duyệt): [docs/04-zalo-miniapp-setup.md](docs/04-zalo-miniapp-setup.md) §3.6.
+
 ### Cập nhật phiên bản mới
 
 ```bash
@@ -242,6 +258,8 @@ cd ../miniapp && npm ci && npm run build:wamp
 | `QUEUE_CONNECTION` | `database` hoặc `redis` (Phase 2+) |
 | `ZALO_*` | App / OA / Mini App ID — **không commit** |
 | `VITE_API_BASE_URL` | Phải trùng `APP_URL` khi build Mini App |
+| `ZALO_VOTE_LINK` | `web` (mặc định) hoặc `miniapp` → link vote `zalo.me/s/{ZALO_MINIAPP_ID}/vote/...` |
+| `CORS_ALLOWED_ORIGINS` | Thêm `https://h5.zdn.vn,zbrowser://h5.zdn.vn` cho Zalo Mini App |
 
 ---
 

@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "KAV Form lớp",
+    "headerTitle": "KAV Form lớp",
+    "headerColor": "#0a2a66",
+    "textColor": "white",
+    "statusBar": "normal",
+    "actionBarHidden": false,
+    "leftButton": "back"
+  },
+  "debug": false,
+  "listCSS": [
+    "assets/index.css"
+  ],
+  "listSyncJS": [
+    "assets/index.module.js"
+  ],
+  "listAsyncJS": []
+}

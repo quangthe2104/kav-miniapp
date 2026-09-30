@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { platform } from '@platform'
 import { HomePage } from './pages/HomePage'
 import { TeacherLoginPage } from './pages/TeacherLoginPage'
 import { TeacherProfilesPage } from './pages/TeacherProfilesPage'
@@ -11,7 +12,7 @@ import {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/miniapp">
+    <BrowserRouter basename={platform.routerBasename}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/teacher/login" element={<TeacherLoginPage />} />

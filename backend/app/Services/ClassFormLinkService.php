@@ -76,6 +76,14 @@ class ClassFormLinkService
 
     public function voteUrl(string $plainToken): string
     {
+        $miniAppId = (string) config('services.zalo.miniapp_id');
+        if (config('services.zalo.vote_link') === 'miniapp' && $miniAppId !== '') {
+            $query = ltrim((string) config('services.zalo.miniapp_link_query'), '?');
+
+            return 'https://zalo.me/s/'.$miniAppId.'/vote/'.rawurlencode($plainToken)
+                .($query !== '' ? '?'.$query : '');
+        }
+
         return url('/miniapp/vote/'.$plainToken);
     }
 

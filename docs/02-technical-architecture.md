@@ -211,12 +211,16 @@ Web Teacher dùng cùng service (`/teacher/...` session).
 
 Màn: Home (vai trò) · Teacher login/list/create/class-form · Parent vote · nhập mã.
 
-- Deep link: `http://miniapp.kav/miniapp/vote/{token}`
+- 2 build từ cùng source: web (`build:cpanel`, `/miniapp/`) và Zalo (`build:zalo`, `dist-zalo` + `app-config.json`, `zmp deploy`)
+- `@platform` (Vite alias theo mode): `src/platform/web.ts` (localStorage, basename `/miniapp`) · `src/platform/zalo.ts` (`zmp-sdk`: `getAccessToken`, `nativeStorage`, `openShareSheet`, `downloadFile`; basename `window.BASE_PATH`)
+- Auth: `getAccessToken` → `POST /api/miniapp/v1/auth` → backend `graph.zalo.me/v2.0/me` (header `access_token` + `appsecret_proof`) → Sanctum Bearer
+- Link vote: `ZALO_VOTE_LINK=web` → `{APP_URL}/miniapp/vote/{token}`; `=miniapp` → `https://zalo.me/s/{ZALO_MINIAPP_ID}/vote/{token}[?ZALO_MINIAPP_LINK_QUERY]`
+- CORS: `https://h5.zdn.vn`, `zbrowser://h5.zdn.vn`
 - Share Zalo: Mini App `openShareSheet`; web `zalo.me/share` (`kavShareZalo`)
 - Teacher class-form: stacked bar; không preview QR; nút Tải QR
 - Form tùy chỉnh PH: radio + nút Bình chọn; form nhị phân: 2 nút dock
 - OCR confirm in-app (`OcrConfirmModal`)
-- Asset: `import.meta.env.BASE_URL`; logo `logo-kav.svg`
+- Asset: import qua JS (`src/assets/logo-kav.svg`) để chạy được cả `base: './'` của Zalo
 
 ---
 
