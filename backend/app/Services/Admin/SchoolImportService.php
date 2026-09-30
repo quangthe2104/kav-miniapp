@@ -196,7 +196,8 @@ class SchoolImportService
             $seenExternal[$externalId] = $excelRow;
             $valid[] = [
                 'external_id' => $externalId,
-                'name' => trim((string) $name),
+                // Sheets exported from web pages sometimes carry HTML entities ("TH &amp; THCS").
+                'name' => trim(html_entity_decode((string) $name, ENT_QUOTES | ENT_HTML5, 'UTF-8')),
                 'ward_id' => $wardId,
                 'level' => $level !== null && $level !== '' ? trim((string) $level) : null,
                 'row' => $excelRow,
