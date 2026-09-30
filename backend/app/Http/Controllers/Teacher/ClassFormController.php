@@ -80,11 +80,14 @@ class ClassFormController extends Controller
             ->paginate(50);
 
         $zaloIds = $responses->getCollection()->pluck('zalo_user_id')->filter()->unique()->values();
-        $zaloNames = $zaloIds->isEmpty()
+        $zaloUsers = $zaloIds->isEmpty()
             ? collect()
             : \App\Models\MiniAppUser::query()
                 ->whereIn('zalo_user_id', $zaloIds)
-                ->pluck('name', 'zalo_user_id');
+                ->get(['zalo_user_id', 'name', 'phone'])
+                ->keyBy('zalo_user_id');
+        $zaloNames = $zaloUsers->map->name;
+        $zaloPhones = $zaloUsers->map->phone;
 
         $notes = ClassFormNote::query()
             ->with('teacher')
@@ -99,6 +102,7 @@ class ClassFormController extends Controller
             'voteUrl' => $voteUrl,
             'responses' => $responses,
             'zaloNames' => $zaloNames,
+            'zaloPhones' => $zaloPhones,
             'notes' => $notes,
             'canEditPaper' => $coverage->canTeacherEditPaperArtifacts($classForm),
             'hasTemplate' => filled($classForm->form?->consent_pdf_path)

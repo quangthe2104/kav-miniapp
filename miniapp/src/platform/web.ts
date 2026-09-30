@@ -31,6 +31,9 @@ export const platform: Platform = {
   async getAccessToken() {
     return null
   },
+  async requestContactInfo() {
+    return null
+  },
   async shareLink() {
     return false
   },

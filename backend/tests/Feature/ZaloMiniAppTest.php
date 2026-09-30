@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Services\ClassFormLinkService;
 use App\Services\ZaloAuthService;
+use App\Support\ParentPhone;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Http;
 use RuntimeException;
@@ -38,6 +39,44 @@ class ZaloMiniAppTest extends TestCase
         $this->expectExceptionMessage('-216');
 
         app(ZaloAuthService::class)->fetchProfile('bad');
+    }
+
+    public function test_fetch_phone_number_exchanges_token_and_normalizes(): void
+    {
+        config(['services.zalo.app_secret' => 'secret-x', 'services.zalo.dev_login' => false]);
+        Http::fake([
+            'graph.zalo.me/v2.0/me/info' => Http::response(['data' => ['number' => '84912345678'], 'error' => 0, 'message' => 'Success']),
+        ]);
+
+        $phone = app(ZaloAuthService::class)->fetchPhoneNumber('tok-1', 'phone-tok');
+
+        $this->assertSame('0912345678', $phone);
+        Http::assertSent(fn (Request $r) => $r->hasHeader('access_token', 'tok-1')
+            && $r->hasHeader('code', 'phone-tok')
+            && $r->hasHeader('secret_key', 'secret-x'));
+    }
+
+    public function test_fetch_phone_number_throws_on_zalo_error(): void
+    {
+        config(['services.zalo.app_secret' => 'secret-x', 'services.zalo.dev_login' => false]);
+        Http::fake([
+            'graph.zalo.me/*' => Http::response(['error' => 119, 'message' => 'Code has been used']),
+        ]);
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage('119');
+
+        app(ZaloAuthService::class)->fetchPhoneNumber('tok-1', 'used');
+    }
+
+    public function test_parent_phone_display_full_or_masked(): void
+    {
+        config(['services.zalo.parent_phone_display' => 'full']);
+        $this->assertSame('0912345678', ParentPhone::display('0912345678'));
+        $this->assertNull(ParentPhone::display(null));
+
+        config(['services.zalo.parent_phone_display' => 'masked']);
+        $this->assertSame('•••••••678', ParentPhone::display('0912345678'));
     }
 
     public function test_vote_url_defaults_to_web_link(): void

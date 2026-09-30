@@ -349,7 +349,7 @@
                         @endphp
                         {{ $zName ?: ($r->zalo_user_id ?: '—') }}
                     </td>
-                    <td>{{ $r->phone ?: '—' }}</td>
+                    <td>{{ \App\Support\ParentPhone::display($r->phone ?: ($r->zalo_user_id ? ($zaloPhones[$r->zalo_user_id] ?? null) : null)) ?? '—' }}</td>
                     <td>{{ $channelLabel[$r->channel] ?? $r->channel }}</td>
                     <td>{{ $form->choiceLabel((string) $r->choice) }}</td>
                     <td>

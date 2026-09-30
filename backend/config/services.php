@@ -46,6 +46,8 @@ return [
         'vote_link' => env('ZALO_VOTE_LINK', 'web'),
         // Only while testing unpublished versions, e.g. "env=TESTING&version=3"; empty = Live.
         'miniapp_link_query' => env('ZALO_MINIAPP_LINK_QUERY', ''),
+        // full | masked — how teachers see Zalo-verified parent phone numbers.
+        'parent_phone_display' => env('ZALO_PARENT_PHONE_DISPLAY', 'full'),
     ],
 
 ];

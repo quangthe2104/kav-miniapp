@@ -731,12 +731,22 @@ export function getVote(token: string) {
   return api<VotePayload>(`/api/miniapp/v1/vote/${encodeURIComponent(token)}`)
 }
 
-export function postVote(token: string, choice: VoteChoice) {
+export async function postVote(token: string, choice: VoteChoice) {
+  const contact = isZaloApp ? await platform.requestContactInfo() : null
   return api<{ message?: string; updated?: boolean }>(
     `/api/miniapp/v1/vote/${encodeURIComponent(token)}`,
     {
       method: 'POST',
-      body: JSON.stringify({ choice }),
+      body: JSON.stringify({
+        choice,
+        ...(contact
+          ? {
+              access_token: contact.accessToken,
+              phone_token: contact.phoneToken,
+              display_name: contact.displayName,
+            }
+          : {}),
+      }),
     },
   )
 }

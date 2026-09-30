@@ -41,6 +41,7 @@ class AuditLogPresenter
         'teacher.auto_created' => self::CATEGORY_LOGIN,
         'teacher.logout' => self::CATEGORY_LOGIN,
         'miniapp.auth' => self::CATEGORY_LOGIN,
+        'miniapp.profile_sync' => self::CATEGORY_LOGIN,
         'vote.parent_create' => self::CATEGORY_VOTE,
         'vote.parent_change' => self::CATEGORY_VOTE,
         'paper.upload' => self::CATEGORY_PAPER,
@@ -111,6 +112,14 @@ class AuditLogPresenter
                 'Người dùng Mini App %s đăng nhập với vai trò %s.',
                 $payload['name'] ?? $this->actorLabel($log),
                 $this->roleLabel($payload['role'] ?? 'parent'),
+            ),
+            'miniapp.profile_sync' => sprintf(
+                'Người dùng Mini App %s đã chia sẻ %s từ Zalo.',
+                $this->actorLabel($log),
+                implode(', ', array_map(
+                    fn ($f) => $f === 'phone' ? 'số điện thoại' : 'tên',
+                    (array) ($payload['fields'] ?? []),
+                )) ?: 'thông tin',
             ),
             'vote.parent_create' => sprintf(
                 'Phụ huynh đã gửi phiếu %s cho lớp %s (form %s).',

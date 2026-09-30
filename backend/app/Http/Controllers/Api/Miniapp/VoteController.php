@@ -9,7 +9,9 @@ use App\Models\Response;
 use App\Services\AuditLogService;
 use App\Services\ClassFormLinkService;
 use App\Services\CoverageService;
+use App\Services\ZaloAuthService;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use RuntimeException;
@@ -104,6 +106,7 @@ class VoteController extends Controller
         ClassFormLinkService $links,
         CoverageService $coverage,
         AuditLogService $audit,
+        ZaloAuthService $zalo,
     ): JsonResponse {
         $classForm = $links->findByPlainToken($token);
         if (! $classForm) {
@@ -119,11 +122,15 @@ class VoteController extends Controller
 
         $data = $request->validate([
             'choice' => ['required', 'string', 'max:32', Rule::in($allowedChoices)],
-            'phone' => ['nullable', 'string', 'max:30'],
+            'access_token' => ['nullable', 'string', 'max:2048'],
+            'phone_token' => ['nullable', 'string', 'max:2048'],
+            'display_name' => ['nullable', 'string', 'max:100'],
         ]);
 
         /** @var MiniAppUser $user */
         $user = $request->user();
+        $this->syncZaloProfile($request, $user, $data, $zalo, $audit);
+        $phone = $user->phone;
 
         $existing = Response::query()
             ->where('class_form_id', $classForm->id)
@@ -138,7 +145,7 @@ class VoteController extends Controller
                     $classForm,
                     $user->zalo_user_id,
                     $data['choice'],
-                    $data['phone'] ?? $user->phone
+                    $phone
                 );
                 $audit->record('vote.parent_change', $user, $classForm, [
                     'via' => 'miniapp',
@@ -152,7 +159,7 @@ class VoteController extends Controller
                 'channel' => 'zalo',
                 'choice' => $data['choice'],
                 'zalo_user_id' => $user->zalo_user_id,
-                'phone' => $data['phone'] ?? $user->phone,
+                'phone' => $phone,
                 'created_by_type' => MiniAppUser::class,
                 'created_by_id' => $user->id,
             ], 1);
@@ -166,5 +173,58 @@ class VoteController extends Controller
         }
 
         return response()->json(['message' => 'Đã ghi nhận phiếu.', 'updated' => false]);
+    }
+
+    /**
+     * Name/phone are best-effort: a parent who declines Zalo permissions can still vote.
+     *
+     * @param  array{access_token?: ?string, phone_token?: ?string, display_name?: ?string}  $data
+     */
+    private function syncZaloProfile(Request $request, MiniAppUser $user, array $data, ZaloAuthService $zalo, AuditLogService $audit): void
+    {
+        $accessToken = (string) ($data['access_token'] ?? '');
+        if ($accessToken === '') {
+            return;
+        }
+
+        try {
+            $profile = $zalo->fetchProfile($accessToken);
+        } catch (RuntimeException $e) {
+            Log::warning('miniapp.vote profile sync failed', ['user_id' => $user->id, 'error' => $e->getMessage()]);
+
+            return;
+        }
+
+        // The token must belong to the signed-in parent, otherwise another user's name/phone could be attached.
+        if ($profile['id'] !== $user->zalo_user_id) {
+            Log::warning('miniapp.vote access_token user mismatch', ['user_id' => $user->id]);
+
+            return;
+        }
+
+        $updates = [];
+        $name = $profile['name'] ?: trim((string) ($data['display_name'] ?? ''));
+        if ($name !== '' && $name !== $user->name) {
+            $updates['name'] = $name;
+        }
+
+        $phoneToken = (string) ($data['phone_token'] ?? '');
+        if ($phoneToken !== '') {
+            try {
+                $phone = $zalo->fetchPhoneNumber($accessToken, $phoneToken);
+                if ($phone !== $user->phone) {
+                    $updates['phone'] = $phone;
+                }
+            } catch (RuntimeException $e) {
+                Log::warning('miniapp.vote phone sync failed', ['user_id' => $user->id, 'error' => $e->getMessage()]);
+            }
+        }
+
+        if ($updates !== []) {
+            $user->update($updates);
+            $audit->record('miniapp.profile_sync', $user, $user, [
+                'fields' => array_keys($updates),
+            ], $request);
+        }
     }
 }

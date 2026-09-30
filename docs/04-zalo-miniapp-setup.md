@@ -103,6 +103,8 @@ ZALO_DEV_LOGIN=true
 ZALO_VOTE_LINK=web
 # Chỉ khi test bản chưa Live: env=TESTING&version=<số phiên bản>
 ZALO_MINIAPP_LINK_QUERY=
+# SĐT phụ huynh hiển thị cho GV: full | masked (chỉ 3 số cuối)
+ZALO_PARENT_PHONE_DISPLAY=full
 # Mini App chạy trên domain Zalo → bắt buộc có 2 origin này
 CORS_ALLOWED_ORIGINS=https://miniapp.kav.edu.vn,https://h5.zdn.vn,zbrowser://h5.zdn.vn
 ```
@@ -110,6 +112,7 @@ CORS_ALLOWED_ORIGINS=https://miniapp.kav.edu.vn,https://h5.zdn.vn,zbrowser://h5.
 - `ZALO_APP_ID` + `ZALO_APP_SECRET`: backend đổi access token → hồ sơ Zalo (`graph.zalo.me/v2.0/me`, header `access_token` + `appsecret_proof`).  
 - `ZALO_MINIAPP_ID`: dùng cho link vote dạng Mini App và `zmp deploy` (`miniapp/.env` → `APP_ID`).  
 - **Teacher Zalo Login web:** Callback URL trên Developers phải khớp `ZALO_WEB_REDIRECT_URI` (prod HTTPS).  
+- **Tên + SĐT phụ huynh:** khi bấm bình chọn, Mini App xin `scope.userInfo` + `scope.userPhonenumber` (một popup Zalo). Server xác minh `access_token` thuộc đúng phụ huynh, đổi token SĐT qua `graph.zalo.me/v2.0/me/info` (header `access_token`, `code`, `secret_key`). Từ chối vẫn gửi phiếu được. User thường cần quyền **Số điện thoại** được duyệt trên trang quản lý Mini App.  
 - `ZALO_DEV_LOGIN=true` chỉ cho UAT; **tắt trước khi Live**.  
 - Sau khi sửa `.env` trên server: `php artisan config:cache`.
 

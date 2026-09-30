@@ -115,8 +115,45 @@ class ZaloAuthService
 
         return [
             'id' => $id,
-            'name' => isset($data['name']) ? (string) $data['name'] : null,
+            'name' => isset($data['name']) && $data['name'] !== '' ? (string) $data['name'] : null,
             'picture' => $data['picture'] ?? null,
         ];
+    }
+
+    /**
+     * Exchange a one-time zmp-sdk getPhoneNumber() token (valid ~2 minutes) for the Zalo-verified number.
+     */
+    public function fetchPhoneNumber(string $accessToken, string $phoneToken): string
+    {
+        if (config('services.zalo.dev_login') && str_starts_with($phoneToken, 'dev:')) {
+            return self::normalizePhone(substr($phoneToken, 4));
+        }
+
+        $secret = (string) config('services.zalo.app_secret');
+        if ($secret === '') {
+            throw new RuntimeException('Chưa cấu hình ZALO_APP_SECRET.');
+        }
+
+        $response = Http::withHeaders([
+            'access_token' => $accessToken,
+            'code' => $phoneToken,
+            'secret_key' => $secret,
+        ])->get('https://graph.zalo.me/v2.0/me/info');
+
+        $data = $response->json();
+        $number = is_array($data) ? (string) ($data['data']['number'] ?? '') : '';
+        if (! $response->successful() || (int) ($data['error'] ?? 0) !== 0 || $number === '') {
+            throw new RuntimeException('Không lấy được số điện thoại Zalo ('.($data['error'] ?? $response->status()).': '.($data['message'] ?? 'unknown').').');
+        }
+
+        return self::normalizePhone($number);
+    }
+
+    /** 849xxxxxxxx / +849xxxxxxxx → 09xxxxxxxx */
+    public static function normalizePhone(string $number): string
+    {
+        $digits = preg_replace('/\D+/', '', $number) ?? '';
+
+        return str_starts_with($digits, '84') && strlen($digits) >= 11 ? '0'.substr($digits, 2) : $digits;
     }
 }

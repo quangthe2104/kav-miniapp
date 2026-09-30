@@ -1,6 +1,9 @@
 import {
+  authorize,
   downloadFile,
   getAccessToken,
+  getPhoneNumber,
+  getUserInfo,
   nativeStorage,
   openShareSheet,
 } from 'zmp-sdk'
@@ -55,6 +58,37 @@ export const platform: Platform = {
     } catch {
       return null
     }
+  },
+  async requestContactInfo() {
+    let granted: Record<string, boolean> = {}
+    try {
+      granted = await authorize({ scopes: ['scope.userInfo', 'scope.userPhonenumber'] })
+    } catch {
+      /* declined or unsupported — vote continues without contact info */
+    }
+
+    let displayName: string | null = null
+    if (granted['scope.userInfo']) {
+      try {
+        const { userInfo } = await getUserInfo({})
+        displayName = userInfo?.name?.trim() || null
+      } catch {
+        /* ignore */
+      }
+    }
+
+    let phoneToken: string | null = null
+    if (granted['scope.userPhonenumber']) {
+      try {
+        const { token } = await getPhoneNumber({})
+        phoneToken = token?.trim() || null
+      } catch {
+        /* ignore */
+      }
+    }
+
+    const accessToken = await platform.getAccessToken()
+    return accessToken ? { accessToken, phoneToken, displayName } : null
   },
   async shareLink(link) {
     await openShareSheet({ type: 'link', data: { link, chatOnly: false } })

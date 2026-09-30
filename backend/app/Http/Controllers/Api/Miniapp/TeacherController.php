@@ -21,6 +21,7 @@ use App\Services\ClassFormLinkService;
 use App\Services\CoverageService;
 use App\Services\PaperBatchConfirmService;
 use App\Services\TeacherProvisionService;
+use App\Support\ParentPhone;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
@@ -228,11 +229,13 @@ class TeacherController extends Controller
                 'image_path', 'created_by_type', 'created_by_id',
             ]);
 
-        $zaloNames = MiniAppUser::query()
+        $zaloUsers = MiniAppUser::query()
             ->whereIn('zalo_user_id', $rawResponses->pluck('zalo_user_id')->filter()->unique()->values())
-            ->pluck('name', 'zalo_user_id');
+            ->get(['zalo_user_id', 'name', 'phone'])
+            ->keyBy('zalo_user_id');
 
-        $responses = $rawResponses->values()->map(function (Response $r, int $idx) use ($classForm, $zaloNames, $canEditPaper, $teacher) {
+        $responses = $rawResponses->values()->map(function (Response $r, int $idx) use ($classForm, $zaloUsers, $canEditPaper, $teacher) {
+            $zaloUser = $r->zalo_user_id ? $zaloUsers->get($r->zalo_user_id) : null;
             $hasPaperImage = $r->channel === 'paper'
                 && filled($r->image_path)
                 && Storage::disk('local')->exists((string) $r->image_path);
@@ -247,9 +250,9 @@ class TeacherController extends Controller
                 'choice' => $r->choice,
                 'choice_label' => $classForm->form?->choiceLabel((string) $r->choice),
                 'channel' => $r->channel,
-                'phone' => $r->phone,
+                'phone' => ParentPhone::display($r->phone ?: $zaloUser?->phone),
                 'zalo_user_id' => $r->zalo_user_id,
-                'zalo_name' => $r->zalo_user_id ? ($zaloNames[$r->zalo_user_id] ?? null) : null,
+                'zalo_name' => $zaloUser?->name,
                 'has_paper_image' => $hasPaperImage,
                 'paper_image_url' => $hasPaperImage
                     ? url('/api/miniapp/v1/teacher/responses/'.$r->id.'/paper?inline=1')
@@ -763,7 +766,7 @@ class TeacherController extends Controller
                 'choice' => $r->choice,
                 'choice_label' => $classForm->form?->choiceLabel((string) $r->choice),
                 'channel' => $r->channel,
-                'phone' => $r->phone,
+                'phone' => ParentPhone::display($r->phone),
                 'zalo_user_id' => $r->zalo_user_id,
                 'created_at' => optional($r->created_at)?->toIso8601String(),
             ]),
