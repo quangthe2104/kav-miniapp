@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # cPanel: public_html/.htaccess rewrites into backend/public; never expose that prefix in URLs
+    RewriteCond %{THE_REQUEST} \s/backend/public/([^\s?]*) [NC]
+    RewriteRule ^ /%1 [R=301,NE,L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
