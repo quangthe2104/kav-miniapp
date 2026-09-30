@@ -6,7 +6,7 @@ Hướng dẫn vận hành nhanh cho cô chủ nhiệm (Phase 1).
 
 1. Mở **http://miniapp.kav/** (web) hoặc Mini App → **Tôi là giáo viên**
 2. **Production:** **Đăng nhập với Zalo** — lần đầu hệ thống tự tạo tài khoản, **không cần Admin thêm trước**.
-3. **Local/dev:** Dev login khi `ZALO_DEV_LOGIN=true`.
+3. **Local/dev:** trang web chỉ còn nút Zalo; dev login chỉ có trong bản `/miniapp` khi `ZALO_DEV_LOGIN=true`.
 
 Không có mật khẩu riêng. Admin chỉ **khóa** tài khoản nếu lạm dụng.
 

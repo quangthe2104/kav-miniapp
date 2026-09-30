@@ -18,7 +18,6 @@ class AuthController extends Controller
     {
         return view('teacher.login', [
             'zaloReady' => filled(config('services.zalo.app_id')) && filled(config('services.zalo.app_secret')),
-            'devLogin' => (bool) config('services.zalo.dev_login'),
         ]);
     }
 

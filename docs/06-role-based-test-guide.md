@@ -50,7 +50,7 @@ Vite `npm run dev` chỉ khi dev HMR — khi đó `VITE_API_BASE_URL` phải tr�
 
 ## 2. Giáo viên — Web
 
-Dev login: `0900000001` hoặc `dev-teacher-1`.
+Đăng nhập: nút **Đăng nhập với Zalo** tại `/teacher/login` (cần Callback URL khai báo trên developers.zalo.me). Trang web không còn form dev login; muốn test không qua Zalo thì dùng bản `/miniapp` (build `VITE_ENABLE_DEV_LOGIN=true`) khi `ZALO_DEV_LOGIN=true`.
 
 - [ ] 1 lớp: **không** thanh chọn lớp
 - [ ] 1 lớp × 1 form: vào thẳng chi tiết; `?list=1` xem list
