@@ -29,17 +29,23 @@ PHP="$(find_php)"
 log "PHP: $PHP ($("$PHP" -r 'echo PHP_VERSION;'))"
 
 COMPOSER_PHAR="$HOME/.local/bin/composer.phar"
+# Run composer under the same PHP >= 8.3 (the system composer shebang may point at an older PHP).
 composer_run() {
-    if command -v composer >/dev/null 2>&1; then
-        "$PHP" "$(command -v composer)" "$@"
-    else
-        if [ ! -f "$COMPOSER_PHAR" ]; then
-            log "Downloading composer.phar"
-            mkdir -p "$(dirname "$COMPOSER_PHAR")"
-            "$PHP" -r "copy('https://getcomposer.org/download/latest-stable/composer.phar', '$COMPOSER_PHAR');"
+    local sys
+    sys="$(command -v composer || true)"
+    if [ -n "$sys" ]; then
+        sys="$(readlink -f "$sys")"
+        if "$PHP" "$sys" --version >/dev/null 2>&1; then
+            "$PHP" "$sys" "$@"
+            return
         fi
-        "$PHP" "$COMPOSER_PHAR" "$@"
     fi
+    if [ ! -f "$COMPOSER_PHAR" ]; then
+        log "Downloading composer.phar"
+        mkdir -p "$(dirname "$COMPOSER_PHAR")"
+        "$PHP" -r "copy('https://getcomposer.org/download/latest-stable/composer.phar', '$COMPOSER_PHAR');"
+    fi
+    "$PHP" "$COMPOSER_PHAR" "$@"
 }
 
 mkdir -p "$DEPLOYPATH"
