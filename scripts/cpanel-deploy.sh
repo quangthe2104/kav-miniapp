@@ -45,8 +45,10 @@ composer_run() {
 mkdir -p "$DEPLOYPATH"
 
 # No --delete at the docroot level: public_html may hold .well-known (SSL), cgi-bin, etc.
+# --no-perms: the cPanel repo dir is 0700; copying its mode would make the docroot unreadable by Apache.
+RSYNC_OPTS=(-rlt --no-perms --no-owner --no-group --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r)
 log "Sync code -> $DEPLOYPATH"
-rsync -a \
+rsync "${RSYNC_OPTS[@]}" \
     --exclude '/.git/' \
     --exclude '/.cursor/' \
     --exclude '/.githooks/' \
@@ -55,6 +57,9 @@ rsync -a \
     --exclude '/scripts/' \
     --exclude '/miniapp/' \
     --exclude '/AGENTS.md' \
+    --exclude '/README.md' \
+    --exclude '/.gitignore' \
+    --exclude '/.gitattributes' \
     --exclude '/backend/.env' \
     --exclude '/backend/vendor/' \
     --exclude '/backend/node_modules/' \
@@ -64,7 +69,7 @@ rsync -a \
 # Code folders are safe to mirror exactly (no user data inside).
 for dir in app config database resources routes public/miniapp; do
     src="$REPO_DIR/backend/$dir"
-    [ -d "$src" ] && rsync -a --delete "$src/" "$DEPLOYPATH/backend/$dir/"
+    [ -d "$src" ] && rsync "${RSYNC_OPTS[@]}" --delete "$src/" "$DEPLOYPATH/backend/$dir/"
 done
 
 cd "$DEPLOYPATH/backend"
@@ -84,6 +89,7 @@ if ! grep -q '^APP_KEY=base64:' .env; then
 fi
 
 chmod -R u+rwX storage bootstrap/cache
+chmod 600 .env
 
 if [ "$FRESH_ENV" -eq 1 ]; then
     log "STOP: edit $DEPLOYPATH/backend/.env (APP_URL, DB_*, ZALO_*, APP_ENV=production, APP_DEBUG=false) then deploy again."
