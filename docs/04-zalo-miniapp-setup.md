@@ -122,7 +122,17 @@ Source `miniapp/` build 2 kiểu từ cùng code; `@platform` chọn `src/platfo
 | Web | `npm run build:cpanel` | `https://miniapp.kav.edu.vn/miniapp/` | `localStorage`, router `/miniapp`, API same-origin |
 | Zalo | `npm run build:zalo` | Zalo (`/zapps/{APP_ID}`) | `zmp-sdk` getAccessToken / `nativeStorage` / share sheet / `downloadFile`; router `window.BASE_PATH`; API tuyệt đối `https://miniapp.kav.edu.vn` |
 
-Lần đầu trên máy dev (Node 20+):
+**Cách A — chạy trên hosting cPanel** (đã có Node 22; SSH hoặc cPanel → Terminal):
+
+```bash
+cd ~/repositories/kav-miniapp
+bash scripts/zalo-deploy.sh --token <ACCESS_TOKEN>   # lần đầu / khi phiên zmp hết hạn
+bash scripts/zalo-deploy.sh --desc "mô tả"           # các lần sau
+```
+
+Access token: [developers.zalo.me](https://developers.zalo.me/) → **Công cụ → API Explorer** → chọn app **KAV Parent Consent** → **Lấy Access Token**. Script tự cài `zmp-cli` vào `~/zmp-tools`, build `dist-zalo`, deploy **Testing** (không hỏi tương tác).
+
+**Cách B — máy dev** (Node 20+):
 
 ```bash
 npm install -g zmp-cli
