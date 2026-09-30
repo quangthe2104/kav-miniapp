@@ -56,20 +56,30 @@
         <tr>
             <th>Thời gian</th>
             <th>Kênh</th>
-            <th>SĐT / Zalo</th>
+            <th>Tên (Zalo)</th>
+            <th>SĐT</th>
             <th>Kết quả</th>
         </tr>
         </thead>
         <tbody>
         @forelse($responses as $r)
+            @php
+                $zUser = $r->zalo_user_id ? ($zaloUsers[$r->zalo_user_id] ?? null) : null;
+            @endphp
             <tr>
                 <td class="muted" style="white-space:nowrap">{{ optional($r->created_at)?->format('d/m/Y H:i') }}</td>
                 <td>{{ $r->channel }}</td>
-                <td>{{ $r->phone ?: $r->zalo_user_id ?: '—' }}</td>
+                <td>
+                    {{ $zUser?->name ?: '—' }}
+                    @if($r->zalo_user_id)
+                        <div class="muted" style="font-size:.78rem">{{ $r->zalo_user_id }}</div>
+                    @endif
+                </td>
+                <td>{{ $r->phone ?: ($zUser?->phone ?: '—') }}</td>
                 <td>{{ $r->choice === 'agree' ? 'Đồng ý' : ($r->choice === 'disagree' ? 'Không đồng ý' : $r->choice) }}</td>
             </tr>
         @empty
-            <tr><td colspan="4" class="muted">Chưa có phiếu.</td></tr>
+            <tr><td colspan="5" class="muted">Chưa có phiếu.</td></tr>
         @endforelse
         </tbody>
     </table>
