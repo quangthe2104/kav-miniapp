@@ -1,0 +1,10 @@
+#!/bin/sh
+# Remove agent co-author trailers and trailing blank lines from the commit message.
+msg_file="$1"
+tmp="$msg_file.tmp"
+
+grep -v -i -E '^Co-authored-by:[[:space:]]*Cursor[[:space:]]*<cursoragent@cursor\.com>[[:space:]]*$' "$msg_file" \
+    | awk '{ lines[NR] = $0 } END { n = NR; while (n > 0 && lines[n] ~ /^[[:space:]]*$/) n--; for (i = 1; i <= n; i++) print lines[i] }' \
+    > "$tmp"
+
+mv "$tmp" "$msg_file"

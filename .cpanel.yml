@@ -1,0 +1,7 @@
+---
+# cPanel Git Version Control: "Deploy HEAD Commit" runs these tasks from the repo checkout.
+# DEPLOYPATH = document root of the domain (repo root .htaccess routes requests into backend/public).
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kavminiapp/public_html
+    - /bin/bash scripts/cpanel-deploy.sh "$DEPLOYPATH"

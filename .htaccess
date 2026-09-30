@@ -1,6 +1,13 @@
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
 <IfModule mod_rewrite.c>
     Options +FollowSymLinks -MultiViews
     RewriteEngine On
+
+    # Only backend/public is web-facing; block .env, vendor, storage, etc.
+    RewriteRule ^backend/(?!public/) - [F,L]
 
     # Static files under Laravel public/
     RewriteCond %{DOCUMENT_ROOT}/backend/public%{REQUEST_URI} -f [OR]

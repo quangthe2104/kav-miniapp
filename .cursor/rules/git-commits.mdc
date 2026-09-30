@@ -1,0 +1,12 @@
+---
+description: Git commit message conventions for KavMiniApp
+alwaysApply: true
+---
+
+# Git commits
+
+- **Không** thêm trailer `Co-authored-by: Cursor <cursoragent@cursor.com>` (hay bất kỳ trailer co-author của agent) vào commit message.
+- Không dùng `--trailer` khi commit.
+- Hook `.githooks/commit-msg` tự xóa trailer này; cài bằng `scripts/install-git-hooks.ps1` (Windows) hoặc `sh scripts/install-git-hooks.sh`.
+- Không commit `.env`, `vendor/`, `node_modules/`, secret Zalo/DB, token GitHub.
+- Trước khi commit bản deploy cPanel: build Mini App bằng `npm run build:cpanel` (API same-origin), không dùng bundle build với `VITE_API_BASE_URL=http://miniapp.kav`.

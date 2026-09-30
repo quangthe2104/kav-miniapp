@@ -187,6 +187,40 @@ php artisan queue:work --sleep=3 --tries=3 --max-time=3600
 
 (`forms:close-expired` chạy theo schedule Laravel.)
 
+### Deploy trên cPanel (Git Version Control)
+
+Repo có sẵn `.cpanel.yml` → gọi `scripts/cpanel-deploy.sh`:
+
+1. Đồng bộ code vào docroot (`DEPLOYPATH`, mặc định `/home/kavminiapp/public_html`). File `.htaccess` + `index.php` ở root chuyển mọi request vào `backend/public` và chặn truy cập trực tiếp `backend/*`.
+2. Giữ nguyên trên server: `backend/.env`, `backend/vendor`, `backend/storage` (ảnh phiếu, log).
+3. `composer install --no-dev` (tự tải `composer.phar` nếu server không có), `migrate --force`, `storage:link`, cache config/route/view.
+
+**Lần đầu:**
+
+1. cPanel → **Git Version Control** → clone repo (nên dùng **deploy key SSH** hoặc fine-grained token chỉ đọc, không để PAT quyền rộng trong Remote URL).
+2. Sửa `DEPLOYPATH` trong `.cpanel.yml` nếu domain không dùng `public_html` (addon/subdomain có docroot riêng).
+3. **Deploy HEAD Commit** → script tạo `backend/.env` từ `.env.example` rồi **dừng**.
+4. Sửa `backend/.env` trên server (`APP_ENV=production`, `APP_DEBUG=false`, `APP_URL=https://...`, `DB_*`, `ZALO_*`) → **Deploy HEAD Commit** lần nữa.
+5. Cron (cPanel → Cron Jobs):
+
+```cron
+* * * * * cd /home/kavminiapp/public_html/backend && /usr/local/bin/php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /home/kavminiapp/public_html/backend && /usr/local/bin/php artisan queue:work --stop-when-empty --max-time=55 >> /dev/null 2>&1
+```
+
+PHP ≥ 8.3: script tự dò `ea-php84/83`; có thể ép bằng biến `PHP_BIN`.
+
+**Mini App cho cPanel:** trước khi commit, build bằng
+
+```bat
+cd miniapp
+npm run build:cpanel
+```
+
+(API gọi same-origin theo domain đang chạy; mặc định tắt UI dev login. Giai đoạn UAT chưa có OA: `set VITE_ENABLE_DEV_LOGIN=true` rồi build — backend vẫn chặn nếu `ZALO_DEV_LOGIN=false`.)
+
+**Cập nhật:** push lên GitHub → cPanel **Update from Remote** → **Deploy HEAD Commit**.
+
 ### Cập nhật phiên bản mới
 
 ```bash
@@ -251,6 +285,12 @@ Nếu GitHub repo đã có README/license từ web, lần push đầu có thể 
 ```bash
 git pull origin main --rebase
 git push -u origin main
+```
+
+Cài hook bỏ trailer `Co-authored-by: Cursor` (một lần sau khi clone):
+
+```bat
+powershell -ExecutionPolicy Bypass -File scripts/install-git-hooks.ps1
 ```
 
 ### 3. Các lần sau

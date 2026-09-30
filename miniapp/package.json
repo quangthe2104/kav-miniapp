@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build --mode production",
     "build:wamp": "npm run build && node scripts/copy-to-public.mjs",
+    "build:cpanel": "node scripts/build-cpanel.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
