@@ -18,6 +18,8 @@ class AuthController extends Controller
     {
         return view('teacher.login', [
             'zaloReady' => filled(config('services.zalo.app_id')) && filled(config('services.zalo.app_secret')),
+            // Zalo OAuth needs the public HTTPS callback, so local machines need another way in.
+            'devLogin' => app()->isLocal() && config('services.zalo.dev_login'),
         ]);
     }
 

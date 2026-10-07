@@ -277,6 +277,64 @@ code {
   border-color: var(--teal);
 }
 
+.combo {
+  position: relative;
+}
+
+.field .combo-input {
+  padding-right: 40px;
+  text-overflow: ellipsis;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%235b6b84' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")
+    no-repeat right 14px center;
+}
+
+.field .combo-input:disabled {
+  background-color: #f3f6fa;
+  color: var(--muted);
+}
+
+.combo-list {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  max-height: 260px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #c9d4e4;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(6, 26, 66, 0.16);
+}
+
+.combo-list li {
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.combo-list li:hover,
+.combo-list li.active {
+  background: #e8eef8;
+}
+
+.combo-list li[aria-selected='true'] {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.combo-list li.combo-empty {
+  color: var(--muted);
+  cursor: default;
+  background: none;
+}
+
 .class-switcher {
   display: block;
   width: 100%;

@@ -424,6 +424,41 @@
             color: #0a6b53;
         }
         .step-panel[hidden] { display: none !important; }
+        .combo { position: relative; max-width: 560px; }
+        .combo .combo-input {
+            max-width: 100%;
+            padding-right: 2.4rem;
+            text-overflow: ellipsis;
+            background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%235b6b8c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right .8rem center;
+        }
+        .combo .combo-input:disabled { background-color: #f3f6fa; color: var(--muted); }
+        .combo-list {
+            position: absolute;
+            z-index: 30;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 4px;
+            list-style: none;
+            max-height: 18rem;
+            overflow-y: auto;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            box-shadow: 0 12px 28px rgba(10, 42, 102, .16);
+        }
+        .combo-list[hidden] { display: none; }
+        .combo-list li {
+            padding: .55rem .7rem;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .combo-list li:hover, .combo-list li.active { background: var(--navy-soft); }
+        .combo-list li[aria-selected="true"] { font-weight: 700; }
+        .combo-list li.combo-empty { color: var(--muted); cursor: default; background: none; }
+        .combo-error { color: var(--danger); font-size: .88rem; margin: .4rem 0 0; }
+        .combo-error[hidden] { display: none; }
         .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .t-footer {
             border-top: 1px solid var(--line);

@@ -1,6 +1,7 @@
-import { useEffect, useState, type FormEvent } from 'react'
+import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { Icon } from '../components/Icon'
+import { Combobox } from '../components/Combobox'
 import { Shell } from '../components/Shell'
 import {
   ApiError,
@@ -24,11 +25,11 @@ export function TeacherCreateProfilePage() {
   const [provinceId, setProvinceId] = useState('')
   const [wardId, setWardId] = useState('')
   const [schoolId, setSchoolId] = useState('')
-  const [schoolQ, setSchoolQ] = useState('')
   const [className, setClassName] = useState('')
   const [quota, setQuota] = useState('40')
 
-  const [loadingCatalog, setLoadingCatalog] = useState(false)
+  const [loadingWards, setLoadingWards] = useState(false)
+  const [loadingSchools, setLoadingSchools] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -37,59 +38,81 @@ export function TeacherCreateProfilePage() {
     listProvinces()
       .then(setProvinces)
       .catch((err: unknown) => {
-        setError(
-          err instanceof ApiError ? err.message : 'Không tải được danh sách tỉnh.',
-        )
+        setError(err instanceof ApiError ? err.message : 'Không tải được danh sách tỉnh.')
       })
   }, [token])
 
   useEffect(() => {
-    if (!provinceId) {
-      setWards([])
-      setWardId('')
-      return
-    }
-    setLoadingCatalog(true)
     setWards([])
     setWardId('')
-    setSchools([])
-    setSchoolId('')
+    if (!provinceId) return
+    let cancelled = false
+    setLoadingWards(true)
     listWards(provinceId)
-      .then(setWards)
-      .catch((err: unknown) => {
-        setError(
-          err instanceof ApiError ? err.message : 'Không tải được phường/xã.',
-        )
+      .then((rows) => {
+        if (!cancelled) setWards(rows)
       })
-      .finally(() => setLoadingCatalog(false))
+      .catch((err: unknown) => {
+        if (!cancelled) setError(err instanceof ApiError ? err.message : 'Không tải được phường/xã.')
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingWards(false)
+      })
+    return () => {
+      cancelled = true
+    }
   }, [provinceId])
 
   useEffect(() => {
-    if (!wardId) {
-      setSchools([])
-      setSchoolId('')
-      return
-    }
-    setLoadingCatalog(true)
+    setSchools([])
     setSchoolId('')
-    const handle = window.setTimeout(() => {
-      listSchools(wardId, schoolQ)
-        .then(setSchools)
-        .catch((err: unknown) => {
-          setError(
-            err instanceof ApiError ? err.message : 'Không tải được trường.',
-          )
-        })
-        .finally(() => setLoadingCatalog(false))
-    }, schoolQ ? 250 : 0)
-    return () => window.clearTimeout(handle)
-  }, [wardId, schoolQ])
+    if (!wardId) return
+    let cancelled = false
+    setLoadingSchools(true)
+    listSchools(wardId)
+      .then((rows) => {
+        if (!cancelled) setSchools(rows)
+      })
+      .catch((err: unknown) => {
+        if (!cancelled) setError(err instanceof ApiError ? err.message : 'Không tải được trường.')
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingSchools(false)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [wardId])
 
+  const provinceOptions = useMemo(
+    () => provinces.map((p) => ({ value: String(p.id), label: p.name })),
+    [provinces],
+  )
+  const wardOptions = useMemo(
+    () => wards.map((w) => ({ value: String(w.id), label: w.name })),
+    [wards],
+  )
+  const schoolOptions = useMemo(
+    () =>
+      schools.map((s) => ({
+        value: String(s.id),
+        label: `${s.external_id ? `[${s.external_id}] ` : ''}${s.name}`,
+      })),
+    [schools],
+  )
   if (!token) return <Navigate to="/teacher/login" replace />
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
     setError(null)
+    if (!provinceId || !wardId || !schoolId) {
+      setError('Vui lòng chọn đủ Tỉnh, Phường/Xã và Trường.')
+      return
+    }
+    if (!className.trim() || !quota) {
+      setError('Vui lòng nhập tên lớp và sĩ số.')
+      return
+    }
     setSaving(true)
     try {
       const profile = await createProfile({
@@ -99,82 +122,44 @@ export function TeacherCreateProfilePage() {
       })
       navigate(`/teacher/profiles/${profile.id}`, { replace: true })
     } catch (err) {
-      setError(
-        err instanceof ApiError ? err.message : 'Không tạo được lớp. Thử lại.',
-      )
+      setError(err instanceof ApiError ? err.message : 'Không tạo được lớp. Thử lại.')
     } finally {
       setSaving(false)
     }
   }
 
   return (
-    <Shell title="Tạo lớp">
-      <p className="lead">
-        Chọn trường, đặt tên lớp và sĩ số — xong là lấy link gửi phụ huynh ngay
-        trong Mini App.
-      </p>
+    <Shell title="Tạo lớp mới">
+      <p className="lead">Chọn trường, nhập tên lớp &amp; sĩ số rồi bấm Tạo lớp.</p>
 
-      <form className="panel" onSubmit={onSubmit}>
-        <label className="field">
-          <span>Tỉnh / Thành</span>
-          <select
-            value={provinceId}
-            onChange={(e) => setProvinceId(e.target.value)}
-            required
-          >
-            <option value="">— Chọn —</option>
-            {provinces.map((p) => (
-              <option key={p.id} value={p.id}>
-                {p.name}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="field">
-          <span>Phường / Xã</span>
-          <select
-            value={wardId}
-            onChange={(e) => setWardId(e.target.value)}
-            required
-            disabled={!provinceId || loadingCatalog}
-          >
-            <option value="">— Chọn —</option>
-            {wards.map((w) => (
-              <option key={w.id} value={w.id}>
-                {w.name}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="field">
-          <span>Tìm trường (tuỳ chọn)</span>
-          <input
-            value={schoolQ}
-            onChange={(e) => setSchoolQ(e.target.value)}
-            placeholder="Tên hoặc mã trường"
-            disabled={!wardId}
-          />
-        </label>
-
-        <label className="field">
-          <span>Trường</span>
-          <select
-            value={schoolId}
-            onChange={(e) => setSchoolId(e.target.value)}
-            required
-            disabled={!wardId || loadingCatalog}
-          >
-            <option value="">— Chọn —</option>
-            {schools.map((s) => (
-              <option key={s.id} value={s.id}>
-                {s.external_id ? `[${s.external_id}] ` : ''}
-                {s.name}
-              </option>
-            ))}
-          </select>
-        </label>
+      <form className="panel" onSubmit={onSubmit} noValidate>
+        <Combobox
+          label="Tỉnh"
+          options={provinceOptions}
+          value={provinceId}
+          onChange={setProvinceId}
+          placeholder="Gõ hoặc chọn tỉnh…"
+        />
+        <Combobox
+          key={`ward-${provinceId}`}
+          label="Phường / Xã"
+          options={wardOptions}
+          value={wardId}
+          onChange={setWardId}
+          disabled={!provinceId}
+          loading={loadingWards}
+          placeholder={provinceId ? 'Gõ hoặc chọn phường / xã…' : 'Chọn tỉnh trước'}
+        />
+        <Combobox
+          key={`school-${wardId}`}
+          label="Trường"
+          options={schoolOptions}
+          value={schoolId}
+          onChange={setSchoolId}
+          disabled={!wardId}
+          loading={loadingSchools}
+          placeholder={wardId ? 'Gõ tên hoặc mã trường…' : 'Chọn phường / xã trước'}
+        />
 
         <label className="field">
           <span>Tên lớp</span>
@@ -182,20 +167,18 @@ export function TeacherCreateProfilePage() {
             value={className}
             onChange={(e) => setClassName(e.target.value)}
             placeholder="Ví dụ: 5A"
-            required
             maxLength={100}
           />
         </label>
-
         <label className="field">
           <span>Sĩ số</span>
           <input
             type="number"
+            inputMode="numeric"
             min={1}
             max={80}
             value={quota}
             onChange={(e) => setQuota(e.target.value)}
-            required
           />
         </label>
 
