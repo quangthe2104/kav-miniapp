@@ -153,7 +153,7 @@ Sau pilot Live ──► Phase 2 (hardening 2027)
 | Done | ID | Task | Status | Owner hint |
 |------|----|------|--------|------------|
 | [x] | P1-W6-01 | Deploy production HTTPS | done | cPanel Git deploy (`.cpanel.yml`); UAT `ZALO_DEV_LOGIN=true` |
-| [~] | P1-W6-02 | Mini App submit duyệt / testing | doing | Testing **v2** đã deploy từ hosting (`scripts/zalo-deploy.sh`); UAT link vote = Mini App `env=TESTING&version=2`; chờ test thật → nộp duyệt |
+| [~] | P1-W6-02 | Mini App submit duyệt / testing | doing | Testing **v3** đã deploy từ hosting (`scripts/zalo-deploy.sh`); UAT link vote = Mini App `env=TESTING&version=3`; chờ test thật → nộp duyệt |
 | [ ] | P1-W6-03 | Chạy pilot (1 Form active) | todo | KAV |
 | [ ] | P1-W6-04 | Hotfix từ feedback | todo | developer |
 | [~] | P1-W6-05 | Báo cáo go/no-go Phase 4 vs 2 | superseded | → go/no-go **Phase 2** hardening |
@@ -303,3 +303,4 @@ Chi tiết roster (nếu kick-off): [khan-parent-consent-zalo-plan.md](./khan-pa
 | 2026-09-30 | **Mini App thật:** `zmp-sdk` (getAccessToken, nativeStorage, share, downloadFile) qua `@platform` web/zalo; `npm run build:zalo` → `dist-zalo` + `app-config.json`; backend `appsecret_proof`; `ZALO_VOTE_LINK=miniapp` → `zalo.me/s/{id}/vote/{token}`; CORS `h5.zdn.vn`. |
 | 2026-09-30 | Build + `zmp deploy` chạy trên hosting cPanel (`scripts/zalo-deploy.sh`) → Mini App **Testing v1**; server `ZALO_VOTE_LINK=miniapp`, `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=1`. |
 | 2026-09-30 | Danh sách bình chọn GV hiện **tên Zalo + SĐT Zalo xác thực** của phụ huynh (xin `scope.userInfo` + `scope.userPhonenumber` khi bình chọn; đổi token SĐT ở server; `ZALO_PARENT_PHONE_DISPLAY=full|masked`). Trang login GV web chỉ còn nút Zalo. Mini App **Testing v2**. |
+| 2026-10-07 | Form tạo lớp GV: Tỉnh / Phường-Xã / Trường gộp lọc + chọn vào **1 ô combobox** (web + Mini App). Mini App **Testing v3**; `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=3`. |
