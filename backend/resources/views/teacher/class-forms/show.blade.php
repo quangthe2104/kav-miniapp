@@ -125,6 +125,18 @@
             {{ $classForm->classProfile->school->name }}
             · <span class="badge {{ $classForm->effectiveStatus() }}">{{ $statusLabel[$classForm->effectiveStatus()] ?? $classForm->effectiveStatus() }}</span>
         </p>
+        @if(isset($profiles) && $profiles->count() > 1)
+            <form method="GET" action="{{ route('teacher.dashboard') }}" class="class-switcher">
+                <select name="profile_id" id="profile_id" aria-label="Chọn lớp" onchange="this.form.submit()">
+                    @foreach($profiles as $p)
+                        <option value="{{ $p->id }}" @selected((int) $classForm->class_profile_id === (int) $p->id)>
+                            {{ $p->class_name }} — {{ $p->school->name }}
+                        </option>
+                    @endforeach
+                </select>
+                <noscript><button class="btn" type="submit">Xem lớp</button></noscript>
+            </form>
+        @endif
     </div>
     <a class="btn ghost" href="{{ route('teacher.dashboard', ['profile_id' => $classForm->class_profile_id, 'list' => 1]) }}">
         <x-icon name="arrow-left" /> Dashboard

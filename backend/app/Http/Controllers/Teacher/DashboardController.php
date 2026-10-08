@@ -85,7 +85,6 @@ class DashboardController extends Controller
 
         if (
             ! $request->boolean('list')
-            && $profiles->count() === 1
             && $formRows->count() === 1
             && $selected
         ) {

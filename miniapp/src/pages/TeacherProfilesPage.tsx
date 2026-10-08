@@ -29,6 +29,11 @@ export function TeacherProfilesPage() {
   const profileId = search.get('profile_id') || ''
   const stayOnList = search.get('list') === '1'
 
+  const selected = useMemo(
+    () => profiles?.find((p) => String(p.id) === String(profileId)),
+    [profiles, profileId],
+  )
+
   useEffect(() => {
     if (!token) return
     let cancelled = false
@@ -54,6 +59,10 @@ export function TeacherProfilesPage() {
   }, [token])
 
   useEffect(() => {
+    setAutoOpenFailed(false)
+  }, [profileId])
+
+  useEffect(() => {
     if (!token || !profileId) {
       setForms(null)
       return
@@ -75,12 +84,12 @@ export function TeacherProfilesPage() {
   }, [token, profileId])
 
   useEffect(() => {
-    if (stayOnList || autoOpenFailed || !profiles || forms === null) return
-    if (profiles.length !== 1 || forms.length !== 1) return
+    if (stayOnList || autoOpenFailed || !selected || forms === null) return
+    if (forms.length !== 1) return
 
     const row = forms[0]
-    const profile = profiles[0]
-    if (!row || !profile) return
+    if (!row) return
+    const profile = selected
     let cancelled = false
 
     async function openSingleForm() {
@@ -106,12 +115,7 @@ export function TeacherProfilesPage() {
     return () => {
       cancelled = true
     }
-  }, [stayOnList, autoOpenFailed, profiles, forms])
-
-  const selected = useMemo(
-    () => profiles?.find((p) => String(p.id) === String(profileId)),
-    [profiles, profileId],
-  )
+  }, [stayOnList, autoOpenFailed, selected, forms])
 
   if (!token) return <Navigate to="/teacher/login" replace />
   if (autoOpenId) {
@@ -121,8 +125,7 @@ export function TeacherProfilesPage() {
   const pendingAutoOpen =
     !stayOnList &&
     !autoOpenFailed &&
-    profiles !== null &&
-    profiles.length === 1 &&
+    Boolean(profileId) &&
     (forms === null || forms.length === 1)
 
   async function openFormDetail(row: ProfileFormRow) {
@@ -186,6 +189,7 @@ export function TeacherProfilesPage() {
                 const next = new URLSearchParams(search)
                 next.set('profile_id', e.target.value)
                 next.delete('status')
+                next.delete('list')
                 setSearch(next)
               }}
             >
@@ -266,6 +270,17 @@ export function TeacherProfilesPage() {
                           <span>Tải mẫu phiếu</span>
                         </button>
                       ) : null}
+                      <button
+                        type="button"
+                        className="btn outline btn-with-icon"
+                        disabled={busy !== null || openingFormId !== null}
+                        onClick={() => void openFormDetail(row)}
+                      >
+                        <Icon name="eye" />
+                        <span>
+                          {openingFormId === row.form_id ? 'Đang mở…' : 'Xem chi tiết form'}
+                        </span>
+                      </button>
                     </div>
                   </li>
                 ))}

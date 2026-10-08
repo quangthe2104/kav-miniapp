@@ -4,7 +4,7 @@
 > Owner cập nhật chính: `project-manager` (sau khi developer/tester xong).  
 > Roadmap quy mô: [00-overview-phases.md](./00-overview-phases.md).
 
-| Cập nhật lần cuối | 2026-08-14 (chuẩn bị lùi trước mốc đạt tới 1 năm) |
+| Cập nhật lần cuối | 2026-10-08 |
 |-------------------|------------|
 | Phase đang focus | **Phase 1** — còn UAT + OA Live (Phase 0) |
 | % Phase 1 (MVP) | **~90%** |
@@ -304,3 +304,4 @@ Chi tiết roster (nếu kick-off): [khan-parent-consent-zalo-plan.md](./khan-pa
 | 2026-09-30 | Build + `zmp deploy` chạy trên hosting cPanel (`scripts/zalo-deploy.sh`) → Mini App **Testing v1**; server `ZALO_VOTE_LINK=miniapp`, `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=1`. |
 | 2026-09-30 | Danh sách bình chọn GV hiện **tên Zalo + SĐT Zalo xác thực** của phụ huynh (xin `scope.userInfo` + `scope.userPhonenumber` khi bình chọn; đổi token SĐT ở server; `ZALO_PARENT_PHONE_DISPLAY=full|masked`). Trang login GV web chỉ còn nút Zalo. Mini App **Testing v2**. |
 | 2026-10-07 | Form tạo lớp GV: Tỉnh / Phường-Xã / Trường gộp lọc + chọn vào **1 ô combobox** (web + Mini App). Mini App **Testing v3**; `ZALO_MINIAPP_LINK_QUERY=env=TESTING&version=3`. |
+| 2026-10-08 | Dashboard GV: nút **Xem chi tiết form**; lớp đang chọn chỉ có 1 form đang mở → vào thẳng chi tiết (web + Mini App), kể cả khi GV có nhiều lớp. |

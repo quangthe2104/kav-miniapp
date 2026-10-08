@@ -208,8 +208,8 @@ Khi Form `active`: mọi Class Profile **thấy Form** và có thể `ensure` (l
 
 1. Đăng nhập Mini App / web → role Teacher (Zalo; lần đầu tự tạo tài khoản)  
 2. Tạo Profile: Tỉnh → Xã → Trường → Tên lớp → Sĩ số N  
-3. Màn «Form đang mở» liệt kê Form `active` + coverage từng Form. Một lớp: không hiện bộ lọc lớp. Một lớp × một form: vào thẳng chi tiết (`?list=1` để xem list).  
-4. Bấm tên form (kể cả chưa có link) → `ensure` → trang chi tiết.
+3. Màn «Form đang mở» liệt kê Form `active` + coverage từng Form. Một lớp: không hiện bộ lọc lớp. Lớp chỉ có một form đang mở: vào thẳng chi tiết (`?list=1` để xem list).  
+4. Bấm tên form hoặc **Xem chi tiết form** (kể cả chưa có link) → `ensure` → trang chi tiết.
 
 ### 6.3 GV lấy link Form
 
@@ -472,6 +472,7 @@ Còn: UAT, HTTPS, Mini App Live, pilot — xem [03-phase-progress.md](./03-phase
 | 2026-08-13–14 | OCR calibrate theo Form; Mini App OCR confirm; copy «bình chọn»; form tùy chỉnh radio; cascade đóng/mở Form; API Mini App = `miniapp.kav` |
 | 2026-08-14 | Roadmap scale: Phase 2=hardening 25K lớp (hết 2027); Phase 3=200K lớp/~10M PH (hết 2028); Phase 4=full ~20M (2029). 1 Form active. Bỏ Sở–Phòng. Roster → backlog §18. |
 | 2026-08-14 | Mốc năm = lúc **đạt tới**; chuẩn bị lùi trước 1 năm → Phase 2 xong hết 2026, Phase 3 xong hết 2027, Phase 4 xong hết 2028. |
+| 2026-10-08 | GV: lớp đang chọn chỉ có 1 form `active` → vào thẳng chi tiết (web + Mini App); nút **Xem chi tiết form** trên list `?list=1`. |
 
 ---
 

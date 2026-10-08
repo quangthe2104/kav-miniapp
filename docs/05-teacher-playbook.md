@@ -20,8 +20,8 @@ Nếu chỉ **một lớp**: không hiện thanh chọn lớp.
 
 ## 3. Form đang mở & link
 
-1. Nếu **1 lớp × 1 form đang mở**: vào thẳng trang chi tiết. Nút **Dashboard / Danh sách form** (`?list=1`) để xem list.
-2. Nhiều form: danh sách **Form đang mở** — bấm **tên form** (kể cả form mới chưa có link) để vào chi tiết.
+1. Nếu lớp đang chọn chỉ có **1 form đang mở**: vào thẳng trang chi tiết (kể cả khi GV có nhiều lớp). Nút **Dashboard / Danh sách form** (`?list=1`) để xem list.
+2. Nhiều form: danh sách **Form đang mở** — bấm **tên form** hoặc **Xem chi tiết form** (kể cả form mới chưa có link) để vào chi tiết.
 3. **Share Zalo** / **Copy link** / **Tải QR**. Mini App không hiện ảnh QR trên màn hình.
 4. **Tải mẫu phiếu** = PDF để in (nếu Admin đã upload).
 

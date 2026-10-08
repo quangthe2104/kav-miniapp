@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react'
-import { Link, Navigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { StackedBarChart, buildQuotaSlices } from '../components/DoughnutChart'
 import { Icon } from '../components/Icon'
 import { OcrConfirmModal } from '../components/OcrConfirmModal'
@@ -17,9 +17,11 @@ import {
   fetchPaperImageUrl,
   getClassFormDetail,
   getToken,
+  listProfiles,
   reopenClassForm,
   storeClassFormNote,
   type ClassFormDetail,
+  type ClassProfile,
 } from '../api/client'
 import { copyText } from '../api/copyText'
 
@@ -43,8 +45,10 @@ function channelLabel(channel: string): string {
 
 export function TeacherClassFormPage() {
   const token = getToken()
+  const navigate = useNavigate()
   const { id } = useParams<{ id: string }>()
   const [data, setData] = useState<ClassFormDetail | null>(null)
+  const [profiles, setProfiles] = useState<ClassProfile[]>([])
   const [error, setError] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
   const [noteBody, setNoteBody] = useState('')
@@ -76,6 +80,21 @@ export function TeacherClassFormPage() {
       cancelled = true
     }
   }, [token, id])
+
+  useEffect(() => {
+    if (!token) return
+    let cancelled = false
+    listProfiles()
+      .then((items) => {
+        if (!cancelled) setProfiles(items)
+      })
+      .catch(() => {
+        if (!cancelled) setProfiles([])
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [token])
 
   useEffect(() => {
     return () => {
@@ -244,6 +263,23 @@ export function TeacherClassFormPage() {
             {' · '}
             <span className={statusPillClass(data.class_form.status)}>{statusLabel}</span>
           </p>
+          {profiles.length > 1 ? (
+            <select
+              className="class-switcher"
+              aria-label="Chọn lớp"
+              value={String(data.class_form.profile_id)}
+              onChange={(e) => {
+                navigate(`/teacher?profile_id=${e.target.value}`)
+              }}
+            >
+              {profiles.map((p) => (
+                <option key={p.id} value={p.id}>
+                  {p.class_name}
+                  {typeof p.school === 'string' && p.school ? ` — ${p.school}` : ''}
+                </option>
+              ))}
+            </select>
+          ) : null}
 
           {data.class_form.form_active === false ? (
             <div className="alert alert-warning" role="alert">

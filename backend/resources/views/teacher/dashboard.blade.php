@@ -99,6 +99,18 @@
                                     </a>
                                 @endif
                             @endif
+                            @if($row['detail_url'])
+                                <a class="btn ghost" href="{{ $row['detail_url'] }}">
+                                    <x-icon name="eye" /> Xem chi tiết form
+                                </a>
+                            @elseif(!empty($row['ensure_url']))
+                                <form method="POST" action="{{ $row['ensure_url'] }}" class="inline">
+                                    @csrf
+                                    <button type="submit" class="btn ghost">
+                                        <x-icon name="eye" /> Xem chi tiết form
+                                    </button>
+                                </form>
+                            @endif
                         </div>
                     </td>
                 </tr>
@@ -111,7 +123,7 @@
         </table>
     </div>
     <p class="muted" style="margin:.75rem 0 0;font-size:.85rem">
-        Di chuột vào cột Kết quả (ⓘ) để xem chi tiết từng lựa chọn. Bấm tên form để vào trang chi tiết.
+        Di chuột vào cột Kết quả (ⓘ) để xem chi tiết từng lựa chọn. Bấm tên form hoặc <strong>Xem chi tiết form</strong> để vào trang chi tiết.
     </p>
 </div>
 @endif

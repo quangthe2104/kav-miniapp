@@ -53,7 +53,7 @@ Vite `npm run dev` chỉ khi dev HMR — khi đó `VITE_API_BASE_URL` phải tr�
 Đăng nhập: nút **Đăng nhập với Zalo** tại `/teacher/login` (cần Callback URL khai báo trên developers.zalo.me). Trang web không còn form dev login; muốn test không qua Zalo thì dùng bản `/miniapp` (build `VITE_ENABLE_DEV_LOGIN=true`) khi `ZALO_DEV_LOGIN=true`.
 
 - [ ] 1 lớp: **không** thanh chọn lớp
-- [ ] 1 lớp × 1 form: vào thẳng chi tiết; `?list=1` xem list
+- [ ] Lớp chỉ có 1 form đang mở: vào thẳng chi tiết (kể cả GV nhiều lớp); `?list=1` xem list + nút **Xem chi tiết form**
 - [ ] Form mới: bấm **tên form** → vào chi tiết (không 403)
 - [ ] Copy link / Share Zalo / Tải QR / (web) thấy QR
 - [ ] Ghi chú + upload giấy + OCR confirm

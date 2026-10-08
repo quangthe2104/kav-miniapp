@@ -95,6 +95,12 @@ class ClassFormController extends Controller
             ->latest()
             ->get();
 
+        $profiles = ClassProfile::query()
+            ->with(['school'])
+            ->where('created_by_teacher_id', $teacher->id)
+            ->orderBy('class_name')
+            ->get();
+
         return view('teacher.class-forms.show', [
             'classForm' => $classForm,
             'coverage' => $stats['coverage'],
@@ -104,6 +110,7 @@ class ClassFormController extends Controller
             'zaloNames' => $zaloNames,
             'zaloPhones' => $zaloPhones,
             'notes' => $notes,
+            'profiles' => $profiles,
             'canEditPaper' => $coverage->canTeacherEditPaperArtifacts($classForm),
             'hasTemplate' => filled($classForm->form?->consent_pdf_path)
                 && \Illuminate\Support\Facades\Storage::disk('local')->exists((string) $classForm->form->consent_pdf_path),

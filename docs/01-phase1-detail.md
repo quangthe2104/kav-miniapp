@@ -44,7 +44,7 @@ Pilot thu thập bình chọn theo lớp: Admin tạo Form → GV tạo Profile 
 
 - Zalo OAuth + Dev login (`ZALO_DEV_LOGIN`); lần đầu tự tạo `teachers`
 - Tạo Class Profile (tỉnh / xã / trường / tên lớp / sĩ số)
-- Danh sách **form đang mở** (`Form::activeNow()`); 1 lớp × 1 form → vào thẳng chi tiết (`?list=1` để xem list)
+- Danh sách **form đang mở** (`Form::activeNow()`); lớp chỉ có **1 form đang mở** → vào thẳng chi tiết (`?list=1` để xem list); nút **Xem chi tiết form**
 - 1 lớp: **không** hiện bộ lọc lớp
 - Bấm tên form chưa có `class_form` → `ensure` rồi vào chi tiết
 - Link cố định `/miniapp/vote/{token}`; Share Zalo; Copy link; **Tải QR** (Mini App không hiện ảnh QR trên màn; web vẫn hiện QR)
